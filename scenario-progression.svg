@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="856.8pt" height="388.8pt" viewBox="0 0 856.8 388.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-04-26T15:59:46.952741</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.8 
+L 856.8 388.8 
+L 856.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 73.89 194.4 
+L 375.75 194.4 
+Q 389.79 194.4 389.79 180.785455 
+L 389.79 99.098182 
+Q 389.79 85.483636 375.75 85.483636 
+L 73.89 85.483636 
+Q 59.85 85.483636 59.85 99.098182 
+L 59.85 180.785455 
+Q 59.85 194.4 73.89 194.4 
+z
+" clip-path="url(#p6a5f3cccfb)" style="fill: #dbeafe; stroke: #2563eb; stroke-width: 2.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 481.05 194.4 
+L 782.91 194.4 
+Q 796.95 194.4 796.95 180.785455 
+L 796.95 99.098182 
+Q 796.95 85.483636 782.91 85.483636 
+L 481.05 85.483636 
+Q 467.01 85.483636 467.01 99.098182 
+L 467.01 180.785455 
+Q 467.01 194.4 481.05 194.4 
+z
+" clip-path="url(#p6a5f3cccfb)" style="fill: #fce7f3; stroke: #db2777; stroke-width: 2.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #1a1a2e; font: 700 18px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="39.395966" transform="rotate(-0 428.4 39.395966)">SCENARIO PROGRESSION STRATEGY</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #666666; font: 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="61.289858" transform="rotate(-0 428.4 61.289858)">Solve harder home environments to naturally cover easier commercial ones</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #1e40af; font: 700 14px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="224.82" y="116.116364" transform="rotate(-0 224.82 116.116364)">Commercial / Logistics</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #3b82f6; font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="224.82" y="139.941818" transform="rotate(-0 224.82 139.941818)">Structured environments</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #64748b; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="224.82" y="160.363636" transform="rotate(-0 224.82 160.363636)">BMW factory: 30,000 cars</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #64748b; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="224.82" y="177.381818" transform="rotate(-0 224.82 177.381818)">Package sorting: 4.05s/item</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 388.283082 139.941818 
+Q 424.893026 139.941818 458.148867 139.941818 
+" style="fill: none; stroke: #6b7280; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 454.148867 137.941818 
+L 458.148867 139.941818 
+L 454.148867 141.941818 
+" style="fill: none; stroke: #6b7280; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="fill: #9d174d; font: 700 14px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="631.98" y="116.116364" transform="rotate(-0 631.98 116.116364)">Home / Consumer</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #db2777; font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="631.98" y="139.941818" transform="rotate(-0 631.98 139.941818)">Unstructured environments</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #64748b; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="631.98" y="160.363636" transform="rotate(-0 631.98 160.363636)">Dishwasher, laundry, tidying</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #64748b; font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="631.98" y="177.381818" transform="rotate(-0 631.98 177.381818)">Natural language interaction</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #737373; font: italic 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="231.84" transform="rotate(-0 428.4 231.84)">Lower variability</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #737373; font: italic 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="255.665455" transform="rotate(-0 428.4 255.665455)">Easier to scale</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #525252; font: 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="302.94804" transform="rotate(-0 428.4 302.94804)">By solving for the home, Figure builds a truly general-purpose platform</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #525252; font: 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="326.773494" transform="rotate(-0 428.4 326.773494)">that naturally dominates commercial applications through capability overlap</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6a5f3cccfb">
+   <rect x="7.2" y="7.2" width="842.4" height="374.4"/>
+  </clipPath>
+ </defs>
+</svg>

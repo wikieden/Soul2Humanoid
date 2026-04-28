@@ -1,0 +1,29 @@
+flowchart LR
+    subgraph Input["多模态输入"]
+        I1[相机图像]
+        I2[语言指令]
+        I3[动作历史]
+        I4[视觉子目标]
+    end
+    
+    subgraph VLM["VLM 骨干网络"]
+        V1[3B 参数预训练]
+        V2[语义理解]
+        V3[跨本体知识]
+    end
+    
+    subgraph Action["动作专家"]
+        A1[Flow Matching]
+        A2[连续动作输出]
+        A3[50Hz 高频控制]
+    end
+    
+    subgraph Output["电机指令"]
+        O1[关节角度]
+        O2[夹爪控制]
+        O3[底盘速度]
+    end
+    
+    Input --> VLM
+    VLM --> Action
+    Action --> Output
