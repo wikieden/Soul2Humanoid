@@ -29,7 +29,7 @@ PI 的核心技术架构围绕 **Vision-Language-Action（VLA）Foundation Model
 
 ### 2.2 系统架构图
 
-![VLA 系统架构图](./diagrams/pi-vla-architecture.png)
+![VLA 系统架构图](../../assets/physical-intelligence/pi-vla-architecture.png)
 
 **图 1** — Physical Intelligence VLA System Architecture
 
@@ -55,7 +55,7 @@ PI 的技术演进呈现出快速迭代、持续突破的特点。从 2024 年 1
 | 2026.03 | MEM + RLT | 多尺度具身记忆（15 分钟长程任务）+ 高效 RL Token |
 | 2026.04 | π0.7 | 可组合泛化的可操控模型，具备涌现能力 |
 
-![技术演进时间线](./diagrams/pi-timeline.png)
+![技术演进时间线](../../assets/physical-intelligence/pi-timeline.png)
 
 **图 2** — Physical Intelligence Technology Roadmap（2024.10 - 2026.04）
 
@@ -81,7 +81,7 @@ PI 的 VLA 模型是首个真正意义上跨本体的通用机器人策略。与
 
 2025 年 1 月提出的 FAST（Efficient Robot Action Tokenization）是 PI 在动作表示上的重要创新。传统方法将动作序列直接输入模型，导致计算开销大、训练速度慢。FAST 通过离散余弦变换（DCT）+ 字节对编码（BPE）实现了动作数据的高效压缩。
 
-![FAST 动作分词流程](./diagrams/pi-fast-tokenization.png)
+![FAST 动作分词流程](../../assets/physical-intelligence/pi-fast-tokenization.png)
 
 **图 4** — FAST: Efficient Robot Action Tokenization
 
@@ -106,7 +106,7 @@ PI 的 VLA 模型是首个真正意义上跨本体的通用机器人策略。与
 
 π0.7（2026 年 4 月）是 PI 在泛化能力上的重大突破。通过**多样化多模态提示**（Diverse Multimodal Prompting），π0.7 实现了对模型的灵活操控和能力的组合重组。
 
-![π0.7 多模态提示框架](./diagrams/pi-pi07-prompting.png)
+![π0.7 多模态提示框架](../../assets/physical-intelligence/pi-pi07-prompting.png)
 
 **图 3** — π0.7: Steerable Model with Diverse Multimodal Prompting
 
@@ -125,7 +125,7 @@ PI 的 VLA 模型是首个真正意义上跨本体的通用机器人策略。与
 - **语言跟随**：通过 step-by-step 语言指导（language coaching）学习新任务，然后自动执行
 - **跨本体迁移**：无需目标机器人训练数据即可实现零样本迁移
 
-![跨本体迁移示意](./diagrams/pi-cross-embodiment.png)
+![跨本体迁移示意](../../assets/physical-intelligence/pi-cross-embodiment.png)
 
 **图 7** — Cross-Embodiment Transfer
 
@@ -137,7 +137,7 @@ PI 的 VLA 模型是首个真正意义上跨本体的通用机器人策略。与
 
 PI 构建了完整的 **RL 自提升闭环**（Self-Improvement Loop），使通用策略能够通过自主实践不断优化。
 
-![RL 自提升闭环](./diagrams/pi-rl-loop.png)
+![RL 自提升闭环](../../assets/physical-intelligence/pi-rl-loop.png)
 
 **图 6** — RL Self-Improvement Loop
 
@@ -159,7 +159,7 @@ PI 构建了完整的 **RL 自提升闭环**（Self-Improvement Loop），使通
 
 MEM（Multi-Scale Embodied Memory）是 PI 解决长程任务和部分可观测环境挑战的关键技术，于 2026 年 3 月发布。
 
-![MEM 多尺度记忆架构](./diagrams/pi-mem-memory.png)
+![MEM 多尺度记忆架构](../../assets/physical-intelligence/pi-mem-memory.png)
 
 **图 5** — MEM: Multi-Scale Embodied Memory Architecture
 
@@ -206,7 +206,7 @@ PI 在实时控制方面进行了多项关键技术优化，确保模型在真�
 
 PI 在多个高难度真实世界任务上进行了系统性的基准测试。下图展示了 π0 与 OpenVLA、Octo 等开源/学术模型在 5 个任务上的归一化成功率对比。
 
-![性能基准对比](./diagrams/pi-benchmark.png)
+![性能基准对比](../../assets/physical-intelligence/pi-benchmark.png)
 
 **图 8** — Performance Benchmark: π0 vs OpenVLA vs Octo
 

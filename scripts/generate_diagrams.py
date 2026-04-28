@@ -16,7 +16,7 @@ PI_RED = '#D0021B'
 PI_GRAY = '#9B9B9B'
 PI_LIGHT_GRAY = '#F5F5F5'
 
-OUTPUT_DIR = '/Users/wiki/Documents/OpenCode/Soul2Humanoid/diagrams'
+OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'assets', 'physical-intelligence')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def save_both(fig, name):
