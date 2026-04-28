@@ -84,6 +84,7 @@ Soul2Humanoid/
 | [`papers.md`](./papers.md) | 核心论文索引 — 按时间线整理的具身智能标志性论文，含 arXiv 链接、核心贡献和技术演进脉络 |
 | [`resources.md`](./resources.md) | 开源资源汇总 — 模型权重、数据集、仿真器、开发框架、硬件平台、评估基准 |
 | [`people.md`](./people.md) | 关键人物追踪 — 各公司核心技术人员、研究负责人及其职业动向和技术观点 |
+| [`funding.md`](./funding.md) | 投资与估值追踪 — 融资历程、估值分析、投资方格局和未来预测 |
 
 ---
 
