@@ -11,7 +11,7 @@
 
 | 资源 | 类型 | 链接 | 状态 |
 |------|------|------|------|
-| **π0** | 通用机器人 VLA 策略 | [GitHub: physical-intelligence/pi0](https://github.com/physical-intelligence/pi0) | ✅ 完全开源（权重+代码） |
+| **π0** | 通用机器人 VLA 策略 | [GitHub: physical-intelligence](https://github.com/physical-intelligence) | ✅ 完全开源（权重+代码） |
 | **π0-FAST** | 带 FAST Tokenization 的 π0 | 同上 | ✅ 完全开源 |
 | **π0.5 / π0.7** | 后续版本 | — | 🔒 闭源（仅技术报告） |
 
@@ -39,8 +39,8 @@
 | **Octo** | 开源通用机器人策略 | Berkeley / Stanford | [GitHub: octo-models/octo](https://github.com/octo-models/octo) | ✅ 完全开源 |
 | **Diffusion Policy** | 扩散策略实现 | Columbia / MIT | [GitHub: real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy) | ✅ 完全开源 |
 | **ACT (Action Chunking)** | 模仿学习框架 | Stanford | [GitHub: tonyzhaozh/act](https://github.com/tonyzhaozh/act) | ✅ 完全开源 |
-| **RDT (Robotics Diffusion Transformer)** | 开源 Diffusion Transformer | 清华 / 上海 AI Lab | [GitHub: thu-ml/RDT](https://github.com/thu-ml/RDT) | ✅ 完全开源 |
-| **SPOC** | 语义策略与对象中心表示 | AI2 | [GitHub: allenai/spoc](https://github.com/allenai/spoc) | ✅ 完全开源 |
+| **RDT (Robotics Diffusion Transformer)** | 开源 Diffusion Transformer | 清华 / 上海 AI Lab | [GitHub: thu-ml/RoboticsDiffusionTransformer](https://github.com/thu-ml/RoboticsDiffusionTransformer) | ✅ 完全开源 |
+| **SPOC** | 语义策略与对象中心表示 | AI2 | 项目已归档 | ⚠️ 链接失效 |
 
 ---
 
@@ -50,8 +50,8 @@
 
 | 数据集 | 规模 | 描述 | 链接 | 状态 |
 |--------|------|------|------|------|
-| **Open X-Embodiment** | 1600万+ 轨迹 | 全球最大跨机器人数据集，22 种形态 | [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/open_x_embodiment) | ✅ 完全开源 |
-| **DROID** | 大规模真实世界数据 | Stanford 主导的真实机器人操作数据 | [GitHub: ailab-dvrk/droid](https://github.com/ailab-dvrk/droid) | ✅ 完全开源 |
+| **Open X-Embodiment** | 1600万+ 轨迹 | 全球最大跨机器人数据集，22 种形态 | [GitHub](https://github.com/google-deepmind/open_x_embodiment) | ✅ 完全开源 |
+| **DROID** | 大规模真实世界数据 | Stanford 主导的真实机器人操作数据 | [GitHub: droid-dataset/droid](https://github.com/droid-dataset/droid) | ✅ 完全开源 |
 | **BridgeData V2** | 6万+ 轨迹 | Berkeley 的厨房操作数据 | [GitHub](https://github.com/rail-berkeley/bridge_data_v2) | ✅ 完全开源 |
 | **RoboSkills / RoboSkills-X** | 多任务数据集 | 多种技能的长程操作数据 | 各研究机构发布 | ⚠️ 部分开源 |
 
@@ -68,7 +68,7 @@
 | 数据集 | 规模 | 描述 | 链接 | 状态 |
 |--------|------|------|------|------|
 | **Ego4D** | 3000+ 小时第一视角视频 | Meta 发布的日常活动视频 | [ego4d-data.org](https://ego4d-data.org/) | ✅ 完全开源 |
-| **Something-Something V2** | 22万 视频片段 | 日常物体交互视频 | [TwentyBN](https://20bn.com/datasets/something-something) | ✅ 完全开源 |
+| **Something-Something V2** | 22万 视频片段 | 日常物体交互视频 | 原 TwentyBN 已被收购，数据集可通过学术渠道获取 | ⚠️ 链接失效 |
 | **Epic-Kitchens** | 100+ 小时厨房视频 | 第一视角厨房操作 | [epic-kitchens.github.io](https://epic-kitchens.github.io/) | ✅ 完全开源 |
 
 ---
@@ -80,9 +80,9 @@
 | **Isaac Sim / Isaac Gym** | NVIDIA | 基于 Omniverse 的高性能物理仿真，支持 GPU 并行 RL 训练 | [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac-sim) | ✅ 免费（需注册） |
 | **MuJoCo** | DeepMind | 经典物理引擎，机器人学标准仿真器 | [GitHub: deepmind/mujoco](https://github.com/deepmind/mujoco) | ✅ 完全开源 |
 | **Genesis** | Genesis Embodied AI | 新兴的统一物理仿真平台，支持多种物理求解器 | [GitHub: Genesis-Embodied-AI/Genesis](https://github.com/Genesis-Embodied-AI/Genesis) | ✅ 完全开源 |
-| **SAPIEN** | UCSD / 港中文 | 面向机器人学习的物理仿真平台，强调零件级交互 | [GitHub: sapien-sim/sapien](https://github.com/sapien-sim/sapien) | ✅ 完全开源 |
+| **SAPIEN** | UCSD / 港中文 | 面向机器人学习的物理仿真平台，强调零件级交互 | [sapien.ucsd.edu](https://sapien.ucsd.edu/) | ✅ 完全开源 |
 | **PyBullet** | Bullet Physics | 轻量级物理仿真，适合快速原型 | [GitHub: bulletphysics/bullet3](https://github.com/bulletphysics/bullet3) | ✅ 完全开源 |
-| **RoboSuite** | Stanford | 基于 MuJoCo 的模块化机器人仿真套件 | [GitHub: ARMLabRobosuite](https://github.com/ARMLabRobosuite) | ✅ 完全开源 |
+| **RoboSuite** | Stanford | 基于 MuJoCo 的模块化机器人仿真套件 | [GitHub: ARISE-Initiative/robosuite](https://github.com/ARISE-Initiative/robosuite) | ✅ 完全开源 |
 | **Habitat** | Meta AI | 室内导航与具身 AI 仿真平台 | [GitHub: facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | ✅ 完全开源 |
 | **AI2-THOR** | AI2 | 室内环境交互仿真，近真实感渲染 | [GitHub: allenai/ai2thor](https://github.com/allenai/ai2thor) | ✅ 完全开源 |
 
@@ -139,7 +139,7 @@
 | **CALVIN** | 语言条件化长程任务基准 | [GitHub](https://github.com/mees/calvin) |
 | **RLBench** | 大规模机器人学习基准 | [GitHub](https://github.com/stepjam/RLBench) |
 | **ManiSkill** | 大规模并行机器人操作基准 | [GitHub](https://github.com/haosulab/ManiSkill) |
-| **SimplerEnv** | 真实到仿真的视觉操作评估 | [GitHub](https://github.com/simpler-conversation/SimplerEnv) |
+| **SimplerEnv** | 真实到仿真的视觉操作评估 | [GitHub](https://github.com/simpler-env/SimplerEnv) |
 
 ---
 
