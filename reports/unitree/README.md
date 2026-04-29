@@ -109,6 +109,10 @@ G1 是宇树最具颠覆性的产品——以 **$13,500** 的价格将人形机�
 - 目标是实现跨机器人形态（四足 + 人形）的通用控制
 - 目前公开信息较少，处于早期阶段
 
+![Unitree RL Pipeline](../../assets/unitree-rl-pipeline.svg)
+
+**图**：宇树科技 RL + 模仿学习训练 pipeline — 仿真环境（Isaac Sim/MuJoCo）进行百万级场景 RL 训练，动作捕捉和遥操作提供模仿学习数据，经 Sim2Real 迁移后部署到 H1/G1 机器人。
+
 ### 3.2 开源生态
 
 - **GitHub**：https://github.com/unitreerobotics
