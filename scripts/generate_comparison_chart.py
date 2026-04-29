@@ -5,6 +5,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
+# Dark theme palette
+BG = '#0D1117'
+BG_CARD = '#161B22'
+BORDER = '#30363D'
+TEXT = '#E6EDF3'
+TEXT_MUTED = '#8B949E'
+
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'assets')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -40,19 +47,19 @@ for i, (company, score) in enumerate(scores.items()):
     ax.fill(angles, values, alpha=0.08, color=colors[i])
 
 ax.set_xticks(angles[:-1])
-ax.set_xticklabels(categories, size=11, fontweight='bold')
+ax.set_xticklabels(categories, size=12, fontweight='bold')
 ax.set_ylim(0, 10)
 ax.set_yticks([2, 4, 6, 8, 10])
-ax.set_yticklabels(['2', '4', '6', '8', '10'], size=9, color='gray')
+ax.set_yticklabels(['2', '4', '6', '8', '10'], size=11, color=TEXT_MUTED)
 ax.grid(True, linestyle='--', alpha=0.5)
 
-plt.title('Embodied AI Companies: Multi-Dimensional Comparison', size=16, fontweight='bold', pad=30)
-plt.legend(loc='upper right', bbox_to_anchor=(1.35, 1.1), fontsize=10, frameon=True, fancybox=True, shadow=True)
+plt.title('Embodied AI Companies: Multi-Dimensional Comparison', size=18, fontweight='bold', pad=30)
+plt.legend(loc='upper right', bbox_to_anchor=(1.35, 1.1), fontsize=13, frameon=True, fancybox=True, shadow=True)
 plt.tight_layout()
 
 base = os.path.join(OUTPUT_DIR, 'company-comparison-radar')
-fig.savefig(base + '.svg', format='svg', bbox_inches='tight', facecolor='white', edgecolor='none')
-fig.savefig(base + '.png', format='png', bbox_inches='tight', facecolor='white', edgecolor='none', dpi=200)
+fig.savefig(base + '.svg', format='svg', bbox_inches='tight', facecolor=BG, edgecolor='none')
+fig.savefig(base + '.png', format='png', bbox_inches='tight', facecolor=BG, edgecolor='none', dpi=200)
 plt.close(fig)
 print(f"Saved: {base}.svg + .png")
 
@@ -75,19 +82,19 @@ for i, (company, color) in enumerate(zip(company_list, colors)):
     ax2.barh(y_pos + i * bar_height, data_matrix[i], bar_height, label=company, color=color, alpha=0.85, edgecolor='white', linewidth=0.5)
 
 ax2.set_yticks(y_pos + bar_height * 2.5)
-ax2.set_yticklabels(metrics, fontsize=11, fontweight='bold')
+ax2.set_yticklabels(metrics, fontsize=13, fontweight='bold')
 ax2.set_xlim(0, 11)
-ax2.set_xlabel('Score (1-10)', fontsize=12)
-ax2.set_title('Embodied AI Companies: Capability Comparison by Dimension', fontsize=16, fontweight='bold', pad=20)
-ax2.legend(loc='lower right', fontsize=10, frameon=True, fancybox=True)
+ax2.set_xlabel('Score (1-10)', fontsize=13)
+ax2.set_title('Embodied AI Companies: Capability Comparison by Dimension', fontsize=18, fontweight='bold', pad=20)
+ax2.legend(loc='lower right', fontsize=13, frameon=True, fancybox=True)
 ax2.spines['top'].set_visible(False)
 ax2.spines['right'].set_visible(False)
 ax2.grid(axis='x', linestyle='--', alpha=0.3)
 
 plt.tight_layout()
 base2 = os.path.join(OUTPUT_DIR, 'company-comparison-bars')
-fig2.savefig(base2 + '.svg', format='svg', bbox_inches='tight', facecolor='white', edgecolor='none')
-fig2.savefig(base2 + '.png', format='png', bbox_inches='tight', facecolor='white', edgecolor='none', dpi=200)
+fig2.savefig(base2 + '.svg', format='svg', bbox_inches='tight', facecolor=BG, edgecolor='none')
+fig2.savefig(base2 + '.png', format='png', bbox_inches='tight', facecolor=BG, edgecolor='none', dpi=200)
 plt.close(fig2)
 print(f"Saved: {base2}.svg + .png")
 

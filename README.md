@@ -4,7 +4,7 @@
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
 [![Last Updated](https://img.shields.io/badge/last%20updated-2026--04-blue)](./)
-[![Companies](https://img.shields.io/badge/companies-7-orange)](./reports)
+[![Companies](https://img.shields.io/badge/companies-11-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 
 ---
@@ -45,8 +45,12 @@
 | **1X Technologies** | NEO 家用机器人 | 肌腱驱动、World Model、Redwood VLA、OpenAI 合作 | [`reports/1x-technologies/`](./reports/1x-technologies/) |
 | **Unitree 宇树科技** | H1/G1 人形机器人 | 极致性价比、开源生态、RL+模仿学习 | [`reports/unitree/`](./reports/unitree/) |
 | **Google DeepMind** | Gemini Robotics / RT 系列 | VLA 奠基者、Open X-Embodiment、跨本体泛化 | [`reports/google-deepmind/`](./reports/google-deepmind/) |
+| **Agility Robotics** | Digit 仓库机器人 | 仓储物流专用、传统控制、RaaS 商业模式 | [`reports/agility-robotics/`](./reports/agility-robotics/) |
+| **Apptronik** | Apollo 通用人形 | 模块化硬件、NASA 执行器、Google Gemini 合作 | [`reports/apptronik/`](./reports/apptronik/) |
+| **NVIDIA Isaac** | GR00T / Jetson / Isaac Sim | 具身智能基础设施、仿真平台、卖铲人 | [`reports/nvidia-isaac/`](./reports/nvidia-isaac/) |
+| **Enchanted Tools** | Miroki 服务机器人 | 社交/康养场景、Pepper 团队、轮式服务 | [`reports/enchanted-tools/`](./reports/enchanted-tools/) |
 
-> 持续更新中，后续计划覆盖：Apptronik、Agility Robotics、1X Technologies 深度跟进、NVIDIA Isaac 等。
+> 持续更新中，后续计划覆盖：国内创业公司（智元、傅利叶、星动纪元等）深度跟进。
 
 ---
 
@@ -57,6 +61,8 @@
 ![公司能力雷达图](./assets/company-comparison-radar.svg)
 
 ![公司能力柱状图](./assets/company-comparison-bars.svg)
+
+![数据策略对比图](./assets/data-strategy-comparison.svg)
 
 > 评分基于公开信息的主观评估，维度包括：AI 成熟度、硬件成熟度、商业化进展、开源开放度、成本效率、数据策略。
 
@@ -76,7 +82,11 @@ Soul2Humanoid/
 │   ├── boston-dynamics/               # Boston Dynamics Atlas 调研
 │   ├── 1x-technologies/               # 1X Technologies NEO 调研
 │   ├── unitree/                       # 宇树科技 H1/G1 调研
-│   └── google-deepmind/               # Google DeepMind RT/Gemini 调研
+│   ├── google-deepmind/               # Google DeepMind RT/Gemini 调研
+│   ├── agility-robotics/              # Agility Robotics Digit 调研
+│   ├── apptronik/                     # Apptronik Apollo 调研
+│   ├── nvidia-isaac/                  # NVIDIA Isaac / GR00T 调研
+│   └── enchanted-tools/               # Enchanted Tools Miroki 调研
 │
 ├── assets/                            # 图表与可视化资源
 │   ├── figure-ai/                     # Figure AI 相关图表（SVG + PNG）
@@ -84,14 +94,19 @@ Soul2Humanoid/
 │   ├── company-comparison-radar.svg   # 公司能力雷达图
 │   ├── company-comparison-radar.png
 │   ├── company-comparison-bars.svg    # 公司能力柱状图
-│   └── company-comparison-bars.png
+│   ├── company-comparison-bars.png
+│   ├── data-strategy-comparison.svg   # 数据策略对比图
+│   ├── data-strategy-comparison.png
+│   ├── data-flywheel-patterns.svg     # 数据飞轮模式图
+│   └── data-flywheel-patterns.png
 │
 ├── whiteboards/                       # 飞书画板源文件
 │   └── vla-arch.*
 │
 └── scripts/                           # 工具脚本
     ├── generate_diagrams.py           # PI 图表批量生成脚本（matplotlib）
-    └── generate_comparison_chart.py   # 公司对比图表生成脚本
+    ├── generate_comparison_chart.py   # 公司对比图表生成脚本
+    └── generate_data_flywheel_chart.py # 数据策略对比图生成脚本
 ```
 
 ---
@@ -100,8 +115,10 @@ Soul2Humanoid/
 
 | 资源 | 说明 |
 |------|------|
-| [`comparisons.md`](./comparisons.md) | 横向对比分析 — 7 家公司在 VLA 架构、数据策略、安全机制、硬件设计、商业化路径的详细对比 |
+| [`comparisons.md`](./comparisons.md) | 横向对比分析 — 11 家公司在 VLA 架构、数据策略、安全机制、硬件设计、商业化路径的详细对比 |
 | [`papers.md`](./papers.md) | 核心论文索引 — 按时间线整理的具身智能标志性论文，含 arXiv 链接、核心贡献和技术演进脉络 |
+| [`tags.md`](./tags.md) | 技术标签索引 — 按架构范式、数据策略、应用场景等标签检索公司报告 |
+| [`podcasts-videos.md`](./podcasts-videos.md) | 中文播客与视频资源汇总 — 播客、B站、YouTube、会议演讲等中文学习资源 |
 | [`resources.md`](./resources.md) | 开源资源汇总 — 模型权重、数据集、仿真器、开发框架、硬件平台、评估基准 |
 | [`people.md`](./people.md) | 关键人物追踪 — 各公司核心技术人员、研究负责人及其职业动向和技术观点 |
 | [`funding.md`](./funding.md) | 投资与估值追踪 — 融资历程、估值分析、投资方格局和未来预测 |

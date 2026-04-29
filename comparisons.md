@@ -42,6 +42,10 @@
 | **Boston Dynamics** | Spot 2000+ 部署 + 仿真 + 遥操作 | 工业级规模 | **Fleet 数据共享**：Spot 数据预训练 Atlas 感知 | ✅ 中（工业部署积累中） |
 | **1X Technologies** | 真实家庭 + Expert 遥操作 + World Model | 增长中 | **Expert Mode**：人类专家远程遥控生成高质量数据 | ⚠️ 早期（家庭部署刚开始） |
 | **Unitree** | 仿真 (RL) + 动作捕捉 + 遥操作 | 中等规模 | **开源生态**：全球开发者贡献数据和算法 | ⚠️ 弱（主要靠自研） |
+| **Agility Robotics** | 真实部署 + 仿真 + 遥操作调试 | 小规模（试点阶段） | **传统控制为主**：数据主要用于监控而非训练 | ⚠️ 弱（控制方案不依赖数据驱动） |
+| **Apptronik** | 仿真 + VR 遥操作 + Google 合作数据 | 中等规模 | **借力 Google**：借助 DeepMind 的跨本体数据集 | ⚠️ 中（依赖合作伙伴） |
+| **NVIDIA Isaac** | Omniverse 合成数据 + 生态数据 | 无限（合成）+ 生态反馈 | **合成数据工厂**：Replicator 程序化生成无限标注数据 | ✅ 强（平台级飞轮） |
+| **Enchanted Tools** | 试点现场 + 遥操作 + 第三方 LLM | 小规模 | **场景数据有限**：导航和对话数据积累中 | ⚠️ 弱（技术壁垒不在数据） |
 
 ### 数据策略评价
 
@@ -87,23 +91,30 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **Boston Dynamics** | 软件+硬件 | Fenceless Guarding、IP67 防护、5分钟 limb 更换 | 工业级可靠性标准 |
 | **1X Technologies** | **物理本质** | 肌腱驱动 95% 反向可驱动性、软体材料、无夹点设计 | **从机械层面保证人机共存安全** |
 | **Unitree** | 软件层 | 紧急停止、碰撞检测 | 开发者自行 responsibility |
+| **Agility Robotics** | 软件+硬件 | 摔倒检测、自我保护、低复杂度设计 | 简单夹爪降低夹伤风险 |
+| **Apptronik** | 软件+硬件 | 多层安全监控、硬件急停、碰撞检测 | NASA 级可靠性标准 |
+| **NVIDIA Isaac** | 平台层 | 提供安全仿真验证、数字孪生测试 | 在虚拟环境中预验证安全策略 |
+| **Enchanted Tools** | 物理本质+软件 | 轻量小型化、软体材料、静音轮式 | 小巧体型本身降低伤害可能 |
 
 **1X 的物理本质安全是最独特的安全哲学**：不是用软件检测危险再响应，而是让机器人本身在物理上就无法产生危险（高反向可驱动性意味着遇到阻力自然"让开"）。
+
+**Enchanted Tools** 采用类似思路：通过小型化和轻量化从物理层面降低风险。
 
 ---
 
 ## 五、硬件设计哲学对比
 
-| 维度 | Figure AI | Tesla | Boston Dynamics | 1X Technologies | Unitree |
-|------|-----------|-------|-----------------|-----------------|---------|
-| **设计出发点** | AI-First（为 Helix 设计传感器） | 制造-First（可规模化生产） | 可靠性-First（工业级耐用） | 安全-First（人机共存） | 成本-First（极致性价比） |
-| **执行器类型** | 电动（具体未公开） | 电动 | 电动 | **肌腱驱动** | 电动（自研 M107） |
-| **重量** | 61 kg (Figure 03) | 未公开 | 90 kg (Atlas) | 30 kg (NEO) | 35-47 kg (G1/H1) |
-| **自由度** | 未公开 | 28 身体 + 22 手部 | 56 | 未公开 | 23-43 |
-| **感知系统** | 帧率翻倍、延迟降至 1/4 | 8 个 Autopilot 相机 | HDR 立体相机 + 360° 感知 | 双 8.85MP 鱼眼立体相机 | 3D LiDAR + 深度相机 |
-| **充电方式** | 2kW 无线充电 | 未公开 | 自主换电 <3min | 自主插电充电 | 可更换电池 |
-| **防护等级** | 未公开 | 未公开 | IP67 | 手部 IP68 / 身体 IP44 | 未公开 |
-| **供应链策略** | 全新搭建 | Tesla 超级工厂 | Hyundai 汽车级 | 未公开 | 中国制造自研 |
+| 维度 | Figure AI | Tesla | Boston Dynamics | 1X Technologies | Unitree | Agility | Apptronik | Enchanted |
+|------|-----------|-------|-----------------|-----------------|---------|---------|-----------|-----------|
+| **设计出发点** | AI-First | 制造-First | 可靠性-First | 安全-First | 成本-First | 场景-First | 模块化-First | 亲和-First |
+| **执行器类型** | 电动 | 电动 | 电动 | **肌腱驱动** | 电动 | 电动 | 线性+旋转混合 | 电动（小型） |
+| **重量** | 61 kg | 未公开 | 90 kg | 30 kg | 35-47 kg | 65 kg | 73 kg | 30-40 kg |
+| **自由度** | 未公开 | 50 | 56 | 未公开 | 23-43 | 16 | 30+ | 6-8（手臂） |
+| **移动方式** | 双足 | 双足 | 双足 | 双足 | 双足 | 双足 | 双足 | **轮式** |
+| **感知系统** | 高帧率多相机 | 8 个 Autopilot 相机 | HDR 立体相机 | 双 8.85MP 鱼眼 | 3D LiDAR | RealSense 深度相机 | 立体相机 | 深度相机 |
+| **充电方式** | 2kW 无线充电 | 未公开 | 自主换电 <3min | 自主插电 | 可更换电池 | 热插拔电池 | 热插拔电池包 | 6-8h 续航 |
+| **防护等级** | 未公开 | 未公开 | IP67 | IP68/IP44 | 未公开 | 未公开 | 未公开 | 未公开 |
+| **供应链策略** | 全新搭建 | Tesla 超级工厂 | Hyundai 汽车级 | 未公开 | 中国制造自研 | 中等规模 | NASA 级高可靠 | 欧洲本地 |
 
 ---
 
@@ -117,8 +128,12 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **Boston Dynamics** | 产品发布 | Hyundai Metaplant 测试 | 未公开（预计 $20万+） | 硬件销售 + Orbit 平台订阅 |
 | **1X Technologies** | 预售 | 消费者预购 | 未公开（$200 定金） | 硬件销售 + 订阅服务 |
 | **Unitree** | 量产出货 | 高校、研究机构、开发者 | **$13,500 (G1)** | 硬件销售 |
+| **Agility Robotics** | 早期试点 | Amazon、GXO 仓库 | RaaS (~$10-15/小时) | 机器人即服务 |
+| **Apptronik** | 早期合作 | Jabil 制造试点 | 未公开 | 硬件销售 + 服务 |
+| **NVIDIA Isaac** | 平台成熟 | 几乎所有机器人公司 | Jetson 硬件 + Omniverse 订阅 | 硬件 + 软件授权 |
+| **Enchanted Tools** | 概念验证 | 医院/养老院试点 | 未公开 | 设备销售/租赁 |
 
-**商业化成熟度排序**：Unitree (已量产) > Boston Dynamics (产品版发布) > Figure AI (小批量试点) > Tesla (内部测试) > PI (技术授权) > 1X (预售)
+**商业化成熟度排序**：NVIDIA Isaac (平台已成熟) > Unitree (已量产) > Boston Dynamics (产品版发布) > Agility Robotics (试点中) > Figure AI (小批量试点) > Tesla (内部测试) > Apptronik (早期合作) > PI (技术授权) > 1X (预售) > Enchanted Tools (概念验证)
 
 ---
 
@@ -135,6 +150,10 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **家用场景安全** | 1X Technologies NEO | 物理本质安全、OpenAI 语言理解 |
 | **端到端人形控制** | Figure AI Helix | 首个全尺寸人形 VLA 部署 |
 | **平台化赋能** | Google DeepMind Gemini | 不造硬件，赋能所有机器人公司 |
+| **仓储物流专用** | Agility Robotics Digit | 场景聚焦、传统控制可靠、RaaS 模式 |
+| **模块化硬件平台** | Apptronik Apollo | NASA 级执行器、上半身可分离、Google AI 加持 |
+| **基础设施全栈** | NVIDIA Isaac | 仿真+训练+芯片+部署，行业卖铲人 |
+| **服务/康养场景** | Enchanted Tools Miroki | 小巧亲和、轮式可靠、Pepper 团队经验 |
 
 ---
 
@@ -149,6 +168,10 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **1X Technologies** | NEO 首批家庭用户反馈；World Model 的实际泛化能力 |
 | **Unitree** | G1/H1 在开发者社区的采用率；UniFolm 大模型进展 |
 | **Google DeepMind** | Gemini Robotics 的合作伙伴部署规模；是否开源更多模型 |
+| **Agility Robotics** | Amazon/GXO 试点的实际运营数据（每小时搬运量、故障率） |
+| **Apptronik** | Google Gemini 集成 Apollo 后的实际能力表现；关节模组独立销售进展 |
+| **NVIDIA Isaac** | GR00T 基础模型的实际效果；Jetson Thor 的量产和客户采用率 |
+| **Enchanted Tools** | 医院/养老院试点的用户满意度、任务完成率、故障率 |
 
 ---
 
@@ -162,3 +185,7 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **Boston Dynamics** | MPC+学习的混合架构比纯端到端更可靠 | 可能在复杂长尾场景上被端到端超越 |
 | **1X Technologies** | 家用市场愿意为机器人支付溢价 | 可能发现家用场景需求不足或价格敏感 |
 | **Unitree** | 低成本+开源可以快速占领开发者市场 | 可能在高端工业市场缺乏竞争力 |
+| **Agility Robotics** | 仓储 tote 搬运是一个足够大的单一市场 | 被更通用的机器人（Figure/Tesla）降本后替代 |
+| **Apptronik** | Google Gemini 的 VLA 能力可以快速集成到硬件上 | 若 Google 合作生变，AI 能力需从零重建 |
+| **NVIDIA Isaac** | 机器人行业将持续依赖 NVIDIA 的 GPU+仿真生态 | 开源仿真器（Genesis）或自研芯片可能削弱垄断 |
+| **Enchanted Tools** | 医疗/康养场景愿意为服务机器人付费 | Pepper 的前车之鉴：社交机器人可能再次遭遇商业化困境 |
