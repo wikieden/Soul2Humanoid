@@ -34,6 +34,8 @@
 
 ## 横向对比概览
 
+![技术演进时间线总览](./assets/embodied-ai-timeline-overview.svg)
+
 ![公司能力雷达图](./assets/company-comparison-radar.svg)
 
 ![公司能力柱状图](./assets/company-comparison-bars.svg)
