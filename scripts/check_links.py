@@ -29,7 +29,7 @@ def extract_urls(filepath):
     seen = set()
 
     # Markdown links: [text](url)
-    md_pattern = re.compile(r'\[([^\]]+)\]\((https?://[^\s)]+(?:\)[^\s)]+)*)\)')
+    md_pattern = re.compile(r'\[([^\]]+)\]\((https?://(?:[^()\s]|\([^)]*\))+)\)')
     for text, url in md_pattern.findall(content):
         while url and url[-1] in '.,;:!?\'"':
             url = url[:-1]
