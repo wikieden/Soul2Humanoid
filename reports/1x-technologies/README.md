@@ -105,6 +105,10 @@ Redwood 是 1X 自研的 **VLA（Vision-Language-Action）模型**，专为家�
 | **动作生成** | 生成移动 + 操作的联合动作策略 |
 | **记忆系统** | 保留信息以个性化用户体验 |
 
+![1X NEO System Architecture](../../assets/1x-neo-system-architecture.svg)
+
+**图**：1X NEO 系统架构 — 多模态输入经 Redwood VLA 处理，World Model 提供物理预测，内置 LLM 处理语言交互，最终通过肌腱驱动执行器输出安全动作。
+
 ### 3.2 1X World Model — 世界模型
 
 1X World Model 是 NEO 的**认知核心**，是一个基于物理的视频生成模型。

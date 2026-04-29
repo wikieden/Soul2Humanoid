@@ -53,6 +53,10 @@ Tesla explicitly rejects traditional Hierarchical Task Networks (HTN), temporal 
 +-----------------------------------------------------------------------------+
 ```
 
+![Tesla Optimus End-to-End Architecture](../../assets/tesla-end-to-end-architecture.svg)
+
+**图**：Tesla Optimus 端到端神经网络架构 — 传感器输入经共享 FSD 视觉基础模型处理后，由单一端到端神经网络直接输出动作， guardian 网络提供安全兜底。
+
 **Advantages of Tesla's End-to-End Approach:**
 
 | Advantage | Explanation |
