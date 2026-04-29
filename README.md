@@ -2,6 +2,24 @@
 
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
+[![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--04-blue)](./)
+[![Companies](https://img.shields.io/badge/companies-7-orange)](./reports)
+[![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
+
+---
+
+## 目录
+
+- [项目简介](#项目简介)
+- [调研覆盖公司](#调研覆盖公司)
+- [横向对比概览](#横向对比概览)
+- [目录结构](#目录结构)
+- [参考资源](#参考资源)
+- [技术关键词索引](#技术关键词索引)
+- [使用方式](#使用方式)
+- [贡献与更新](#贡献与更新)
+
 ---
 
 ## 项目简介
