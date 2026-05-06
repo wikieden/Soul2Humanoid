@@ -16,14 +16,13 @@ OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Data: companies and their scores across dimensions (1-10)
-companies = ['Figure AI', 'Physical\nIntelligence', 'Tesla', 'Boston\nDynamics', '1X Tech', 'Unitree']
+companies = ['Figure AI', 'Physical\nIntelligence', 'Tesla', 'Boston\nDynamics', '1X Tech', 'Unitree', 'Google\nDeepMind', 'Agility\nRobotics', 'Apptronik', 'NVIDIA\nIsaac', 'Enchanted\nTools']
 
 # Dimensions
 categories = ['AI Maturity', 'Hardware\nMaturity', 'Commercial\nProgress', 'Openness\n(Open Source)', 'Cost\nEfficiency', 'Data\nStrategy']
 N = len(categories)
 
 # Scores (subjective assessment based on research)
-# Figure AI, PI, Tesla, Boston Dynamics, 1X, Unitree
 scores = {
     'Figure AI':          [9, 8, 6, 4, 5, 8],
     'Physical\nIntelligence': [10, 5, 6, 9, 6, 8],
@@ -31,9 +30,14 @@ scores = {
     'Boston\nDynamics':   [7, 10, 7, 5, 4, 7],
     '1X Tech':            [8, 7, 4, 5, 5, 6],
     'Unitree':            [5, 7, 8, 8, 10, 5],
+    'Google\nDeepMind':   [9, 4, 3, 7, 6, 8],
+    'Agility\nRobotics':  [3, 7, 6, 2, 6, 4],
+    'Apptronik':          [5, 8, 3, 6, 4, 5],
+    'NVIDIA\nIsaac':      [8, 9, 8, 5, 3, 7],
+    'Enchanted\nTools':   [4, 5, 2, 2, 5, 3],
 }
 
-colors = ['#F5A623', '#4A90D9', '#D0021B', '#9013FE', '#7ED321', '#50E3C2']
+colors = ['#F5A623', '#4A90D9', '#D0021B', '#9013FE', '#7ED321', '#50E3C2', '#4285F4', '#FF6B35', '#00CED1', '#76B900', '#E8A0BF']
 
 # Create radar chart
 fig, ax = plt.subplots(figsize=(12, 10), subplot_kw=dict(polar=True))
@@ -66,7 +70,7 @@ print(f"Saved: {base}.svg + .png")
 # Create a horizontal bar chart for specific metrics
 fig2, ax2 = plt.subplots(figsize=(14, 8))
 metrics = ['AI Maturity', 'Hardware Maturity', 'Commercial Progress', 'Openness', 'Cost Efficiency', 'Data Strategy']
-company_list = ['Figure AI', 'PI', 'Tesla', 'Boston Dynamics', '1X Tech', 'Unitree']
+company_list = ['Figure AI', 'PI', 'Tesla', 'BD', '1X Tech', 'Unitree', 'DeepMind', 'Agility', 'Apptronik', 'NVIDIA', 'Enchanted']
 data_matrix = [
     [9, 8, 6, 4, 5, 8],   # Figure AI
     [10, 5, 6, 9, 6, 8],  # PI
@@ -74,14 +78,19 @@ data_matrix = [
     [7, 10, 7, 5, 4, 7],  # Boston Dynamics
     [8, 7, 4, 5, 5, 6],   # 1X Tech
     [5, 7, 8, 8, 10, 5],  # Unitree
+    [9, 4, 3, 7, 6, 8],   # DeepMind
+    [3, 7, 6, 2, 6, 4],   # Agility
+    [5, 8, 3, 6, 4, 5],   # Apptronik
+    [8, 9, 8, 5, 3, 7],   # NVIDIA Isaac
+    [4, 5, 2, 2, 5, 3],   # Enchanted Tools
 ]
 
 y_pos = np.arange(len(metrics))
-bar_height = 0.12
+bar_height = 0.07
 for i, (company, color) in enumerate(zip(company_list, colors)):
     ax2.barh(y_pos + i * bar_height, data_matrix[i], bar_height, label=company, color=color, alpha=0.85, edgecolor='white', linewidth=0.5)
 
-ax2.set_yticks(y_pos + bar_height * 2.5)
+ax2.set_yticks(y_pos + bar_height * 5)
 ax2.set_yticklabels(metrics, fontsize=13, fontweight='bold')
 ax2.set_xlim(0, 11)
 ax2.set_xlabel('Score (1-10)', fontsize=13)

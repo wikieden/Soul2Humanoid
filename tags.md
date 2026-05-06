@@ -95,6 +95,8 @@
 - [`reports/physical-intelligence/`](./reports/physical-intelligence/)
 - [`reports/1x-technologies/`](./reports/1x-technologies/)
 - [`reports/google-deepmind/`](./reports/google-deepmind/)
+- [`reports/apptronik/`](./reports/apptronik/) — Gemini VLA 合作
+- [`reports/nvidia-isaac/`](./reports/nvidia-isaac/) — GR00T VLA 参考设计
 
 ### #数据飞轮
 - [`reports/tesla-optimus/`](./reports/tesla-optimus/)

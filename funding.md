@@ -17,6 +17,8 @@
 | **Tesla Optimus** | 2021（项目启动） | 含于 Tesla 市值 | 内部研发 | Tesla 自有资金 |
 | **Agility Robotics** | 2015 | **~$5-10 亿**（推测） | >$1.8 亿 | DCVC、Playground Global、Amazon Industrial Innovation Fund |
 | **Apptronik** | 2016 | **~$3-5 亿**（推测） | >$1 亿 | Capital Factory、Google、Texas Ventures |
+| **NVIDIA Isaac** | 2018（平台发布） | 含于 NVIDIA 市值 | 内部研发 | NVIDIA 自有资金（市值 $3T+） |
+| **Enchanted Tools** | 2021 | **~$2-3 亿**（推测） | ~€3000 万 | Elior Group、欧洲风投基金 |
 
 > 注：未公开估值的公司标记为"推测"，基于行业可比公司和报道估算。
 
@@ -182,6 +184,9 @@
 | **1X Technologies** | 预计 C 轮 | NEO 首批交付后需要规模化资金 |
 | **Unitree** | 可能启动 C 轮或 IPO | 出货量增长，可能寻求公开市场 |
 | **Agility Robotics** | 可能被收购或大规模融资 | 需要与 Figure/Tesla 竞争 |
+| **Apptronik** | 可能 B 轮融资 | Google 战略合作背书，资金需求大 |
+| **NVIDIA Isaac** | N/A | 公开公司，Isaac 平台随 NVIDIA 整体增长 |
+| **Enchanted Tools** | 可能 A+ 或 B 轮 | 欧洲康养市场验证后需要扩张资金 |
 
 ---
 

@@ -132,6 +132,19 @@
 
 ## 其他重要论文
 
+### NVIDIA GR00T: Humanoid Foundation Model (2024.03)
+
+| 属性 | 内容 |
+|------|------|
+| **标题** | Project GR00T: Generalist Robot 00 Technology |
+| **作者** | NVIDIA |
+| **发布** | GTC 2024 主题演讲 + 技术博客 |
+| **核心贡献** | 面向人形机器人的**通用基础模型参考设计**，基于 Transformer VLA 架构，支持多模态输入（视觉+语言+状态） |
+| **技术细节** | 利用 Omniverse 生成合成数据训练；通过 Jetson Thor 在边缘部署；为 Figure AI、1X、Agility、Apptronik 等合作伙伴提供参考实现 |
+| **影响** | NVIDIA 作为"卖铲人"推动人形机器人生态标准化；GR00T 与 Isaac Lab/Sim 形成训练-仿真-部署闭环 |
+
+---
+
 ### CLIPort / Transporter (Google, 2021)
 
 | 属性 | 内容 |
@@ -177,6 +190,7 @@
 2023.10 Open X-Embodiment / RT-X    → 跨本体数据 + 泛化
 2024.03 RT-H                        → 语言分层任务规划
 2024.08 Gemini Robotics             → 多模态大模型 + 机器人
+2024.03 GR00T (NVIDIA)               → 人形基础模型 + 仿真数据闭环
 2024.10 π0                          → Flow Matching + 跨本体通用策略
 2025.01 FAST                        → 高效动作 Tokenization
 2025.01 Helix (Figure AI)           → 人形端到端 VLA
@@ -194,6 +208,7 @@
 - π0 (2024.10) — Flow Matching
 - Helix (2025.01) — 人形端到端
 - Gemini Robotics 1.5 (2024.08) — 多模态大模型
+- GR00T (2024.03) — 人形基础模型 + 仿真
 
 ### 动作生成
 - Diffusion Policy (2023) — 扩散模型

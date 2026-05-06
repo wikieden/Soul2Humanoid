@@ -6,15 +6,13 @@
 
 ## 一、VLA 架构对比
 
-| 维度 | Figure AI (Helix) | Physical Intelligence (π0) | Tesla (Optimus) | Boston Dynamics (Atlas) | 1X Technologies (Redwood) | Google DeepMind (Gemini) |
-|------|-------------------|---------------------------|-----------------|------------------------|---------------------------|--------------------------|
-| **架构类型** | 端到端 VLA | 端到端 VLA | 端到端神经网络 | 分层混合 (MPC+RL+VLA) | 端到端 VLA + World Model | 双模型 (VLA + ER) |
-| **基础模型** | 自研 VLA | 3B VLM + Flow Matching | FSD 神经网络移植 | Diffusion Transformer (4.5亿) | Redwood VLA + 内置 LLM | Gemini 多模态大模型 |
-| **动作生成** | 双系统 (快/慢) | Flow Matching 50Hz | 端到端直接输出 | Flow Matching 30Hz | VLA 联合移动+操作 | VLA 输出动作 token |
-| **控制频率** | 系统1: 200Hz / 系统2: 7-9Hz | 50Hz | 未公开 | 30Hz | 未公开 | 未公开 |
-| **跨本体** | 否（仅人形） | ✅ 是（8 种机器人） | 否（仅人形） | 否（仅 Atlas） | 否（仅 NEO） | ✅ 是（多种形态） |
-| **语言条件化** | ✅ 自然语言指令 | ✅ 自然语言指令 | Grok 语言理解 | ✅ 自然语言指令 | ✅ 内置 LLM 对话 | ✅ Gemini 原生支持 |
-| **动作输出形式** | 全身关节角度 | 连续动作轨迹 | 电机扭矩/位置 | 全身 pose (48步预测) | 移动+操作联合 | 动作 token 序列 |
+| 维度 | Figure AI (Helix) | Physical Intelligence (π0) | Tesla (Optimus) | Boston Dynamics (Atlas) | 1X Technologies (Redwood) | Google DeepMind (Gemini) | Agility (Digit) | Apptronik (Apollo) | NVIDIA (GR00T) | Enchanted (Miroki) |
+|------|-------------------|---------------------------|-----------------|------------------------|---------------------------|--------------------------|----------------|-------------------|----------------|-------------------|
+| **架构类型** | 端到端 VLA | 端到端 VLA | 端到端神经网络 | 分层混合 (MPC+RL+VLA) | 端到端 VLA + World Model | 双模型 (VLA + ER) | 传统分层控制 | 硬件平台+Gemini VLA | Transformer VLA 参考设计 | 社交AI+传统控制 |
+| **基础模型** | 自研 VLA | 3B VLM + Flow Matching | FSD 神经网络移植 | Diffusion Transformer (4.5亿) | Redwood VLA + 内置 LLM | Gemini 多模态大模型 | LIPM+ZMP+MPC | Gemini (合作伙伴) | GR00T Transformer | 第三方 LLM |
+| **动作生成** | 双系统 (快/慢) | Flow Matching 50Hz | 端到端直接输出 | Flow Matching 30Hz | VLA 联合移动+操作 | VLA 输出动作 token | 预定义步态库 | Gemini 输出 | VLA 动作 token | 预定义轨迹 |
+| **跨本体** | 否 | ✅ 是（8种） | 否 | 否 | 否 | ✅ 是（多种） | 否 | 部分（Gemini跨本体） | ✅ 是（参考设计） | 否 |
+| **语言条件化** | ✅ | ✅ | Grok | ✅ | ✅ 内置LLM | ✅ Gemini | ❌ | ✅ (Gemini) | ✅ | ✅ (第三方LLM) |
 
 ### 关键洞察
 
@@ -23,7 +21,9 @@
 | 派别 | 代表公司 | 核心信念 | 优势 | 风险 |
 |------|---------|---------|------|------|
 | **端到端** | Figure AI, PI, Tesla, 1X | "梯度从控制直接流向感知，全局最优" | 可扩展性强、长尾场景适应好、性能上限高 | 黑箱难调试、安全验证困难、需要海量数据 |
-| **分层混合** | Boston Dynamics | "MPC 提供可信赖的物理基础，学习补充边缘案例" | 可解释、可调试、安全性高、数据需求低 | 各层接口可能次优、难以处理真正新颖的场景 |
+| **分层混合** | Boston Dynamics, Agility | "MPC/传统控制提供可信赖的物理基础，学习补充边缘案例" | 可解释、可调试、安全性高、数据需求低 | 各层接口可能次优、难以处理真正新颖的场景 |
+| **平台+合作AI** | Apptronik, Enchanted | "硬件自研，AI 借力最强合作伙伴" | AI 能力起点高、专注硬件差异化 | 对合作伙伴依赖高、自主 AI 护城河浅 |
+| **基础设施** | NVIDIA Isaac | "提供训练+仿真+部署全栈，不造机器人" | 生态绑定深、零机器人风险 | 不控制终端场景、GR00T 能力待验证 |
 
 **Figure AI 的双系统架构 vs PI 的单模型架构**
 

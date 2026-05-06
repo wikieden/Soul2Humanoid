@@ -83,6 +83,41 @@
 
 ---
 
+## Agility Robotics
+
+| 人物 | 职位 | 背景 | 关键成就 | 公开观点 |
+|------|------|------|---------|---------|
+| **Jonathan Hurst** | CTO / 联合创始人 | Oregon State University 教授 | Cassie 双足平台设计者，Digit 的核心架构师 | 专注双足动态行走与商业化的结合 |
+| **Damion Shelton** | CEO / 联合创始人 | 连续创业者 | 推动 Digit 从实验室走向 Amazon 仓库 | "先做有用的，再做通用的" |
+
+---
+
+## Apptronik
+
+| 人物 | 职位 | 背景 | 关键成就 | 公开观点 |
+|------|------|------|---------|---------|
+| **Jeff Cardenas** | CEO / 联合创始人 | 连续创业者 | 推动 Apollo 与 Google DeepMind 战略合作 | "硬件平台+最强AI=最好的机器人" |
+| **Dr. Luis Sentis** | 首席科学家 / 联合创始人 | UT Austin 教授 | NASA Valkyrie 执行器设计，Apollo 全身控制 | 人形机器人动力学控制专家 |
+
+---
+
+## NVIDIA Isaac
+
+| 人物 | 职位 | 背景 | 关键成就 | 公开观点 |
+|------|------|------|---------|---------|
+| **Jensen Huang (黄仁勋)** | CEO | NVIDIA 创始人 | GPU 计算+AI 基础设施，GTC 推动机器人议程 | "The next AI wave is robotics" |
+| **Deepu Talla** | VP of Robotics & Edge Computing | — | 负责 Isaac 平台、Jetson、机器人战略 | 推动 NVIDIA 从芯片向机器人全栈扩展 |
+
+---
+
+## Enchanted Tools
+
+| 人物 | 职位 | 背景 | 关键成就 | 公开观点 |
+|------|------|------|---------|---------|
+| **Jérôme Monceaux** | CEO / 联合创始人 | Aldebaran Robotics 联合创始人 | Pepper 机器人核心推动者，Miroki 的设计者 | "社交机器人需要真正有用的场景" |
+
+---
+
 ## 学术界关键人物（跨公司影响）
 
 | 人物 | 机构 | 对行业的贡献 |
@@ -101,9 +136,13 @@
 Google Brain/DeepMind ──→ Physical Intelligence (Karol Hausman, Sergey Levine, Brian Ichter)
 Google Brain/DeepMind ──→ Figure AI (Corey Lynch)
 Google X / Everyday Robots ──→ 1X Technologies (Eric Jang)
+Google Brain/DeepMind ──→ Apptronik (Gemini Robotics 合作)
 MIT ──→ Boston Dynamics (Marc Raibert  legacy, Alberto Rodriguez)
 UC Berkeley ──→ 行业 (Pieter Abbeel 的学生遍布各公司)
 Stanford ──→ Physical Intelligence (Chelsea Finn)
+Oregon State Univ ──→ Agility Robotics (Jonathan Hurst)
+UT Austin ──→ Apptronik (Luis Sentis)
+Aldebaran / SoftBank ──→ Enchanted Tools (Jerome Monceaux)
 ```
 
 **关键观察**：

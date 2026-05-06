@@ -4,6 +4,40 @@
 
 ---
 
+## 2026-04-29
+
+### 新增
+
+- **4 家公司调研报告**：Agility Robotics (Digit)、Apptronik (Apollo)、NVIDIA Isaac (GR00T/Isaac Sim/Jetson)、Enchanted Tools (Miroki)
+- **技术标签索引**：`tags.md` — 8 大标签维度，支持多标签交叉检索
+- **中文播客/视频资源汇总**：`podcasts-videos.md` — 播客、B站、YouTube、会议演讲、微信公众号
+- **数据策略对比图**：
+  - `assets/data-strategy-comparison.svg/png` — 11 公司 5 维度柱状对比
+  - `assets/data-flywheel-patterns.svg/png` — 4 种数据飞轮模式环形图
+- **4 家新公司架构图**：
+  - `assets/agility-digit-architecture.svg/png`
+  - `assets/apptronik-apollo-architecture.svg/png`
+  - `assets/nvidia-isaac-architecture.svg/png`
+  - `assets/enchanted-tools-architecture.svg/png`
+- `scripts/generate_data_flywheel_chart.py` — 数据飞轮图表生成脚本
+
+### 更新
+
+- **对比图表扩展至 11 家公司**：雷达图和柱状图新增 DeepMind、Agility、Apptronik、NVIDIA、Enchanted
+- **comparisons.md**：VLA 架构对比表扩展至 10 列，新增"平台+合作AI"和"基础设施"派别，数据策略/安全/硬件/商业化/观察点/风险表全部补充新公司
+- **people.md**：新增 Agility、Apptronik、NVIDIA、Enchanted 关键人物，补充人才流动图
+- **funding.md**：新增 NVIDIA Isaac、Enchanted Tools 融资条目，补充预测表
+- **papers.md**：新增 GR00T 技术报告，更新论文演进脉络图
+- **README.md**：公司表格扩展至 11 家，目录结构更新，新增数据策略图引用
+- **tags.md**：补充 Apptronik VLA 检索链接、NVIDIA Isaac Sim2Real 标签
+- 所有图表切换为 GitHub Dark 主题配色
+
+### 修复
+
+- `scripts/check_links.py` 修复嵌套 markdown 链接提取正则，解决 badge URL 误匹配
+
+---
+
 ## 2026-04-28
 
 ### 新增
