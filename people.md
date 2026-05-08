@@ -163,6 +163,49 @@ Aldebaran / SoftBank ──→ Enchanted Tools (Jerome Monceaux)
 
 ---
 
+## Twitter/X 监控列表
+
+### 公司官方账号
+
+| 公司 | X Handle | 链接 | 内容特点 |
+|------|----------|------|---------|
+| **Figure AI** | @FigureAI | [x.com/FigureAI](https://x.com/FigureAI) | Demo 视频、产品发布、招聘 |
+| **Physical Intelligence** | @physicalint | [x.com/physicalint](https://x.com/physicalint) | 论文发布、技术博客、开源更新 |
+| **Tesla Optimus** | @Tesla_Optimus | [x.com/Tesla_Optimus](https://x.com/Tesla_Optimus) | Optimus 专属，官方 Demo 视频 |
+| **Tesla (主号)** | @Tesla | [x.com/Tesla](https://x.com/Tesla) | 公司整体动态，偶含 Optimus |
+| **Boston Dynamics** | @BostonDynamics | [x.com/BostonDynamics](https://x.com/BostonDynamics) | Spot/Atlas 演示、商业合作 |
+| **1X Technologies** | @1x_tech | [x.com/1x_tech](https://x.com/1x_tech) | NEO 进展、家庭场景 Demo |
+| **Unitree 宇树** | @UnitreeRobotics | [x.com/UnitreeRobotics](https://x.com/UnitreeRobotics) | H1/G1 Demo、开源社区 |
+| **Google DeepMind** | @DeepMind | [x.com/DeepMind](https://x.com/DeepMind) | 论文发布、Gemini Robotics 更新 |
+| **Agility Robotics** | @AgilityRobotics | [x.com/AgilityRobotics](https://x.com/AgilityRobotics) | Digit 仓库 Demo、客户动态 |
+| **Apptronik** | @Apptronik | [x.com/Apptronik](https://x.com/Apptronik) | Apollo 更新、合作公告 |
+| **NVIDIA** | @nvidia | [x.com/nvidia](https://x.com/nvidia) | GTC 演讲、Isaac/GR00T 更新 |
+| **Enchanted Tools** | @EnchantedTools | [x.com/EnchantedTools](https://x.com/EnchantedTools) | Miroki 设计进展、试点动态 |
+
+### 关键人物个人账号
+
+| 人物 | 公司 | X Handle | 链接 | 活跃度 |
+|------|------|----------|------|--------|
+| **Brett Adcock** | Figure AI | @adcock_brett | [x.com/adcock_brett](https://x.com/adcock_brett) | 高频 |
+| **Elon Musk** | Tesla | @elonmusk | [x.com/elonmusk](https://x.com/elonmusk) | 极高频（含 Optimus 相关） |
+| **Ashok Elluswamy** | Tesla | @aelluswamy | [x.com/aelluswamy](https://x.com/aelluswamy) | 中频（技术细节） |
+| **Milan Kovac** | Tesla | @_milankovac_ | [x.com/_milankovac_](https://x.com/_milankovac_) | 中频（Optimus 硬件） |
+| **Karol Hausman** | PI | @karolhausman | [x.com/karolhausman](https://x.com/karolhausman) | 中频（论文/技术） |
+| **Sergey Levine** | PI / UC Berkeley | @slevine | [x.com/slevine](https://x.com/slevine) | 中频（学术+PI） |
+| **Marc Raibert** | BD / AI Institute | @marcbraibert | [x.com/marcbraibert](https://x.com/marcbraibert) | 低频 |
+| **Bernt Børnich** | 1X Technologies | @berntborich | [x.com/berntborich](https://x.com/berntborich) | 中频 |
+| **王兴兴** | Unitree | @XingxingWang | [x.com/XingxingWang](https://x.com/XingxingWang) | 低频（中文为主） |
+| **Jensen Huang** | NVIDIA | @JensenHuang (非本人) | — | 不活跃（NVIDIA 主号代替） |
+
+### 监控建议
+
+- **必看**：@FigureAI, @physicalint, @elonmusk, @aelluswamy, @BostonDynamics, @DeepMind
+- **关注趋势**：@1x_tech, @AgilityRobotics, @Apptronik, @nvidia
+- **技术深度**：@karolhausman, @slevine, @_milankovac_
+- **X List 建议名称**：`Embodied AI / Humanoid Robotics`
+
+---
+
 ## 如何追踪这些人物的最新动态
 
 - **Twitter/X**：大多数人物活跃于此，发布最新研究进展
