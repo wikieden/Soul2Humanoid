@@ -16,7 +16,7 @@
 | **Unitree 宇树科技** | 2016 | **~$10 亿**（推测） | 数亿元人民币 | 美团、金石投资、红杉中国、顺为资本 |
 | **Tesla Optimus** | 2021（项目启动） | 含于 Tesla 市值 | 内部研发 | Tesla 自有资金 |
 | **Agility Robotics** | 2015 | **~$5-10 亿**（推测） | >$1.8 亿 | DCVC、Playground Global、Amazon Industrial Innovation Fund |
-| **Apptronik** | 2016 | **~$3-5 亿**（推测） | >$1 亿 | Capital Factory、Google、Texas Ventures |
+| **Apptronik** | 2016 | **~$10 亿+** | **$9.35 亿** | Capital Factory、Google、Texas Ventures、Series A-X 延伸 $5.2 亿 |
 | **NVIDIA Isaac** | 2018（平台发布） | 含于 NVIDIA 市值 | 内部研发 | NVIDIA 自有资金（市值 $3T+） |
 | **Enchanted Tools** | 2021 | **~$2-3 亿**（推测） | ~€3000 万 | Elior Group、欧洲风投基金 |
 

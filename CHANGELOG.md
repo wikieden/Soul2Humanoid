@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-05-08
+
+### 新增
+
+- **`latest-news.md`** — 2026 年 4-5 月最新行业动态追踪（Figure/1X/Unitree/BD/Apptronik/Agility/Meta）
+- **Twitter/X 监控列表**：12 个公司官方账号 + 10 位关键人物个人账号（people.md）
+
+### 更新
+
+- **Figure AI**：BotQ 产线 24 倍提速（1 台/小时）、350+ 台 F03 交付、System 0 零样本楼梯、Never Fall 协议、Helix 02 离线运行、$400-600/月租赁模型
+- **1X Technologies**：NEO Factory 曝光（58K sqft）、垂直整合生产、Jetson Thor+、10K→100K/年产能路线、内部家庭测试中
+- **Unitree**：双臂 R1 平台 $4,290 起、$5.8 亿 IPO 申请、20K 年出货目标
+- **Boston Dynamics**：CEO/C-Suite 大出走、Hyundai 量产压力（4 台/月→30K/年）、量产版 Atlas 视频发布
+- **Apptronik**：$9.35 亿融资、挖角 Waymo/BD/Amazon 高管组成"Dream Team"、下一代机器人将公布
+- **Agility**：Peggy Johnson 新任 CEO、Unconstrained Humanoids 愿景
+- **people.md**：更新 CEO 变更、离职记录、新增人才流动（BD→DeepMind/Apptronik，Waymo→Apptronik）
+- **funding.md**：Apptronik 融资额更新至 $9.35 亿
+
+### 行业趋势
+
+- Meta 收购 Assured Robot Intelligence，正式进入人形机器人赛道
+- 制造量产竞赛白热化：Figure/1X/Unitree 竞速
+- 垂直整合成共识、家用市场提前布局
+
+---
+
 ## 2026-04-29
 
 ### 新增

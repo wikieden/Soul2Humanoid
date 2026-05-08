@@ -45,7 +45,9 @@
 | **Marc Raibert** | 创始人 / The AI Institute 创始人 | MIT Leg Laboratory | 创立 Boston Dynamics，定义了动态足式机器人领域 | 2022 年卸任 BD 日常管理，创办 The AI Institute 继续基础研究 |
 | **Robert Playter** | CEO | MIT Aeronautics | 主导 Spot 商业化，推动 BD 从研究走向产品 | "Atlas 是公司造过最好的机器人" |
 | **Alberto Rodriguez** | Atlas Robot Behavior 总监 | MIT Mechanical Engineering | 主导 Atlas AI 行为系统 | 牵头与 Google DeepMind 合作 |
-| **Scott Kuindersma** | Boston Dynamics AI 负责人 | Harvard / MIT | BD+TRI 合作论文 BD 侧首席科学家 | 推动 MPC 与学习的融合 |
+| **Scott Kuindersma** | **已离职** (2026.01) | Harvard / MIT | BD+TRI 合作论文 BD 侧首席科学家 | 2026 年 1 月离职，去向未公开 |
+| **Aaron Saunders** | **已离职** (前 CTO) | MIT | BD 长期 CTO | 离职后加入 Google DeepMind |
+| **Robert Playter** | **已退休** (前 CEO) | MIT Aeronautics | 30+ 年生涯，推动 Spot/Atlas 商业化 | 2026 年 2 月退休 |
 | **Russ Tedrake** | TRI VP of Robotics（外部合作者） | MIT | Drake 仿真器作者，全身控制专家 | 在 BD+TRI 合作中担任 TRI 侧负责人 |
 
 ---
@@ -88,7 +90,8 @@
 | 人物 | 职位 | 背景 | 关键成就 | 公开观点 |
 |------|------|------|---------|---------|
 | **Jonathan Hurst** | CTO / 联合创始人 | Oregon State University 教授 | Cassie 双足平台设计者，Digit 的核心架构师 | 专注双足动态行走与商业化的结合 |
-| **Damion Shelton** | CEO / 联合创始人 | 连续创业者 | 推动 Digit 从实验室走向 Amazon 仓库 | "先做有用的，再做通用的" |
+| **Peggy Johnson** | CEO | 前 Magic Leap CEO，2024 年接任 | 推动 Digit 从仓库走向更广泛场景 | "Unconstrained Humanoids" |
+| **Damion Shelton** | 联合创始人 / 前 CEO | 连续创业者 | 创立 Agility 并推动 Digit 进入 Amazon 仓库 | 已卸任 CEO，保留董事会席位 |
 
 ---
 
@@ -98,6 +101,9 @@
 |------|------|------|---------|---------|
 | **Jeff Cardenas** | CEO / 联合创始人 | 连续创业者 | 推动 Apollo 与 Google DeepMind 战略合作 | "硬件平台+最强AI=最好的机器人" |
 | **Dr. Luis Sentis** | 首席科学家 / 联合创始人 | UT Austin 教授 | NASA Valkyrie 执行器设计，Apollo 全身控制 | 人形机器人动力学控制专家 |
+| **Daniel Chu** | CPO | 前 Waymo CPO | 将自动驾驶经验迁移到人形机器人 | 推动从工业走向医疗保健和家庭 |
+| **Kevin Garell** | SVP Services | 前 Boston Dynamics | 全球机器人服务基础设施专家 | 24/7 工业可靠性保障 |
+| **Chirag Shah** | VP Software | 前 Amazon Alexa | 多模态 AI + 机器人软件 | 连接生成式 AI 与物理控制 |
 
 ---
 
@@ -143,6 +149,8 @@ Stanford ──→ Physical Intelligence (Chelsea Finn)
 Oregon State Univ ──→ Agility Robotics (Jonathan Hurst)
 UT Austin ──→ Apptronik (Luis Sentis)
 Aldebaran / SoftBank ──→ Enchanted Tools (Jerome Monceaux)
+Boston Dynamics ──→ Apptronik (Kevin Garell), Google DeepMind (Aaron Saunders)
+Waymo ──→ Apptronik (Daniel Chu)
 ```
 
 **关键观察**：
