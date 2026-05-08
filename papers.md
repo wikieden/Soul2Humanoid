@@ -224,3 +224,79 @@
 ### 任务规划
 - RT-H (2024.03) — 语言分层
 - Gemini Robotics-ER 1.6 (2026.04) — 具身推理
+
+---
+
+## 热门论文持续跟踪
+
+> 基于 Semantic Scholar / Google Scholar 引用趋势和社区关注度，追踪具身智能领域高影响力论文。
+> 标注 🔥 引用 >500 / ⭐ 引用 >200 / 📈 近期快速上升
+
+### VLA 与通用策略
+
+| 论文 | 年份 | 引用趋势 | 关键词 | 状态 |
+|------|------|---------|--------|------|
+| RT-2: Vision-Language-Action Models | 2023.07 | 🔥 2000+ | VLA 奠基 | 持续影响 |
+| Open X-Embodiment / RT-X | 2023.10 | 🔥 1500+ | 跨本体数据 | 行业数据基础设施 |
+| π0: VLA Flow Model | 2024.10 | ⭐ 300+ 📈 | Flow Matching | 开源，快速上升 |
+| FAST: Action Tokenization | 2025.01 | ⭐ 200+ 📈 | DCT+BPE | 开源，VLA 训练加速 |
+| Helix (Figure AI) | 2025.01 | 📈 | 人形 VLA | 技术博客，闭源 |
+| Gemini Robotics | 2024.08→2026 | ⭐ 400+ | 多模态 VLA | 持续迭代 |
+| GR00T (NVIDIA) | 2024.03 | 📈 | 人形基础模型 | 参考设计，生态绑定 |
+
+### 动作生成与控制
+
+| 论文 | 年份 | 引用趋势 | 关键词 | 状态 |
+|------|------|---------|--------|------|
+| Diffusion Policy | 2023.03 | 🔥 1500+ | 扩散动作生成 | 经典基线 |
+| ACT: Action Chunking | 2023.04 | 🔥 1000+ | 动作分块 | 模仿学习标配 |
+| BD+TRI Diffusion Transformer | 2025.02 | 📈 | 全身操作 | MPC+学习融合标杆 |
+| RDT: Robotics Diffusion Transformer | 2024.10 | ⭐ 200+ | Diffusion Transformer | 清华，开源 |
+
+### 数据、泛化与学习
+
+| 论文 | 年份 | 引用趋势 | 关键词 | 状态 |
+|------|------|---------|--------|------|
+| RT-H: Action Hierarchies | 2024.03 | ⭐ 300+ | 语言分层 | 启发可组合泛化 |
+| DROID: Large-Scale Real-World Data | 2024 | ⭐ 200+ | 真实世界数据 | Stanford 主导 |
+| BridgeData V2 | 2023 | 🔥 600+ | 厨房操作数据 | 经典数据集 |
+| π0.7: Compositional Generalization | 2026.04 | 📈 | 可组合泛化 | 最新，零样本迁移 |
+
+### 基础模型与架构
+
+| 论文 | 年份 | 引用趋势 | 关键词 | 状态 |
+|------|------|---------|--------|------|
+| Octo: Generalist Robot Policy | 2024 | ⭐ 300+ | 开源通用策略 | Berkeley/Stanford |
+| OpenVLA | 2024 | ⭐ 400+ | 开源 VLA | Stanford/Berkeley |
+| CLIPort | 2021 | 🔥 800+ | 视觉+操作 | 先驱工作 |
+
+### 仿真与 Sim2Real
+
+| 论文 | 年份 | 引用趋势 | 关键词 | 状态 |
+|------|------|---------|--------|------|
+| Isaac Gym / Isaac Lab | 2022-2024 | 🔥 1000+ | GPU 并行 RL | NVIDIA 生态核心 |
+| Genesis | 2024 | 📈 | 统一物理仿真 | 新兴开源替代 |
+| MuJoCo (DeepMind) | 2021→ | 🔥 3000+ | 标准物理引擎 | 开源，学术标配 |
+
+---
+
+### 跟踪方法
+
+| 来源 | 频率 | 用途 |
+|------|------|------|
+| [arXiv cs.RO](https://arxiv.org/list/cs.RO/recent) | 每日 | 机器人学新论文 |
+| [Semantic Scholar](https://www.semanticscholar.org/) | 每周 | 引用趋势追踪 |
+| [Papers With Code - Robotics](https://paperswithcode.com/task/robotics) | 每周 | SOTA 排行榜 |
+| [Google Scholar Alerts](https://scholar.google.com/) | 每周 | 关键词订阅（VLA, humanoid robot, embodied AI） |
+| X/Twitter #arXiv | 实时 | 学者自行推广 |
+| CoRL / RSS / ICRA / ICRA proceedings | 季度 | 顶会论文集 |
+
+### 下期重点跟踪
+
+- [ ] π0.7 开源进展与社区复现
+- [ ] Gemini Robotics-ER 独立论文发布
+- [ ] Figure Helix 02 技术报告
+- [ ] GR00T 首篇正式论文
+- [ ] BD+TRI 全文发表（当前仅为会议摘要）
+- [ ] RDT v2 / Diffusion Transformer 新版本
+- [ ] DROID 扩展数据集发布
