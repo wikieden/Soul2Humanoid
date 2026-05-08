@@ -3,7 +3,7 @@
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--04-blue)](./)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--05-blue)](./)
 [![Companies](https://img.shields.io/badge/companies-11-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 
@@ -11,6 +11,7 @@
 
 ## 目录
 
+- [最新动态](#最新动态)
 - [项目简介](#项目简介)
 - [调研覆盖公司](#调研覆盖公司)
 - [横向对比概览](#横向对比概览)
@@ -19,6 +20,36 @@
 - [技术关键词索引](#技术关键词索引)
 - [使用方式](#使用方式)
 - [贡献与更新](#贡献与更新)
+
+---
+
+## 最新动态
+
+> 每次更新记录于此，详细动态见 [`latest-news.md`](./latest-news.md)
+
+### 2026-05-08
+
+| 公司 | 重大动态 |
+|------|---------|
+| **Figure AI** | BotQ 120 天 **24 倍**提速（1 台/小时）；**System 0** 零样本楼梯；**Never Fall** 协议；Helix 02 离线运行；$400-600/月租赁模型 |
+| **1X Technologies** | **NEO Factory** 58K sqft 曝光；全垂直整合（Revo2 电机自产）；Jetson Thor；目标 100K/年 |
+| **Unitree** | **双臂 R1 平台** $4,290 起；**$5.8 亿 IPO** 申请；20K 年出货目标 |
+| **Boston Dynamics** | **CEO/C-Suite 大出走**（Playter 退休、Saunders→DeepMind、Kuindersma 离职）；Hyundai 要求 30K/年 |
+| **Apptronik** | **$9.35 亿融资**；挖角 Waymo/BD/Amazon 组 Dream Team；下一代机器人将公布 |
+| **Agility** | **Peggy Johnson** 新任 CEO；Unconstrained Humanoids 愿景 |
+| **Meta** | 收购 **Assured Robot Intelligence**，正式进入人形机器人赛道 |
+
+**行业趋势**：制造量产竞赛白热化 · 垂直整合成共识 · 家用市场提前布局 · BD 高管出走反映研究→商业转型阵痛
+
+### 2026-04-29
+
+| 动态 | 详情 |
+|------|------|
+| 新增 4 家公司报告 | Agility Robotics、Apptronik、NVIDIA Isaac、Enchanted Tools |
+| 技术标签系统 | [`tags.md`](./tags.md) — 8 大维度，多标签交叉检索 |
+| 中文媒体资源 | [`podcasts-videos.md`](./podcasts-videos.md) — 播客/B站/YouTube/会议 |
+| 数据策略对比图 | 11 公司 5 维度柱状图 + 4 种飞轮模式图 |
+| Twitter/X 监控 | [`people.md`](./people.md) — 12 个公司号 + 10 位关键人物 |
 
 ---
 
@@ -122,7 +153,8 @@ Soul2Humanoid/
 | [`resources.md`](./resources.md) | 开源资源汇总 — 模型权重、数据集、仿真器、开发框架、硬件平台、评估基准 |
 | [`people.md`](./people.md) | 关键人物追踪 — 各公司核心技术人员、研究负责人及其职业动向和技术观点 |
 | [`funding.md`](./funding.md) | 投资与估值追踪 — 融资历程、估值分析、投资方格局和未来预测 |
-| [`CHANGELOG.md`](./CHANGELOG.md) | 更新日志 — 仓库演进历史和每次重大更新的记录 |
+| [`latest-news.md`](./latest-news.md) | 最新动态追踪 — 各公司近期重大事件、产品发布、融资、人事变动的实时记录 |
+| [`CHANGELOG.md`](./CHANGELOG.md) | 更新日志 — 仓库文件变更历史 |
 
 ---
 
@@ -164,9 +196,9 @@ python3 generate_comparison_chart.py   # 公司对比图表
 
 ## 贡献与更新
 
-- 调研时间：2026年4月
-- 信息来源：各公司官网、技术博客、学术论文、公开演讲
-- 更新策略：跟随各公司重大技术发布（新模型、新产品、新论文）进行增量更新
+- 调研时间：2026 年 4-5 月（持续更新）
+- 信息来源：各公司官网、技术博客、学术论文、公开演讲、[Humanoids Daily](https://www.humanoidsdaily.com/)、X/Twitter
+- 更新策略：重大动态即时记录到 [`latest-news.md`](./latest-news.md)，积累后更新各公司深度报告
 
 ---
 
