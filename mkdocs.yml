@@ -1,0 +1,96 @@
+site_name: Soul2Humanoid — 具身大脑技术方案调研
+site_description: 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线
+site_url: https://wikieden.github.io/Soul2Humanoid/
+repo_url: https://github.com/wikieden/Soul2Humanoid
+repo_name: Soul2Humanoid
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: zh
+  palette:
+  - scheme: default
+    primary: deep orange
+    accent: orange
+    toggle:
+      icon: material/brightness-7
+      name: 切换到深色模式
+  - scheme: slate
+    primary: deep orange
+    accent: orange
+    toggle:
+      icon: material/brightness-4
+      name: 切换到浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  features:
+  - navigation.instant
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - navigation.indexes
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - search.share
+  - content.code.copy
+  - content.tabs.link
+  - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/wikieden/Soul2Humanoid
+extra_css:
+- stylesheets/extra.css
+plugins:
+- search
+markdown_extensions:
+- admonition
+- attr_list
+- def_list
+- footnotes
+- md_in_html
+- toc:
+    permalink: true
+- pymdownx.betterem
+- pymdownx.caret
+- pymdownx.details
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- pymdownx.keys
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+nav:
+- 首页: index.md
+- 公司调研:
+  - Figure AI: reports/figure-ai.md
+  - Physical Intelligence: reports/physical-intelligence.md
+  - Tesla Optimus: reports/tesla-optimus.md
+  - Boston Dynamics: reports/boston-dynamics.md
+  - 1X Technologies: reports/1x-technologies.md
+  - Unitree 宇树科技: reports/unitree.md
+  - Google DeepMind: reports/google-deepmind.md
+  - Agility Robotics: reports/agility-robotics.md
+  - Apptronik: reports/apptronik.md
+  - NVIDIA Isaac: reports/nvidia-isaac.md
+  - Enchanted Tools: reports/enchanted-tools.md
+- 横向分析:
+  - 对比分析: comparisons.md
+  - 最新动态: latest-news.md
+  - 论文索引: papers.md
+  - 投资追踪: funding.md
+- 资源索引:
+  - 技术标签: tags.md
+  - 开源资源: resources.md
+  - 中文媒体: podcasts-videos.md
+  - 关键人物: people.md

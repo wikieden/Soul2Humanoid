@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="856.8pt" height="532.8pt" viewBox="0 0 856.8 532.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-04-26T15:59:46.235597</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 532.8 
+L 856.8 532.8 
+L 856.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 428.4 283.68 
+C 447.017258 283.68 464.874507 276.397081 478.038896 263.435221 
+C 491.203285 250.473361 498.6 232.890838 498.6 214.56 
+C 498.6 196.229162 491.203285 178.646639 478.038896 165.684779 
+C 464.874507 152.722919 447.017258 145.44 428.4 145.44 
+C 409.782742 145.44 391.925493 152.722919 378.761104 165.684779 
+C 365.596715 178.646639 358.2 196.229162 358.2 214.56 
+C 358.2 232.890838 365.596715 250.473361 378.761104 263.435221 
+C 391.925493 276.397081 409.782742 283.68 428.4 283.68 
+z
+" clip-path="url(#p21599ed85b)" style="fill: #1e293b; stroke: #334155; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 80.91 169.632 
+L 242.37 169.632 
+Q 256.41 169.632 256.41 155.808 
+L 256.41 93.6 
+Q 256.41 79.776 242.37 79.776 
+L 80.91 79.776 
+Q 66.87 79.776 66.87 93.6 
+L 66.87 155.808 
+Q 66.87 169.632 80.91 169.632 
+z
+" clip-path="url(#p21599ed85b)" style="fill: #e8f4f8; stroke: #0891b2; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 614.43 169.632 
+L 775.89 169.632 
+Q 789.93 169.632 789.93 155.808 
+L 789.93 93.6 
+Q 789.93 79.776 775.89 79.776 
+L 614.43 79.776 
+Q 600.39 79.776 600.39 93.6 
+L 600.39 155.808 
+Q 600.39 169.632 614.43 169.632 
+z
+" clip-path="url(#p21599ed85b)" style="fill: #fef3c7; stroke: #d97706; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 31.77 349.344 
+L 193.23 349.344 
+Q 207.27 349.344 207.27 335.52 
+L 207.27 273.312 
+Q 207.27 259.488 193.23 259.488 
+L 31.77 259.488 
+Q 17.73 259.488 17.73 273.312 
+L 17.73 335.52 
+Q 17.73 349.344 31.77 349.344 
+z
+" clip-path="url(#p21599ed85b)" style="fill: #f3e8ff; stroke: #9333ea; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 663.57 349.344 
+L 825.03 349.344 
+Q 839.07 349.344 839.07 335.52 
+L 839.07 273.312 
+Q 839.07 259.488 825.03 259.488 
+L 663.57 259.488 
+Q 649.53 259.488 649.53 273.312 
+L 649.53 335.52 
+Q 649.53 349.344 663.57 349.344 
+z
+" clip-path="url(#p21599ed85b)" style="fill: #dcfce7; stroke: #16a34a; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 172.17 466.848 
+L 333.63 466.848 
+Q 347.67 466.848 347.67 453.024 
+L 347.67 390.816 
+Q 347.67 376.992 333.63 376.992 
+L 172.17 376.992 
+Q 158.13 376.992 158.13 390.816 
+L 158.13 453.024 
+Q 158.13 466.848 172.17 466.848 
+z
+" clip-path="url(#p21599ed85b)" style="fill: #fce7f3; stroke: #db2777; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 523.17 466.848 
+L 684.63 466.848 
+Q 698.67 466.848 698.67 453.024 
+L 698.67 390.816 
+Q 698.67 376.992 684.63 376.992 
+L 523.17 376.992 
+Q 509.13 376.992 509.13 390.816 
+L 509.13 453.024 
+Q 509.13 466.848 523.17 466.848 
+z
+" clip-path="url(#p21599ed85b)" style="fill: #fee2e2; stroke: #dc2626; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #1a1a2e; font: 700 18px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="39.814875" transform="rotate(-0 428.4 39.814875)">FIGURE 03: AI-FIRST HARDWARE DESIGN</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #666666; font: 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="65.531313" transform="rotate(-0 428.4 65.531313)">Hardware built around Helix VLA requirements, not the other way around</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #ffffff; font: 700 14px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="200.736" transform="rotate(-0 428.4 200.736)">HELIX</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #94a3b8; font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="428.4" y="228.384" transform="rotate(-0 428.4 228.384)">VLA Brain</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #0891b2; font: 700 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="161.64" y="107.424" transform="rotate(-0 161.64 107.424)">Vision System</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(134.19875 114.724)">2x frame rate</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(139.2375 124.898)">1/4 latency</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(131.06375 135.072)">60% wider FOV</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 193.423506 135.410023 
+Q 300.996123 171.64501 406.97943 207.34465 
+" style="fill: none; stroke: #0891b2; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 403.827144 204.172413 
+L 406.97943 207.34465 
+L 402.550268 207.963137 
+" style="fill: none; stroke: #0891b2; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="fill: #d97706; font: 700 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="695.16" y="107.424" transform="rotate(-0 695.16 107.424)">Hand System</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(667.010625 114.724)">Palm cameras</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(665.86375 124.898)">Tactile sensors</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(668.435625 135.072)">3g sensitivity</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 663.376494 135.410023 
+Q 555.803877 171.64501 449.82057 207.34465 
+" style="fill: none; stroke: #d97706; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 454.249732 207.963137 
+L 449.82057 207.34465 
+L 452.972856 204.172413 
+" style="fill: none; stroke: #d97706; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="fill: #9333ea; font: 700 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="112.5" y="287.136" transform="rotate(-0 112.5 287.136)">Compute</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(68.82 294.436)">Dual embedded GPUs</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(67.7925 304.61)">Async S2/S1 inference</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(75.935 314.784)">Onboard real-time</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 144.770316 295.236888 
+Q 276.518597 257.761821 406.653812 220.745582 
+" style="fill: none; stroke: #9333ea; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 402.259245 219.916257 
+L 406.653812 220.745582 
+L 403.353612 223.763641 
+" style="fill: none; stroke: #9333ea; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="fill: #16a34a; font: 700 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="744.3" y="287.136" transform="rotate(-0 744.3 287.136)">Actuators</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(726.03125 294.436)">2x speed</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(700.66625 304.61)">Higher torque density</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(710.990625 314.784)">Full-body control</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 712.029684 295.236888 
+Q 580.281403 257.761821 450.146188 220.745582 
+" style="fill: none; stroke: #16a34a; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 453.446388 223.763641 
+L 450.146188 220.745582 
+L 454.540755 219.916257 
+" style="fill: none; stroke: #16a34a; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="fill: #db2777; font: 700 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="252.9" y="404.64" transform="rotate(-0 252.9 404.64)">Wireless</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(205.628125 411.94)">2kW inductive charging</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(202.42 422.114)">10Gbps mmWave offload</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(214.103125 432.288)">Wire-free operation</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 274.414276 396.500055 
+Q 344.694012 313.461844 413.89032 231.703745 
+" style="fill: none; stroke: #db2777; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 409.779573 233.464926 
+L 413.89032 231.703745 
+L 412.832816 236.049051 
+" style="fill: none; stroke: #db2777; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="fill: #dc2626; font: 700 11px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="603.9" y="404.64" transform="rotate(-0 603.9 404.64)">Safety</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(580.073125 411.94)">Soft textiles</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(566.539375 422.114)">Multi-density foam</text>
+    <text style="fill: #525252; font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(564.058125 432.288)">UN38.3 battery cert</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 582.385724 396.500055 
+Q 512.105988 313.461844 442.90968 231.703745 
+" style="fill: none; stroke: #dc2626; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 443.967184 236.049051 
+L 442.90968 231.703745 
+L 447.020427 233.464926 
+" style="fill: none; stroke: #dc2626; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p21599ed85b">
+   <rect x="7.2" y="7.2" width="842.4" height="518.4"/>
+  </clipPath>
+ </defs>
+</svg>
