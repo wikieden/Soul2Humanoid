@@ -1,5 +1,5 @@
 site_name: Soul2Humanoid — 具身大脑技术方案调研
-site_description: 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线
+site_description: 系统性调研全球主流机器人公司（Figure AI、Physical Intelligence、Tesla Optimus、Boston Dynamics、Unitree、1X 等）的具身智能（Embodied AI）技术路线，聚焦 VLA 端到端、Flow Matching、数据飞轮等核心算法架构。
 site_url: https://wikieden.github.io/Soul2Humanoid/
 repo_url: https://github.com/wikieden/Soul2Humanoid
 repo_name: Soul2Humanoid
@@ -48,6 +48,12 @@ extra_css:
 - stylesheets/extra.css
 plugins:
 - search
+- minify:
+    minify_html: true
+    minify_js: true
+    minify_css: true
+    html_minify:
+      remove_comments: true
 markdown_extensions:
 - admonition
 - attr_list

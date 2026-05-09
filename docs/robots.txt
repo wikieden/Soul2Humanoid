@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wikieden.github.io/Soul2Humanoid/sitemap.xml
