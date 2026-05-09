@@ -6,6 +6,8 @@
 [![Last Updated](https://img.shields.io/badge/last%20updated-2026--05-blue)](./)
 [![Companies](https://img.shields.io/badge/companies-11-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
+[![Star](https://img.shields.io/github/stars/wikieden/Soul2Humanoid?style=social)](https://github.com/wikieden/Soul2Humanoid)
+[![Contact](https://img.shields.io/badge/email-wikieden@gmail.com-red)](mailto:wikieden@gmail.com)
 
 ---
 
