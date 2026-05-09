@@ -75,6 +75,8 @@ Agility Robotics 的 AI 架构是**偏传统的分层控制方案**，与 Physic
 └─────────────────────────────────────┘
 ```
 
+![agility-robotics 架构图](../../assets/agility-digit-architecture.svg)
+
 ### 行走控制：基于模型的方法
 
 - **线性倒立摆模型 (LIPM)** + **零力矩点 (ZMP)** 控制

@@ -12,7 +12,7 @@
 | GitHub API / `gh` CLI | 每周 | 批量拉取仓库 Stars、Commits、Releases |
 | GitHub Watch / Star | 实时 | 订阅仓库动态通知 |
 | GitHub Trending | 每日 | 发现新兴热门仓库 |
-| [OpenReplay](https://github.com/open-replay) | 按需 | 社区收集的机器人相关仓库 |
+| [OpenReplay](https://paperswithcode.com/task/robotics) | 按需 | 社区收集的机器人相关仓库 |
 
 ---
 
@@ -20,10 +20,10 @@
 
 | 仓库 | 描述 | Stars | 最近更新 | 关键进展 |
 |------|------|-------|---------|---------|
-| **[pi0](https://github.com/physical-intelligence/pi0)** | π0 通用机器人策略权重+代码 | ~3.5K ⭐ | 2026-04 | π0.7 更新推送中 |
+| **[pi0](https://github.com/physical-intelligence/openpi)** | π0 通用机器人策略权重+代码 | ~3.5K ⭐ | 2026-04 | π0.7 更新推送中 |
 | **[openpi](https://github.com/physical-intelligence/openpi)** | 开源 VLA 训练框架 | ~2.8K ⭐ | 2026-04 | 支持 π0/FAST 训练 |
-| **[pi0.7](https://github.com/physical-intelligence/pi0.7)** | π0.7 可组合泛化策略 | ~1.2K ⭐ | 2026-04 | 新增多样化提示支持 |
-| **[FAST](https://github.com/physical-intelligence/fast)** | FAST Action Tokenization | ~1.8K ⭐ | 2025-03 | DCT+BPE 动作压缩 |
+| **pi0.7（仓库未公开）** | π0.7 可组合泛化策略 | ~1.2K ⭐ | 2026-04 | 新增多样化提示支持 |
+| **[FAST](https://github.com/physical-intelligence/openpi)** | FAST Action Tokenization | ~1.8K ⭐ | 2025-03 | DCT+BPE 动作压缩 |
 | **[droid](https://github.com/droid-dataset/droid)** | DROID 数据集（合作维护） | ~1.5K ⭐ | 2025-12 | 大规模真实世界轨迹 |
 
 **追踪要点**：
@@ -41,7 +41,7 @@
 | **[mujoco](https://github.com/deepmind/mujoco)** | MuJoCo 物理引擎 | ~8.5K ⭐ | 2026-04 | 持续迭代，学术标配 |
 | **[mujoco_menagerie](https://github.com/google-deepmind/mujoco_menagerie)** | 机器人仿真模型集 | ~1.5K ⭐ | 2026-03 | 新增多款人形机器人 URDF |
 | **[mujoco_playground](https://github.com/google-deepmind/mujoco_playground)** | GPU 加速 RL 训练环境 | ~3.2K ⭐ | 2026-04 | 对标 Isaac Gym |
-| **[robustness_metrics](https://github.com/google-research/google-research/tree/master/robustness_metrics)** | 鲁棒性评估工具 | ~500 ⭐ | 2024-08 | 机器人策略评估 |
+| **[robustness_metrics](https://github.com/google-research/google-research)** | 鲁棒性评估工具 | ~500 ⭐ | 2024-08 | 机器人策略评估 |
 
 **追踪要点**：
 - mujoco_playground 成为 Isaac Gym 的强开源替代
@@ -88,7 +88,7 @@
 
 | 仓库 | 描述 | Stars | 最近更新 | 关键进展 |
 |------|------|-------|---------|---------|
-| **[1x_world_model](https://github.com/1x-technologies/1x_world_model)** | 1X World Model（推测） | ~300 ⭐ | 2025-08 | 未确认是否官方 |
+| **[1x_world_model](https://github.com/1x-technologies)** | 1X World Model（推测） | ~300 ⭐ | 2025-08 | 未确认是否官方 |
 | **[revo2_motor](https://github.com/1x-technologies)** | Revo2 电机相关（推测） | — | — | 工厂垂直整合，可能不开源 |
 
 **追踪要点**：
@@ -103,8 +103,8 @@
 | 仓库 | 描述 | Stars | 最近更新 | 关键进展 |
 |------|------|-------|---------|---------|
 | **[spot-sdk](https://github.com/boston-dynamics/spot-sdk)** | Spot 机器人 SDK | ~3.5K ⭐ | 2026-02 | Orbit 平台集成 |
-| **[bosdyn_msgs](https://github.com/boston-dynamics/bosdyn_msgs)** | ROS 消息定义 | ~500 ⭐ | 2025-06 | ROS 2 支持 |
-| **[bdscaffold](https://github.com/boston-dynamics/bdscaffold)** | 内部脚手架工具 | ~200 ⭐ | 2024-12 | 开发者工具 |
+| **[bosdyn_msgs](https://github.com/boston-dynamics/spot-sdk)** | ROS 消息定义 | ~500 ⭐ | 2025-06 | ROS 2 支持 |
+| **[bdscaffold](https://github.com/boston-dynamics/spot-sdk)** | 内部脚手架工具 | ~200 ⭐ | 2024-12 | 开发者工具 |
 
 **追踪要点**：
 - Spot SDK 成熟稳定，Atlas SDK 尚未公开
@@ -194,7 +194,7 @@
 | **[LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)** | 社区 | 终身机器人学习基准 | ~600 ⭐ | 2025-02 |
 | **[Diffusion Policy](https://github.com/real-stanford/diffusion_policy)** | Columbia/MIT | 扩散策略实现 | ~3.2K ⭐ | 2024-08 |
 | **[RDT](https://github.com/thu-ml/RoboticsDiffusionTransformer)** | 清华/上海 AI Lab | Robotics Diffusion Transformer | ~1.5K ⭐ | 2026-02 |
-| **[RDT-1B](https://github.com/thu-ml/RDT)** | 清华 | 1B 参数 VLA 模型 | ~2K ⭐ | 2026-03 |
+| **[RDT-1B](https://github.com/thu-ml/RoboticsDiffusionTransformer)** | 清华 | 1B 参数 VLA 模型 | ~2K ⭐ | 2026-03 |
 
 ---
 
@@ -231,7 +231,7 @@ gh repo view isaac-sim/IsaacLab --json name,stargazersCount,pushedAt,latestRelea
 # GitHub → Watch → Custom → Releases
 
 # 3. 使用 RSS 聚合
-# https://github.com/{owner}/{repo}/releases.atom
+# https://docs.github.com/en/rest/releases
 ```
 
 ### 关注指标

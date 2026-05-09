@@ -69,18 +69,18 @@
 
 | 公司 | 核心产品 | 技术路线关键词 | 报告 |
 |------|---------|--------------|------|
-| **Figure AI** | Figure 03 + Helix VLA | 人形通用机器人、VLA 端到端、BotQ 数据飞轮 | [`reports/figure-ai/`](./reports/figure-ai/) |
-| **Physical Intelligence (π)** | π0.7 通用策略 | 跨本体 VLA 基础模型、Flow Matching、可组合泛化 | [`reports/physical-intelligence/`](./reports/physical-intelligence/) |
-| **Tesla** | Optimus 人形机器人 | FSD 技术迁移、端到端神经网络、大规模数据闭环 | [`reports/tesla-optimus/`](./reports/tesla-optimus/) |
-| **Boston Dynamics** | Atlas 电动版 | MPC+RL 混合控制、Hyundai 供应链、工业级可靠性 | [`reports/boston-dynamics/`](./reports/boston-dynamics/) |
-| **1X Technologies** | NEO 家用机器人 | 肌腱驱动、World Model、Redwood VLA、OpenAI 合作 | [`reports/1x-technologies/`](./reports/1x-technologies/) |
-| **Unitree 宇树科技** | H1/G1 人形机器人 | 极致性价比、开源生态、RL+模仿学习 | [`reports/unitree/`](./reports/unitree/) |
-| **Google DeepMind** | Gemini Robotics / RT 系列 | VLA 奠基者、Open X-Embodiment、跨本体泛化 | [`reports/google-deepmind/`](./reports/google-deepmind/) |
-| **Agility Robotics** | Digit 仓库机器人 | 仓储物流专用、传统控制、RaaS 商业模式 | [`reports/agility-robotics/`](./reports/agility-robotics/) |
-| **Apptronik** | Apollo 通用人形 | 模块化硬件、NASA 执行器、Google Gemini 合作 | [`reports/apptronik/`](./reports/apptronik/) |
-| **NVIDIA Isaac** | GR00T / Jetson / Isaac Sim | 具身智能基础设施、仿真平台、卖铲人 | [`reports/nvidia-isaac/`](./reports/nvidia-isaac/) |
-| **Enchanted Tools** | Miroki 服务机器人 | 社交/康养场景、Pepper 团队、轮式服务 | [`reports/enchanted-tools/`](./reports/enchanted-tools/) |
-| **Genesis AI** | GENE-26.5 全栈人形 | Human-Level 宣称、Wuji Tech 硬件合作、新兴公司 | [`reports/genesis-ai/`](./reports/genesis-ai/) ⚠️信息有限 |
+| **Figure AI** | Figure 03 + Helix VLA | 人形通用机器人、VLA 端到端、BotQ 数据飞轮 | [`reports/figure-ai/`](reports/figure-ai/) |
+| **Physical Intelligence (π)** | π0.7 通用策略 | 跨本体 VLA 基础模型、Flow Matching、可组合泛化 | [`reports/physical-intelligence/`](reports/physical-intelligence/) |
+| **Tesla** | Optimus 人形机器人 | FSD 技术迁移、端到端神经网络、大规模数据闭环 | [`reports/tesla-optimus/`](reports/tesla-optimus/) |
+| **Boston Dynamics** | Atlas 电动版 | MPC+RL 混合控制、Hyundai 供应链、工业级可靠性 | [`reports/boston-dynamics/`](reports/boston-dynamics/) |
+| **1X Technologies** | NEO 家用机器人 | 肌腱驱动、World Model、Redwood VLA、OpenAI 合作 | [`reports/1x-technologies/`](reports/1x-technologies/) |
+| **Unitree 宇树科技** | H1/G1 人形机器人 | 极致性价比、开源生态、RL+模仿学习 | [`reports/unitree/`](reports/unitree/) |
+| **Google DeepMind** | Gemini Robotics / RT 系列 | VLA 奠基者、Open X-Embodiment、跨本体泛化 | [`reports/google-deepmind/`](reports/google-deepmind/) |
+| **Agility Robotics** | Digit 仓库机器人 | 仓储物流专用、传统控制、RaaS 商业模式 | [`reports/agility-robotics/`](reports/agility-robotics/) |
+| **Apptronik** | Apollo 通用人形 | 模块化硬件、NASA 执行器、Google Gemini 合作 | [`reports/apptronik/`](reports/apptronik/) |
+| **NVIDIA Isaac** | GR00T / Jetson / Isaac Sim | 具身智能基础设施、仿真平台、卖铲人 | [`reports/nvidia-isaac/`](reports/nvidia-isaac/) |
+| **Enchanted Tools** | Miroki 服务机器人 | 社交/康养场景、Pepper 团队、轮式服务 | [`reports/enchanted-tools/`](reports/enchanted-tools/) |
+| **Genesis AI** | GENE-26.5 全栈人形 | Human-Level 宣称、Wuji Tech 硬件合作、新兴公司 | [`reports/genesis-ai/`](reports/genesis-ai/) ⚠️信息有限 |
 
 > 持续更新中，后续计划覆盖：国内创业公司（智元、傅利叶、星动纪元等）深度跟进。
 
@@ -88,13 +88,13 @@
 
 ## 横向对比概览
 
-![技术演进时间线总览](./assets/embodied-ai-timeline-overview.svg)
+![技术演进时间线总览](assets/embodied-ai-timeline-overview.svg)
 
-![公司能力雷达图](./assets/company-comparison-radar.svg)
+![公司能力雷达图](assets/company-comparison-radar.svg)
 
-![公司能力柱状图](./assets/company-comparison-bars.svg)
+![公司能力柱状图](assets/company-comparison-bars.svg)
 
-![数据策略对比图](./assets/data-strategy-comparison.svg)
+![数据策略对比图](assets/data-strategy-comparison.svg)
 
 > 评分基于公开信息的主观评估，维度包括：AI 成熟度、硬件成熟度、商业化进展、开源开放度、成本效率、数据策略。
 
@@ -152,6 +152,7 @@ Soul2Humanoid/
 | [`papers.md`](./papers.md) | 核心论文索引 — 按时间线整理的具身智能标志性论文，含 arXiv 链接、核心贡献和技术演进脉络 |
 | [`tags.md`](./tags.md) | 技术标签索引 — 按架构范式、数据策略、应用场景等标签检索公司报告 |
 | [`podcasts-videos.md`](./podcasts-videos.md) | 中文播客与视频资源汇总 — 播客、B站、YouTube、会议演讲等中文学习资源 |
+| [`open-source-tracking.md`](./open-source-tracking.md) | 开源项目追踪 — 各公司 GitHub 仓库 Stars、Releases、Commits 最新进展 |
 | [`resources.md`](./resources.md) | 开源资源汇总 — 模型权重、数据集、仿真器、开发框架、硬件平台、评估基准 |
 | [`people.md`](./people.md) | 关键人物追踪 — 各公司核心技术人员、研究负责人及其职业动向和技术观点 |
 | [`funding.md`](./funding.md) | 投资与估值追踪 — 融资历程、估值分析、投资方格局和未来预测 |

@@ -130,6 +130,119 @@
 ### #模块化
 - [`reports/apptronik/`](./reports/apptronik/) — Apollo 上半身可分离 + 末端快换
 
+
+### #MPC
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — MPC 模型预测控制
+
+### #RL
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π* 在线 RL
+- [`reports/unitree/`](./reports/unitree/) — RL 运动控制
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — MPC + RL
+
+### #模仿学习
+- [`reports/unitree/`](./reports/unitree/) — 动作捕捉模仿
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — 遥操作演示
+- [`reports/1x-technologies/`](./reports/1x-technologies/) — Expert Mode 人类演示
+
+### #FlowMatching
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π0 50Hz
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — Flow Matching 30Hz
+
+### #Diffusion
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — Diffusion Transformer
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — BD+TRI Diffusion Transformer
+- [`reports/google-deepmind/`](./reports/google-deepmind/) — Gemini 生成模型
+
+### #Transformer
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — 3B VLM 骨干
+- [`reports/google-deepmind/`](./reports/google-deepmind/) — Gemini Transformer
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — Diffusion Transformer
+
+### #Tokenization
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — FAST: DCT+BPE
+
+### #Sim2Real
+- [`reports/unitree/`](./reports/unitree/) — 仿真到真实迁移
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — 零样本楼梯迁移
+- [`reports/figure-ai/`](./reports/figure-ai/) — System 0 零样本部署
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — 仿真预训练
+
+### #合成数据
+- [`reports/figure-ai/`](./reports/figure-ai/) — BotQ 自主数据生成
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — 合成+真实混合
+
+### #遥操作
+- [`reports/1x-technologies/`](./reports/1x-technologies/) — Expert Mode
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — 遥操作调试
+- [`reports/unitree/`](./reports/unitree/) — 动作捕捉 + 遥操作
+
+### #人类视频迁移
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — 人类视频到机器人迁移
+- [`reports/tesla-optimus/`](./reports/tesla-optimus/) — FSD 视频数据迁移
+
+### #工业制造
+- [`reports/figure-ai/`](./reports/figure-ai/)
+- [`reports/tesla-optimus/`](./reports/tesla-optimus/)
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/)
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/)
+- [`reports/agility-robotics/`](./reports/agility-robotics/)
+- [`reports/apptronik/`](./reports/apptronik/)
+
+### #家用
+- [`reports/1x-technologies/`](./reports/1x-technologies/) — NEO 家用机器人
+- [`reports/enchanted-tools/`](./reports/enchanted-tools/) — Miroki 康养
+- [`reports/genesis-ai/`](./reports/genesis-ai/) — 推测家用场景
+
+### #教育研究
+- [`reports/unitree/`](./reports/unitree/) — G1 EDU 平台
+- [`reports/google-deepmind/`](./reports/google-deepmind/) — 学术研究
+- [`reports/nvidia-isaac/`](./reports/nvidia-isaac/) — Isaac Lab 教学
+
+### #软件安全层
+- [`reports/tesla-optimus/`](./reports/tesla-optimus/) — Guardian Network
+- [`reports/figure-ai/`](./reports/figure-ai/) — 力限制器
+- [`reports/apptronik/`](./reports/apptronik/) — 多层安全监控
+
+### #全身控制
+- [`reports/figure-ai/`](./reports/figure-ai/) — 双臂+躯干+头部+腿部
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — Atlas 全身 pose
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π0 全身关节
+
+### #可组合泛化
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π0.7 多样化提示
+
+### #跨形态泛化
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π0 跨8种机器人
+- [`reports/google-deepmind/`](./reports/google-deepmind/) — Open X-Embodiment
+
+### #闭源
+- [`reports/tesla-optimus/`](./reports/tesla-optimus/)
+- [`reports/figure-ai/`](./reports/figure-ai/)
+- [`reports/1x-technologies/`](./reports/1x-technologies/)
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/)
+- [`reports/agility-robotics/`](./reports/agility-robotics/)
+- [`reports/enchanted-tools/`](./reports/enchanted-tools/)
+
+### #部分开源
+- [`reports/google-deepmind/`](./reports/google-deepmind/) — 数据集+工具
+- [`reports/unitree/`](./reports/unitree/) — SDK + 驱动
+
+### #语言条件化
+- [`reports/figure-ai/`](./reports/figure-ai/) — Helix 自然语言指令
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π0 自然语言
+- [`reports/1x-technologies/`](./reports/1x-technologies/) — Redwood VLA
+- [`reports/google-deepmind/`](./reports/google-deepmind/) — Gemini 原生支持
+- [`reports/apptronik/`](./reports/apptronik/) — Gemini 对话
+- [`reports/nvidia-isaac/`](./reports/nvidia-isaac/) — GR00T 语言条件化
+
+### #肌腱驱动
+- [`reports/1x-technologies/`](./reports/1x-technologies/) — 肌腱驱动 95% 反向可驱动性
+
+### #轻量化
+- [`reports/unitree/`](./reports/unitree/) — H1 47kg, G1 35kg
+
+### #高扭矩密度
+- [`reports/unitree/`](./reports/unitree/) — 189 N.m/Kg
 ---
 
 ## 多标签交叉检索示例

@@ -62,16 +62,16 @@ ax2.set_ylim(0, 10)
 ax2.axis('off')
 
 examples = [
-    ('Tesla / Figure AI (部署驱动型)', 2.5, 8.5,
+    ('Tesla / Figure AI (Deployment-Driven)', 2.5, 8.5,
      ['Deploy in Factory', 'Collect Real Data', 'Retrain Model', 'Deploy Better Robot'],
      ['#58A6FF', '#3FB950', '#D29922', '#58A6FF']),
-    ('Physical Intelligence (学习驱动型)', 7.5, 8.5,
+    ('Physical Intelligence (Learning-Driven)', 7.5, 8.5,
      ['Online RL', 'Policy Improvement', 'Deploy', 'More Experience'],
      ['#A371F7', '#F778BA', '#58A6FF', '#A371F7']),
-    ('NVIDIA Isaac (仿真驱动型)', 2.5, 3.5,
+    ('NVIDIA Isaac (Simulation-Driven)', 2.5, 3.5,
      ['Omniverse Sim', 'Generate Synthetic Data', 'Train in Isaac Lab', 'Deploy on Jetson'],
      ['#3FB950', '#58A6FF', '#D29922', '#F778BA']),
-    ('Agility / Enchanted (传统控制型)', 7.5, 3.5,
+    ('Agility / Enchanted (Traditional-Control)', 7.5, 3.5,
      ['Engineer Programs', 'Deploy', 'Monitor Faults', 'Manual Fix'],
      ['#8B949E', '#58A6FF', '#D29922', '#8B949E']),
 ]

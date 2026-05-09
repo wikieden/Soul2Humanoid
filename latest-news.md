@@ -5,6 +5,21 @@
 
 ---
 
+## 快速导航
+
+| 公司 | 核心动态 | 位置 |
+|------|---------|------|
+| **Figure AI** | 24x 制造提速、System 0、Never Fall、$400-600/月租赁 | [↓](#figure-ai--制造跃迁--ai-突破) |
+| **1X Technologies** | NEO Factory 58K sqft、垂直整合、100K/年目标 | [↓](#1x-technologies--垂直整合工厂曝光) |
+| **Unitree** | 双臂 R1 $4,290、$5.8亿 IPO | [↓](#unitree-宇树--双臂平台--ipo) |
+| **Boston Dynamics** | C-Suite 大出走、Hyundai 30K/年压力 | [↓](#boston-dynamics--高管出走--量产压力) |
+| **Apptronik** | $9.35 亿融资、Waymo/BD/Amazon Dream Team | [↓](#apptronik--935-亿融资--梦之队) |
+| **Agility** | Peggy Johnson 新任 CEO | [↓](#agility-robotics--新-ceo-愿景) |
+| **Meta** | 收购 Assured Robot Intelligence | [↓](#meta--收购入场) |
+| **Genesis AI** | GENE-26.5 Human-Level 宣称 | [↓](#genesis-ai--新玩家) |
+
+---
+
 ## Figure AI — 制造跃迁 + AI 突破
 
 **2026.04.29** — BotQ 产线 120 天内制造吞吐量提升 **24 倍**：从 1 台/天 → 1 台/小时
