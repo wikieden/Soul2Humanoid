@@ -44,6 +44,11 @@ extra:
   social:
   - icon: fontawesome/brands/github
     link: https://github.com/wikieden/Soul2Humanoid
+  generator: false
+copyright: >
+  &copy; 2024–2026 Soul2Humanoid ·
+  <a href="https://github.com/wikieden/Soul2Humanoid">GitHub</a> ·
+  <a href="https://wikieden.github.io/Soul2Humanoid/feed.xml">RSS 订阅</a>
 extra_css:
 - stylesheets/extra.css
 plugins:
@@ -54,6 +59,14 @@ plugins:
     minify_css: true
     html_minify:
       remove_comments: true
+- rss:
+    feed_size: 25
+    feed_ttl: 60
+    pretty_print: false
+    collections:
+      - index
+      - latest-news
+      - papers
 markdown_extensions:
 - admonition
 - attr_list

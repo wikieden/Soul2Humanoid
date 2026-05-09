@@ -18,12 +18,67 @@ MD_FILES = [
 def ensure_dir(path):
     os.makedirs(path, exist_ok=True)
 
+def sync_readme_to_docs(src, dst):
+    """Sync README.md to docs/index.md with SEO enhancement for docs site."""
+    with open(src, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Strip GitHub-only badges (Star/Contact) from docs version
+    content = content.replace(
+        '[![Star](https://img.shields.io/github/stars/wikieden/Soul2Humanoid?style=social)](https://github.com/wikieden/Soul2Humanoid)\n',
+        ''
+    )
+    content = content.replace(
+        '[![Contact](https://img.shields.io/badge/email-wikieden@gmail.com-red)](mailto:wikieden@gmail.com)\n',
+        ''
+    )
+
+    # Fix paths
+    content = content.replace('](../../assets/', '../assets/')
+    content = content.replace('](./assets/', '](assets/')
+    content = content.replace('](./reports/', '](reports/')
+    content = content.replace('](../reports/', '](../reports/')
+
+    # Inject docs-specific SEO meta (preserve README SEO + add docs overlay)
+    docs_seo_meta = '''
+<!-- SEO meta injected by sync_docs.py -->
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Soul2Humanoid — 具身大脑技术方案调研">
+<meta property="og:description" content="系统性调研全球主流机器人公司（Figure AI、Physical Intelligence、Tesla Optimus、Boston Dynamics、Unitree、1X 等）的具身智能技术路线，聚焦 VLA 端到端、Flow Matching、数据飞轮等核心算法架构。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wikieden.github.io/Soul2Humanoid/">
+<meta property="og:image" content="https://wikieden.github.io/Soul2Humanoid/assets/og-image.png">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="Soul2Humanoid">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Soul2Humanoid — 具身大脑技术方案调研">
+<meta name="twitter:description" content="系统性调研全球主流机器人公司的具身智能技术路线，聚焦 VLA、Flow Matching、数据飞轮等核心算法架构。">
+<meta name="twitter:image" content="https://wikieden.github.io/Soul2Humanoid/assets/og-image.png">
+
+'''
+    # Insert SEO meta right after the first H1
+    lines = content.split('\n')
+    new_lines = []
+    for i, line in enumerate(lines):
+        new_lines.append(line)
+        if line.startswith('# ') and i == 0:
+            new_lines.append(docs_seo_meta)
+    content = '\n'.join(new_lines)
+
+    with open(dst, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+
 def copy_and_fix_paths(src, dst):
     """Copy markdown file and fix relative image paths for docs/ context."""
     with open(src, 'r', encoding='utf-8') as f:
         content = f.read()
     # Fix paths that reference parent dirs from docs/
-    content = content.replace('](../../assets/', '](../assets/')
+    content = content.replace('](../../assets/', '../assets/')
     content = content.replace('](./assets/', '](assets/')
     content = content.replace('](./reports/', '](reports/')
     content = content.replace('](../reports/', '](../reports/')
@@ -43,7 +98,10 @@ def sync():
             continue
         dst_name = 'index.md' if fname == 'README.md' else fname
         dst = os.path.join(DOCS, dst_name)
-        copy_and_fix_paths(src, dst)
+        if fname == 'README.md':
+            sync_readme_to_docs(src, dst)
+        else:
+            copy_and_fix_paths(src, dst)
         print(f"  sync: {fname} -> docs/{dst_name}")
 
     # 2. Company reports

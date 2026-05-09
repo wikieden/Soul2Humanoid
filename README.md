@@ -1,3 +1,23 @@
+<!-- SEO -->
+<meta name="keywords" content="人形机器人,具身智能,Embodied AI,VLA,Flow Matching,Figure AI,Physical Intelligence,Tesla Optimus,Boston Dynamics,Unitree,数据飞轮,Sim2Real,机器人算法,人形机器人公司">
+<meta name="author" content="wikieden">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Soul2Humanoid — 具身大脑技术方案调研">
+<meta property="og:description" content="系统性调研全球主流机器人公司（Figure AI、Physical Intelligence、Tesla Optimus、Boston Dynamics、Unitree、1X 等）的具身智能技术路线，聚焦 VLA 端到端、Flow Matching、数据飞轮等核心算法架构。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wikieden.github.io/Soul2Humanoid/">
+<meta property="og:image" content="https://wikieden.github.io/Soul2Humanoid/assets/og-image.png">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="Soul2Humanoid">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Soul2Humanoid — 具身大脑技术方案调研">
+<meta name="twitter:description" content="系统性调研全球主流机器人公司的具身智能技术路线，聚焦 VLA、Flow Matching、数据飞轮等核心算法架构。">
+<meta name="twitter:image" content="https://wikieden.github.io/Soul2Humanoid/assets/og-image.png">
+
 # Soul2Humanoid — 具身大脑技术方案调研
 
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
