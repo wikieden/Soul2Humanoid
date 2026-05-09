@@ -188,7 +188,7 @@
 | **[OpenVLA](https://github.com/openvla/openvla)** | Stanford/Berkeley | 开源 VLA 模型 | ~3.5K ⭐ | 2026-03 |
 | **[Octo](https://github.com/octo-models/octo)** | Berkeley/Stanford | 通用机器人策略 | ~2.5K ⭐ | 2025-06 |
 | **[LeRobot](https://github.com/huggingface/lerobot)** | Hugging Face | 机器人学习框架 | ~6.5K ⭐ | 2026-04 |
-| **[Genesis](https://github.com/Genesis-Embodied-AI/Genesis)** | Genesis Embodied AI | 统一物理仿真平台 | ~12K ⭐ | 2026-04 |
+| **[Genesis](https://github.com/Genesis-Embodied-AI/Genesis)** | Genesis Embodied AI | 统一物理仿真平台（⚠️与 Genesis AI 公司无关） | ~12K ⭐ | 2026-04 |
 | **[SimplerEnv](https://github.com/simpler-env/SimplerEnv)** | 社区 | 简化仿真评估环境 | ~800 ⭐ | 2025-10 |
 | **[CALVIN](https://github.com/mees/calvin)** | 社区 | 长程机器人操作基准 | ~1K ⭐ | 2025-04 |
 | **[LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)** | 社区 | 终身机器人学习基准 | ~600 ⭐ | 2025-02 |

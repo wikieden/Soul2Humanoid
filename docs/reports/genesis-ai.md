@@ -6,6 +6,21 @@
 
 ---
 
+## ⚠️ 命名澄清
+
+**Genesis AI（www.genesis.ai）** 与 **Genesis Embodied AI（GitHub: Genesis-Embodied-AI）** 是**完全无关的两个实体**：
+
+| | Genesis AI | Genesis Embodied AI |
+|------|-----------|---------------------|
+| **官网** | www.genesis.ai | genesis-world.github.io |
+| **GitHub** | 无已知仓库 | [Genesis-Embodied-AI/Genesis](https://github.com/Genesis-Embodied-AI/Genesis) |
+| **定位** | 人形机器人全栈方案（GENE-26.5） | 开源物理仿真器 |
+| **开源** | 无 | ✅ 完全开源 |
+
+> 注意区分：本报告调研的是 **Genesis AI（人形机器人公司）**，而非开源仿真器 Genesis。
+
+---
+
 ## 一、公司概况
 
 | 维度 | 信息 |
