@@ -136,7 +136,7 @@
 2. **高管离职潮**：BD 的 C-Suite 出走、人才流向 Figure/1X/DeepMind，反映行业从研究向商业转型的阵痛
 3. **垂直整合成为共识**：1X 全自产电机+肌腱+手，Figure 自产执行器，供应链自主可控
 4. **家用市场提前布局**：Figure 租赁模型 $400-600/月，1X 内部家庭测试，Apptronik 三阶段路线
-5. **新玩家入场**：Meta 收购 Assured Robotics，宇树双臂平台 $4,290 拓展开发者生态
+5. **新玩家入场**：Meta 收购 Assured Robotics，宇树双臂平台 $4,290 拓展开发者生态；**Genesis AI** 发布 GENE-26.5 宣称 Human-Level（⚠️待验证）
 6. **安全/可靠性成为核心指标**：Figure "Never Fall"、80 项出厂测试、OTA 更新+Fleet 管理
 
 ---

@@ -42,7 +42,7 @@
 | 标签 | 说明 | 覆盖公司 |
 |------|------|---------|
 | `#工业制造` | 工厂、仓储、物流场景 | Figure AI, Tesla, Boston Dynamics, PI, Agility Robotics, Apptronik |
-| `#家用` | 家庭服务、个人助理场景 | 1X Technologies, Enchanted Tools |
+| `#家用` | 家庭服务、个人助理场景 | 1X Technologies, Enchanted Tools, Genesis AI（推测） |
 | `#教育研究` | 面向高校、研究机构的开发平台 | Unitree, DeepMind, NVIDIA Isaac |
 
 ### 按硬件特性
@@ -145,3 +145,4 @@
 | "模块化硬件、Google AI 加持" | `#VLA` + `#模块化` + `#工业制造` | Apptronik |
 | "仿真平台、基础设施" | `#平台/基础设施` + `#Sim2Real` + `#合成数据` | NVIDIA Isaac |
 | "服务康养、小巧亲和" | `#家用` + `#物理本质安全` | Enchanted Tools |
+| "Human-Level 宣称、全栈方案" | `#VLA` + `#灵巧手` | Genesis AI |

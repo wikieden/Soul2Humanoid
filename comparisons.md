@@ -154,6 +154,7 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **模块化硬件平台** | Apptronik Apollo | NASA 级执行器、上半身可分离、Google AI 加持 |
 | **基础设施全栈** | NVIDIA Isaac | 仿真+训练+芯片+部署，行业卖铲人 |
 | **服务/康养场景** | Enchanted Tools Miroki | 小巧亲和、轮式可靠、Pepper 团队经验 |
+| **Human-Level 宣称** | Genesis AI GENE-26.5 | 全栈方案、Wuji Hand 合作、待验证 |
 
 ---
 

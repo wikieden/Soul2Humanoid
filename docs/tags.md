@@ -42,7 +42,7 @@
 | 标签 | 说明 | 覆盖公司 |
 |------|------|---------|
 | `#工业制造` | 工厂、仓储、物流场景 | Figure AI, Tesla, Boston Dynamics, PI, Agility Robotics, Apptronik |
-| `#家用` | 家庭服务、个人助理场景 | 1X Technologies, Enchanted Tools |
+| `#家用` | 家庭服务、个人助理场景 | 1X Technologies, Enchanted Tools, Genesis AI（推测） |
 | `#教育研究` | 面向高校、研究机构的开发平台 | Unitree, DeepMind, NVIDIA Isaac |
 
 ### 按硬件特性
@@ -85,50 +85,50 @@
 ## 按标签检索报告
 
 ### #端到端
-- [`reports/figure-ai/`](reports/figure-ai/) — Helix VLA
-- [`reports/tesla-optimus/`](reports/tesla-optimus/) — FSD 神经网络
-- [`reports/1x-technologies/`](reports/1x-technologies/) — Redwood VLA
-- [`reports/physical-intelligence/`](reports/physical-intelligence/) — π0/π0.7
+- [`reports/figure-ai/`](./reports/figure-ai/) — Helix VLA
+- [`reports/tesla-optimus/`](./reports/tesla-optimus/) — FSD 神经网络
+- [`reports/1x-technologies/`](./reports/1x-technologies/) — Redwood VLA
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π0/π0.7
 
 ### #VLA
-- [`reports/figure-ai/`](reports/figure-ai/)
-- [`reports/physical-intelligence/`](reports/physical-intelligence/)
-- [`reports/1x-technologies/`](reports/1x-technologies/)
-- [`reports/google-deepmind/`](reports/google-deepmind/)
-- [`reports/apptronik/`](reports/apptronik/) — Gemini VLA 合作
-- [`reports/nvidia-isaac/`](reports/nvidia-isaac/) — GR00T VLA 参考设计
+- [`reports/figure-ai/`](./reports/figure-ai/)
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/)
+- [`reports/1x-technologies/`](./reports/1x-technologies/)
+- [`reports/google-deepmind/`](./reports/google-deepmind/)
+- [`reports/apptronik/`](./reports/apptronik/) — Gemini VLA 合作
+- [`reports/nvidia-isaac/`](./reports/nvidia-isaac/) — GR00T VLA 参考设计
 
 ### #数据飞轮
-- [`reports/tesla-optimus/`](reports/tesla-optimus/)
-- [`reports/figure-ai/`](reports/figure-ai/) — BotQ
-- [`reports/physical-intelligence/`](reports/physical-intelligence/) — π* 在线 RL
+- [`reports/tesla-optimus/`](./reports/tesla-optimus/)
+- [`reports/figure-ai/`](./reports/figure-ai/) — BotQ
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π* 在线 RL
 
 ### #跨本体
-- [`reports/physical-intelligence/`](reports/physical-intelligence/)
-- [`reports/google-deepmind/`](reports/google-deepmind/) — Open X-Embodiment
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/)
+- [`reports/google-deepmind/`](./reports/google-deepmind/) — Open X-Embodiment
 
 ### #低成本
-- [`reports/unitree/`](reports/unitree/) — G1 $13.5K
+- [`reports/unitree/`](./reports/unitree/) — G1 $13.5K
 
 ### #物理本质安全
-- [`reports/1x-technologies/`](reports/1x-technologies/) — 肌腱驱动 95% 反向可驱动性
+- [`reports/1x-technologies/`](./reports/1x-technologies/) — 肌腱驱动 95% 反向可驱动性
 
 ### #完全开源
-- [`reports/physical-intelligence/`](reports/physical-intelligence/) — π0/FAST 权重+代码
-- [`reports/google-deepmind/`](reports/google-deepmind/) — Open X-Embodiment 数据集
+- [`reports/physical-intelligence/`](./reports/physical-intelligence/) — π0/FAST 权重+代码
+- [`reports/google-deepmind/`](./reports/google-deepmind/) — Open X-Embodiment 数据集
 
 ### #世界模型
-- [`reports/1x-technologies/`](reports/1x-technologies/)
+- [`reports/1x-technologies/`](./reports/1x-technologies/)
 
 ### #分层混合
-- [`reports/boston-dynamics/`](reports/boston-dynamics/) — MPC + RL + VLA
-- [`reports/agility-robotics/`](reports/agility-robotics/) — 传统控制 + 有限学习
+- [`reports/boston-dynamics/`](./reports/boston-dynamics/) — MPC + RL + VLA
+- [`reports/agility-robotics/`](./reports/agility-robotics/) — 传统控制 + 有限学习
 
 ### #平台/基础设施
-- [`reports/nvidia-isaac/`](reports/nvidia-isaac/) — Isaac Sim + Isaac Lab + GR00T
+- [`reports/nvidia-isaac/`](./reports/nvidia-isaac/) — Isaac Sim + Isaac Lab + GR00T
 
 ### #模块化
-- [`reports/apptronik/`](reports/apptronik/) — Apollo 上半身可分离 + 末端快换
+- [`reports/apptronik/`](./reports/apptronik/) — Apollo 上半身可分离 + 末端快换
 
 ---
 
@@ -145,3 +145,4 @@
 | "模块化硬件、Google AI 加持" | `#VLA` + `#模块化` + `#工业制造` | Apptronik |
 | "仿真平台、基础设施" | `#平台/基础设施` + `#Sim2Real` + `#合成数据` | NVIDIA Isaac |
 | "服务康养、小巧亲和" | `#家用` + `#物理本质安全` | Enchanted Tools |
+| "Human-Level 宣称、全栈方案" | `#VLA` + `#灵巧手` | Genesis AI |

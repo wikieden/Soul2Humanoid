@@ -83,7 +83,8 @@ nav:
   - Agility Robotics: reports/agility-robotics.md
   - Apptronik: reports/apptronik.md
   - NVIDIA Isaac: reports/nvidia-isaac.md
-  - Enchanted Tools: reports/enchanted-tools.md
+    - Enchanted Tools: reports/enchanted-tools.md
+    - Genesis AI: reports/genesis-ai.md
 - 横向分析:
   - 对比分析: comparisons.md
   - 最新动态: latest-news.md

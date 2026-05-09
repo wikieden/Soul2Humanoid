@@ -80,6 +80,7 @@
 | **Apptronik** | Apollo 通用人形 | 模块化硬件、NASA 执行器、Google Gemini 合作 | [`reports/apptronik/`](./reports/apptronik/) |
 | **NVIDIA Isaac** | GR00T / Jetson / Isaac Sim | 具身智能基础设施、仿真平台、卖铲人 | [`reports/nvidia-isaac/`](./reports/nvidia-isaac/) |
 | **Enchanted Tools** | Miroki 服务机器人 | 社交/康养场景、Pepper 团队、轮式服务 | [`reports/enchanted-tools/`](./reports/enchanted-tools/) |
+| **Genesis AI** | GENE-26.5 全栈人形 | Human-Level 宣称、Wuji Tech 硬件合作、新兴公司 | [`reports/genesis-ai/`](./reports/genesis-ai/) ⚠️信息有限 |
 
 > 持续更新中，后续计划覆盖：国内创业公司（智元、傅利叶、星动纪元等）深度跟进。
 
@@ -117,7 +118,8 @@ Soul2Humanoid/
 │   ├── agility-robotics/              # Agility Robotics Digit 调研
 │   ├── apptronik/                     # Apptronik Apollo 调研
 │   ├── nvidia-isaac/                  # NVIDIA Isaac / GR00T 调研
-│   └── enchanted-tools/               # Enchanted Tools Miroki 调研
+│   ├── enchanted-tools/               # Enchanted Tools Miroki 调研
+│   └── genesis-ai/                    # Genesis AI GENE-26.5 调研（信息有限）
 │
 ├── assets/                            # 图表与可视化资源
 │   ├── figure-ai/                     # Figure AI 相关图表（SVG + PNG）
