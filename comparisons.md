@@ -6,13 +6,13 @@
 
 ## 一、VLA 架构对比
 
-| 维度 | Figure AI (Helix) | Physical Intelligence (π0) | Tesla (Optimus) | Boston Dynamics (Atlas) | 1X Technologies (Redwood) | Google DeepMind (Gemini) | Agility (Digit) | Apptronik (Apollo) | NVIDIA (GR00T) | Enchanted (Miroki) |
-|------|-------------------|---------------------------|-----------------|------------------------|---------------------------|--------------------------|----------------|-------------------|----------------|-------------------|
-| **架构类型** | 端到端 VLA | 端到端 VLA | 端到端神经网络 | 分层混合 (MPC+RL+VLA) | 端到端 VLA + World Model | 双模型 (VLA + ER) | 传统分层控制 | 硬件平台+Gemini VLA | Transformer VLA 参考设计 | 社交AI+传统控制 |
-| **基础模型** | 自研 VLA | 3B VLM + Flow Matching | FSD 神经网络移植 | Diffusion Transformer (4.5亿) | Redwood VLA + 内置 LLM | Gemini 多模态大模型 | LIPM+ZMP+MPC | Gemini (合作伙伴) | GR00T Transformer | 第三方 LLM |
-| **动作生成** | 双系统 (快/慢) | Flow Matching 50Hz | 端到端直接输出 | Flow Matching 30Hz | VLA 联合移动+操作 | VLA 输出动作 token | 预定义步态库 | Gemini 输出 | VLA 动作 token | 预定义轨迹 |
-| **跨本体** | 否 | ✅ 是（8种） | 否 | 否 | 否 | ✅ 是（多种） | 否 | 部分（Gemini跨本体） | ✅ 是（参考设计） | 否 |
-| **语言条件化** | ✅ | ✅ | Grok | ✅ | ✅ 内置LLM | ✅ Gemini | ❌ | ✅ (Gemini) | ✅ | ✅ (第三方LLM) |
+| 维度 | Figure AI (Helix) | Physical Intelligence (π0) | Tesla (Optimus) | Boston Dynamics (Atlas) | 1X Technologies (Redwood) | Google DeepMind (Gemini) | Agility (Digit) | Apptronik (Apollo) | NVIDIA (GR00T) | Enchanted (Miroki) | Genesis AI |
+|------|-------------------|---------------------------|-----------------|------------------------|---------------------------|--------------------------|----------------|-------------------|------------------|-------------------|-----------|
+| **架构类型** | 端到端 VLA | 端到端 VLA | 端到端神经网络 | 分层混合 (MPC+RL+VLA) | 端到端 VLA + World Model | 双模型 (VLA + ER) | 传统分层控制 | 硬件平台+Gemini VLA | Transformer VLA 参考设计 | 社交AI+传统控制 | 宣称全栈 VLA |
+| **基础模型** | 自研 VLA | 3B VLM + Flow Matching | FSD 神经网络移植 | Diffusion Transformer (4.5亿) | Redwood VLA + 内置 LLM | Gemini 多模态大模型 | LIPM+ZMP+MPC | Gemini (合作伙伴) | GR00T Transformer | 第三方 LLM | 未公开 |
+| **动作生成** | 双系统 (快/慢) | Flow Matching 50Hz | 端到端直接输出 | Flow Matching 30Hz | VLA 联合移动+操作 | VLA 输出动作 token | 预定义步态库 | Gemini 输出 | VLA 动作 token | 预定义轨迹 | 未公开 |
+| **跨本体** | 否 | ✅ 是（8种） | 否 | 否 | 否 | ✅ 是（多种） | 否 | 部分（Gemini跨本体） | ✅ 是（参考设计） | 否 | 未验证 |
+| **语言条件化** | ✅ | ✅ | Grok | ✅ | ✅ 内置LLM | ✅ Gemini | ❌ | ✅ (Gemini) | ✅ | ✅ (第三方LLM) | 未公开 |
 
 ### 关键洞察
 
@@ -46,6 +46,7 @@
 | **Apptronik** | 仿真 + VR 遥操作 + Google 合作数据 | 中等规模 | **借力 Google**：借助 DeepMind 的跨本体数据集 | ⚠️ 中（依赖合作伙伴） |
 | **NVIDIA Isaac** | Omniverse 合成数据 + 生态数据 | 无限（合成）+ 生态反馈 | **合成数据工厂**：Replicator 程序化生成无限标注数据 | ✅ 强（平台级飞轮） |
 | **Enchanted Tools** | 试点现场 + 遥操作 + 第三方 LLM | 小规模 | **场景数据有限**：导航和对话数据积累中 | ⚠️ 弱（技术壁垒不在数据） |
+| **Genesis AI** | 未公开 | 未知 | **未公开数据策略** | ❓ 完全未知 |
 
 ### 数据策略评价
 
@@ -78,6 +79,9 @@ Physical Intelligence:  从零构建 VLA ──→ π0 ──→ π0.7
                     
 Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ──→ UniFolm 大模型
                     (2016)      (2023)      (2024)      (2025+)
+
+Genesis AI:         未公开 ──→ GENE-26.5 全栈方案
+                    (? )        (2026)
 ```
 
 ---
@@ -95,6 +99,7 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **Apptronik** | 软件+硬件 | 多层安全监控、硬件急停、碰撞检测 | NASA 级可靠性标准 |
 | **NVIDIA Isaac** | 平台层 | 提供安全仿真验证、数字孪生测试 | 在虚拟环境中预验证安全策略 |
 | **Enchanted Tools** | 物理本质+软件 | 轻量小型化、软体材料、静音轮式 | 小巧体型本身降低伤害可能 |
+| **Genesis AI** | 未公开 | 未公开 | 未公开 |
 
 **1X 的物理本质安全是最独特的安全哲学**：不是用软件检测危险再响应，而是让机器人本身在物理上就无法产生危险（高反向可驱动性意味着遇到阻力自然"让开"）。
 
@@ -104,17 +109,17 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 
 ## 五、硬件设计哲学对比
 
-| 维度 | Figure AI | Tesla | Boston Dynamics | 1X Technologies | Unitree | Agility | Apptronik | Enchanted |
-|------|-----------|-------|-----------------|-----------------|---------|---------|-----------|-----------|
-| **设计出发点** | AI-First | 制造-First | 可靠性-First | 安全-First | 成本-First | 场景-First | 模块化-First | 亲和-First |
-| **执行器类型** | 电动 | 电动 | 电动 | **肌腱驱动** | 电动 | 电动 | 线性+旋转混合 | 电动（小型） |
-| **重量** | 61 kg | 未公开 | 90 kg | 30 kg | 35-47 kg | 65 kg | 73 kg | 30-40 kg |
-| **自由度** | 未公开 | 50 | 56 | 未公开 | 23-43 | 16 | 30+ | 6-8（手臂） |
-| **移动方式** | 双足 | 双足 | 双足 | 双足 | 双足 | 双足 | 双足 | **轮式** |
-| **感知系统** | 高帧率多相机 | 8 个 Autopilot 相机 | HDR 立体相机 | 双 8.85MP 鱼眼 | 3D LiDAR | RealSense 深度相机 | 立体相机 | 深度相机 |
-| **充电方式** | 2kW 无线充电 | 未公开 | 自主换电 <3min | 自主插电 | 可更换电池 | 热插拔电池 | 热插拔电池包 | 6-8h 续航 |
-| **防护等级** | 未公开 | 未公开 | IP67 | IP68/IP44 | 未公开 | 未公开 | 未公开 | 未公开 |
-| **供应链策略** | 全新搭建 | Tesla 超级工厂 | Hyundai 汽车级 | 未公开 | 中国制造自研 | 中等规模 | NASA 级高可靠 | 欧洲本地 |
+| 维度 | Figure AI | Tesla | Boston Dynamics | 1X Technologies | Unitree | Agility | Apptronik | Enchanted | Genesis AI |
+|------|-----------|-------|-----------------|-----------------|---------|---------|-----------|-----------|------------|
+| **设计出发点** | AI-First | 制造-First | 可靠性-First | 安全-First | 成本-First | 场景-First | 模块化-First | 亲和-First | Human-Level（宣称） |
+| **执行器类型** | 电动 | 电动 | 电动 | **肌腱驱动** | 电动 | 电动 | 线性+旋转混合 | 电动（小型） | Wuji Hand 1.0（合作） |
+| **重量** | 61 kg | 未公开 | 90 kg | 30 kg | 35-47 kg | 65 kg | 73 kg | 30-40 kg | 未公开 |
+| **自由度** | 未公开 | 50 | 56 | 未公开 | 23-43 | 16 | 30+ | 6-8（手臂） | 未公开 |
+| **移动方式** | 双足 | 双足 | 双足 | 双足 | 双足 | 双足 | 双足 | **轮式** | 未公开 |
+| **感知系统** | 高帧率多相机 | 8 个 Autopilot 相机 | HDR 立体相机 | 双 8.85MP 鱼眼 | 3D LiDAR | RealSense 深度相机 | 立体相机 | 深度相机 | 未公开 |
+| **充电方式** | 2kW 无线充电 | 未公开 | 自主换电 <3min | 自主插电 | 可更换电池 | 热插拔电池 | 热插拔电池包 | 6-8h 续航 | 未公开 |
+| **防护等级** | 未公开 | 未公开 | IP67 | IP68/IP44 | 未公开 | 未公开 | 未公开 | 未公开 | 未公开 |
+| **供应链策略** | 全新搭建 | Tesla 超级工厂 | Hyundai 汽车级 | 未公开 | 中国制造自研 | 中等规模 | NASA 级高可靠 | 欧洲本地 | Wuji Tech 合作 |
 
 ---
 
@@ -132,8 +137,9 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **Apptronik** | 早期合作 | Jabil 制造试点 | 未公开 | 硬件销售 + 服务 |
 | **NVIDIA Isaac** | 平台成熟 | 几乎所有机器人公司 | Jetson 硬件 + Omniverse 订阅 | 硬件 + 软件授权 |
 | **Enchanted Tools** | 概念验证 | 医院/养老院试点 | 未公开 | 设备销售/租赁 |
+| **Genesis AI** | 概念/原型 | 无 | 未公开 | 未公开 |
 
-**商业化成熟度排序**：NVIDIA Isaac (平台已成熟) > Unitree (已量产) > Boston Dynamics (产品版发布) > Agility Robotics (试点中) > Figure AI (小批量试点) > Tesla (内部测试) > Apptronik (早期合作) > PI (技术授权) > 1X (预售) > Enchanted Tools (概念验证)
+**商业化成熟度排序**：NVIDIA Isaac (平台已成熟) > Unitree (已量产) > Boston Dynamics (产品版发布) > Agility Robotics (试点中) > Figure AI (小批量试点) > Tesla (内部测试) > Apptronik (早期合作) > PI (技术授权) > 1X (预售) > Enchanted Tools (概念验证) > Genesis AI (概念/原型)
 
 ---
 
@@ -173,6 +179,7 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **Apptronik** | Google Gemini 集成 Apollo 后的实际能力表现；关节模组独立销售进展 |
 | **NVIDIA Isaac** | GR00T 基础模型的实际效果；Jetson Thor 的量产和客户采用率 |
 | **Enchanted Tools** | 医院/养老院试点的用户满意度、任务完成率、故障率 |
+| **Genesis AI** | 独立第三方验证（非公司控制场景）；团队背景公开；融资与估值确认 |
 
 ---
 
@@ -190,3 +197,4 @@ Unitree:            传统控制 ──→ RL 运动 ──→ 模仿学习 ─�
 | **Apptronik** | Google Gemini 的 VLA 能力可以快速集成到硬件上 | 若 Google 合作生变，AI 能力需从零重建 |
 | **NVIDIA Isaac** | 机器人行业将持续依赖 NVIDIA 的 GPU+仿真生态 | 开源仿真器（Genesis）或自研芯片可能削弱垄断 |
 | **Enchanted Tools** | 医疗/康养场景愿意为服务机器人付费 | Pepper 的前车之鉴：社交机器人可能再次遭遇商业化困境 |
+| **Genesis AI** | 宣称的 Human-Level 能力真实可达 | 可能是过度营销，缺乏可验证的技术基础 |

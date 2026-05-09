@@ -81,6 +81,7 @@ Soul2Humanoid/
 - [ ] 图表已放入 `assets/{company}/`（如有）
 - [ ] README.md 公司表格已更新
 - [ ] README.md 目录结构已更新
+- [ ] README.md 更新更新日志，把最近更新放前面
 - [ ] comparisons.md 相关对比表已更新
 - [ ] papers.md 如有相关论文已补充
 - [ ] people.md 如有关键人物已补充
