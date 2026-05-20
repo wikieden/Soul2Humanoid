@@ -75,7 +75,7 @@ Agility Robotics 的 AI 架构是**偏传统的分层控制方案**，与 Physic
 └─────────────────────────────────────┘
 ```
 
-![agility-robotics 架构图](../assets/agility-digit-architecture.svg)
+![agility-robotics 架构图../assets/agility-digit-architecture.svg)
 
 ### 行走控制：基于模型的方法
 

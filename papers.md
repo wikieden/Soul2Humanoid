@@ -100,6 +100,97 @@
 
 ---
 
+### Hi Robot: Hierarchical Interactive Robot (2025.02)
+
+| 属性 | 内容 |
+|------|------|
+| **标题** | Teaching Robots to Listen and Think Harder |
+| **作者** | Physical Intelligence |
+| **arXiv** | [2502.19417](https://arxiv.org/abs/2502.19417) |
+| **核心贡献** | **System 1/2 分层推理架构**，VLA 作为直觉"System 1"，VLM 作为 deliberative"System 2"进行任务分解和人机交互 |
+| **技术细节** | 高层 VLM 将复杂任务分解为子步骤，"whisper"给 π0 执行；支持实时人类反馈和上下文纠正 |
+| **影响** | 为 VLA 模型引入类人推理能力，支持复杂长程任务和人机协作 |
+
+---
+
+### Knowledge Insulation (2025.05)
+
+| 属性 | 内容 |
+|------|------|
+| **标题** | VLAs that Train Fast, Run Fast, and Generalize Better |
+| **作者** | Physical Intelligence |
+| **发布** | 技术博客 + 论文 |
+| **核心贡献** | 解决 VLA 微调时的**知识遗忘**问题，在加速训练的同时保留互联网规模预训练知识 |
+| **技术细节** | 通过架构隔离 VLM 推理层和动作生成层，避免机器人数据微调破坏预训练语义理解 |
+| **影响** | 使 π0.5 能在保持开放世界泛化的同时快速适应新任务 |
+
+---
+
+### Real-Time Action Chunking (2025.06)
+
+| 属性 | 内容 |
+|------|------|
+| **标题** | Real-Time Action Chunking with Large Models |
+| **作者** | Physical Intelligence |
+| **arXiv** | [2506.07339](https://arxiv.org/abs/2506.07339) |
+| **核心贡献** | 解决大 VLA 模型推理延迟与实时控制需求的矛盾，实现**50Hz 高频实时控制** |
+| **技术细节** | 动作块缓存 + 异步推理 + 平滑过渡，避免 chunk 切换时的不连续和危险加速度 |
+| **影响** | 使 π0 系列模型能在边缘设备和移动机器人上实时运行 |
+
+---
+
+### π*0.6 / Recap: RL with Experience (2025.11)
+
+| 属性 | 内容 |
+|------|------|
+| **标题** | π*0.6: a VLA that Learns from Experience |
+| **作者** | Physical Intelligence |
+| **发布** | 技术博客 + 论文 |
+| **核心贡献** | 首个通过**在线 RL** 训练的通用策略，实现演示→纠正→自主练习的三步学习闭环 |
+| **技术细节** | Recap 算法（RL with Experience & Corrections via Advantage-conditioned Policies）；自主 episode 收集 + 优势条件策略蒸馏 |
+| **影响** | 最困难任务吞吐量提升 2×+，失败率降低 2×+，实现商业级鲁棒性（连续制作浓缩咖啡） |
+
+---
+
+### Human→Robot Transfer (2025.12)
+
+| 属性 | 内容 |
+|------|------|
+| **标题** | Emergence of Human to Robot Transfer in VLAs |
+| **作者** | Physical Intelligence |
+| **发布** | 技术博客 + 论文 |
+| **核心贡献** | 发现**人类视频到机器人任务的迁移能力**在大规模 VLA 中涌现，提供约 2× 数据效率提升 |
+| **技术细节** | 利用第一人称人类视频（ego-centric data）作为额外训练数据源，解决机器人数据稀缺问题 |
+| **影响** | 为机器人学习开辟海量人类视频数据源，降低数据收集成本 |
+
+---
+
+### MEM: Multi-Scale Embodied Memory (2026.03)
+
+| 属性 | 内容 |
+|------|------|
+| **标题** | VLAs with Long and Short-Term Memory |
+| **作者** | Physical Intelligence |
+| **发布** | 技术博客 + 论文 |
+| **核心贡献** | 为 VLA 引入**长短时记忆**，支持长达 **15 分钟** 的长程任务执行 |
+| **技术细节** | 短期记忆存储原始观测，长期记忆存储自然语言抽象；模型主动选择记忆内容，避免因果混淆 |
+| **影响** | 突破 VLA 短程任务限制，实现打扫整个厨房、制作完整餐食等复杂场景 |
+
+---
+
+### RLT: RL Token (2026.03)
+
+| 属性 | 内容 |
+|------|------|
+| **标题** | Precise Manipulation with Efficient Online RL |
+| **作者** | Physical Intelligence |
+| **发布** | 技术博客 + 论文 |
+| **核心贡献** | 从 VLA 提取**专用 RL Token**，实现高效的在线强化学习，精细操作速度提升 **3×** |
+| **技术细节** | RL Token 提供 VLA 与轻量 RL 策略之间的紧凑接口，只需几分钟到几小时真实数据即可微调 |
+| **影响** | 大幅降低 RL 训练计算开销，支持部署时实时优化精确操作任务 |
+
+---
+
 ## Figure AI 系列
 
 ### Helix VLA (2025.01)

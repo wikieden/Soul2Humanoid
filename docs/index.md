@@ -75,8 +75,6 @@
 
 ## 项目简介
 
-> Soul2Humanoid 是系统性 **人形机器人** / **具身智能**（Embodied AI）技术调研仓库，聚焦 **VLA 端到端**、**Flow Matching**、**数据飞轮**、**Sim2Real** 等前沿算法架构，覆盖 **Figure AI**、**Physical Intelligence**、**Tesla Optimus**、**Boston Dynamics**、**Unitree**、**1X** 等全球主流公司。
-
 本项目旨在追踪和梳理**人形机器人/具身智能领域**中，头部公司的技术方案与产品演进。核心关注维度包括：
 
 - **感知架构**：视觉-语言-动作（VLA）融合、多模态输入处理

@@ -74,7 +74,7 @@
 
 ### 硬件-软件协同设计
 
-![AI-First Hardware Design](../assets/figure-ai/hw-sw-co-design.svg)
+![AI-First Hardware Design../assets/figure-ai/hw-sw-co-design.svg)
 
 ---
 
@@ -101,7 +101,7 @@
 
 ### Helix 三层架构图
 
-![Helix Architecture](../assets/figure-ai/helix-architecture.svg)
+![Helix Architecture../assets/figure-ai/helix-architecture.svg)
 
 ### Helix 02 标志性成果
 - **4 分钟连续自主洗碗机装卸**：61 个 loco-manipulation 动作，零人工干预
@@ -129,7 +129,7 @@
 
 ### 数据飞轮
 
-![Data Flywheel](../assets/figure-ai/data-flywheel.svg)
+![Data Flywheel../assets/figure-ai/data-flywheel.svg)
 
 ---
 
@@ -151,7 +151,7 @@
 
 ### BotQ 制造流程
 
-![BotQ Manufacturing](../assets/figure-ai/botq-manufacturing.svg)
+![BotQ Manufacturing../assets/figure-ai/botq-manufacturing.svg)
 
 ---
 
@@ -239,7 +239,7 @@ Figure 03 的硬件完全围绕 Helix 的感知和控制需求设计（掌部相
 
 ### 5. 场景递进策略
 
-![Scenario Progression](../assets/figure-ai/scenario-progression.svg)
+![Scenario Progression../assets/figure-ai/scenario-progression.svg)
 
 ```
 商业物流（结构化） → 家庭环境（非结构化）

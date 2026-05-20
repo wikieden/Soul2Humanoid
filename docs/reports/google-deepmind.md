@@ -50,7 +50,7 @@ Google DeepMind 采用 **VLA + ER（Embodied Reasoning）双模型架构**：
 2. VLA 模型将视觉输入和指令转化为具体动作
 3. 两者协作完成长程、复杂任务
 
-![Gemini Robotics Architecture](../assets/google-deepmind-gemini-robotics-architecture.svg)
+![Gemini Robotics Architecture../assets/google-deepmind-gemini-robotics-architecture.svg)
 
 **图**：Google DeepMind Gemini Robotics 双模型架构 — VLA 模型负责感知-动作循环，ER 模型负责推理-规划，两者协作控制任意机器人形态。
 

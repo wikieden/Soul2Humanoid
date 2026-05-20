@@ -122,7 +122,7 @@ Boston Dynamics 经历了三轮重要的所有权变更：
 - 输出：未来 1.6 秒的动作轨迹块（length 48），涵盖双臂、双手、颈部、躯干、双脚的全 body pose
 - **关键突破**：单一策略即可完成从简单 pick-and-place 到系绳、铺桌布、翻凳子、搬运轮胎等长时程任务
 
-![Boston Dynamics Hybrid Architecture](../assets/boston-dynamics-hybrid-architecture.svg)
+![Boston Dynamics Hybrid Architecture../assets/boston-dynamics-hybrid-architecture.svg)
 
 **图**：Boston Dynamics Atlas 分层混合控制架构 — 从底层电机控制到高层 VLA 决策的四层架构，MPC 提供可靠性基础，RL 和神经网络补充边缘案例。
 

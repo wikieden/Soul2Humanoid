@@ -20,16 +20,21 @@
 
 | 仓库 | 描述 | Stars | 最近更新 | 关键进展 |
 |------|------|-------|---------|---------|
-| **[pi0](https://github.com/physical-intelligence/openpi)** | π0 通用机器人策略权重+代码 | ~3.5K ⭐ | 2026-04 | π0.7 更新推送中 |
-| **[openpi](https://github.com/physical-intelligence/openpi)** | 开源 VLA 训练框架 | ~2.8K ⭐ | 2026-04 | 支持 π0/FAST 训练 |
-| **pi0.7（仓库未公开）** | π0.7 可组合泛化策略 | ~1.2K ⭐ | 2026-04 | 新增多样化提示支持 |
-| **[FAST](https://github.com/physical-intelligence/openpi)** | FAST Action Tokenization | ~1.8K ⭐ | 2025-03 | DCT+BPE 动作压缩 |
-| **[droid](https://github.com/droid-dataset/droid)** | DROID 数据集（合作维护） | ~1.5K ⭐ | 2025-12 | 大规模真实世界轨迹 |
+| **[openpi](https://github.com/physical-intelligence/openpi)** | π0 通用机器人策略权重+代码+训练框架 | ~4.2K ⭐ | 2026-04 | 支持 π0/π0-FAST/FAST 推理与微调 |
+| **[pi0.7（未公开）](https://www.pi.website/blog/pi07)** | π0.7 可组合泛化策略 | — | 2026-04 | 组合泛化、零样本新设备操作 |
+| **[droid](https://github.com/droid-dataset/droid)** | DROID 数据集（合作维护） | ~1.8K ⭐ | 2026-03 | 大规模真实世界轨迹 |
+
+**开源状态**：
+- ✅ π0 权重 + 代码（JAX + PyTorch 双版本）
+- ✅ FAST tokenizer（HuggingFace）
+- ✅ 多平台推理示例（ALOHA、DROID、Franka、Trossen 等）
+- ❌ π0.7 完整训练代码**未开源**（仅博客+论文）
+- ❌ MEM / RLT / Recap 算法**未开源**
 
 **追踪要点**：
-- π0 系列持续开源，社区复现活跃
 - openpi 成为学术界 VLA 训练标准基线之一
-- 关注 π0.7 是否开源完整训练代码
+- π0.7 开源进展待关注（组合泛化是行业首次）
+- MEM（多尺度记忆）和 RLT（RL Token）是两大未开源核心技术
 
 ---
 
