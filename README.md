@@ -180,6 +180,7 @@ Soul2Humanoid/
 | [`funding.md`](./funding.md) | 投资与估值追踪 — 融资历程、估值分析、投资方格局和未来预测 |
 | [`latest-news.md`](./latest-news.md) | 最新动态追踪 — 各公司近期重大事件、产品发布、融资、人事变动的实时记录 |
 | [`CHANGELOG.md`](./CHANGELOG.md) | 更新日志 — 仓库文件变更历史 |
+| [`dexterous-hand-ego-data.md`](./dexterous-hand-ego-data.md) | 灵巧手 × Ego 数据深度调研 — 硬件产品对比、触觉算法、Ego 数据集、Scaling Law、商业格局 |
 
 ---
 
