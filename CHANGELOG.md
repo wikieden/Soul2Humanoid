@@ -10,6 +10,7 @@
 
 - **`latest-news.md`** — 2026 年 4-5 月最新行业动态追踪（Figure/1X/Unitree/BD/Apptronik/Agility/Meta）
 - **Twitter/X 监控列表**：12 个公司官方账号 + 10 位关键人物个人账号（people.md）
+- **`dexterous-hand-ego-data.md`** — 灵巧手 × Ego 数据深度调研：10+ 产品对比、8 核心算法框架、5 大数据集、Scaling Law、商业格局与未来预测
 
 ### 更新
 
