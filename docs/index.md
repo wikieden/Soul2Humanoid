@@ -179,6 +179,11 @@ Soul2Humanoid/
 | [`latest-news.md`](./latest-news.md) | 最新动态追踪 — 各公司近期重大事件、产品发布、融资、人事变动的实时记录 |
 | [`CHANGELOG.md`](./CHANGELOG.md) | 更新日志 — 仓库文件变更历史 |
 | [`dexterous-hand-ego-data.md`](./dexterous-hand-ego-data.md) | 灵巧手 × Ego 数据深度调研 — 硬件产品对比、触觉算法、Ego 数据集、Scaling Law、商业格局 |
+| [`data-collection-methods.md`](./data-collection-methods.md) | 机器人数据采集方法深度对比 — 6种主流方法成本分析、公司策略、决策矩阵 |
+| [`scene-perception.md`](./scene-perception.md) | 场景感知技术调研 — 6家公司的3D场景理解、语义地图、动态物体跟踪方案 |
+| [`large-space-object-relocalization.md`](./large-space-object-relocalization.md) | 大空间物体重定位 — 7家公司（含Skild AI）的长周期物体记忆与重定位技术 |
+| [`vla-models.md`](./vla-models.md) | VLA (Vision-Language-Action) 模型全景调研 — RT/π0/Helix/OpenVLA 架构演进、技术组件、开源生态 |
+| [`data-collection-playbook.md`](./data-collection-playbook.md) | 机器人数据采集实战指南 — 4阶段落地路径、预算规划、工具选型、避坑清单 |
 
 ---
 

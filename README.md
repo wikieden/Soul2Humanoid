@@ -184,6 +184,8 @@ Soul2Humanoid/
 | [`data-collection-methods.md`](./data-collection-methods.md) | 机器人数据采集方法深度对比 — 6种主流方法成本分析、公司策略、决策矩阵 |
 | [`scene-perception.md`](./scene-perception.md) | 场景感知技术调研 — 6家公司的3D场景理解、语义地图、动态物体跟踪方案 |
 | [`large-space-object-relocalization.md`](./large-space-object-relocalization.md) | 大空间物体重定位 — 7家公司（含Skild AI）的长周期物体记忆与重定位技术 |
+| [`vla-models.md`](./vla-models.md) | VLA (Vision-Language-Action) 模型全景调研 — RT/π0/Helix/OpenVLA 架构演进、技术组件、开源生态 |
+| [`data-collection-playbook.md`](./data-collection-playbook.md) | 机器人数据采集实战指南 — 4阶段落地路径、预算规划、工具选型、避坑清单 |
 
 ---
 
