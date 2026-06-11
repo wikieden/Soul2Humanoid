@@ -6,19 +6,6 @@
 
 ---
 
-## 可视化速览
-
-![成本对比图](../assets/data-collection-cost-comparison.svg)
-*图1：六种采集方法的硬件成本 vs 单条数据成本（对数坐标）*
-
-![方法演进时间线](../assets/data-collection-timeline.svg)
-*图2：各方法首次出现时间与当前成熟度演进*
-
-![决策矩阵](../assets/data-collection-decision-matrix.svg)
-*图3：效果-效率-灵活性三维决策矩阵（气泡大小=灵活性）*
-
----
-
 ## 1. 概述：数据采集的三阶段范式
 
 在具身智能领域，数据是训练VLA模型的核心燃料。当前主流方法遵循三阶段范式：

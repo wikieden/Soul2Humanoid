@@ -110,6 +110,11 @@ nav:
   - 最新动态: latest-news.md
   - 论文索引: papers.md
   - 投资追踪: funding.md
+- 深度调研:
+  - 灵巧手 × Ego 数据: dexterous-hand-ego-data.md
+  - 数据采集方法对比: data-collection-methods.md
+  - 场景感知技术: scene-perception.md
+  - 大空间物体重定位: large-space-object-relocalization.md
 - 资源索引:
   - 技术标签: tags.md
   - 开源资源: resources.md
