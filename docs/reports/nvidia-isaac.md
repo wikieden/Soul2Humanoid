@@ -25,7 +25,10 @@
 | 2022 | 推出 Isaac Gym（GPU 并行 RL 训练），大幅提升仿真训练效率 |
 | 2023 | 推出 Isaac Lab（统一 RL/IL 训练框架），整合 Isaac Sim + RL-Games + robomimic |
 | 2024 | 发布 **Project GR00T** — 人形机器人基础模型和参考设计平台；宣布与 Figure AI、1X、Agility、Boston Dynamics 等合作 |
-| 2025 | 持续迭代 Isaac 平台，GR00T 模型训练规模扩大 |
+| 2025.09 | **Isaac Lab 2.3** 发布，原生支持 Manus 手套进行灵巧手遥操作 |
+| 2025.11 | 开源 **Isaac Teleop** 统一遥操作框架，支持 Manus 手套作为唯一官方数据手套 |
+| 2026.02 | 发布 **EgoScale** 论文 — 使用 Manus 手套对齐人类-机器人数据，实现 few-shot 灵巧操作 |
+| 2026.03 | GTC 2026，Jensen Huang 展示 Manus 手套遥操作 22-DoF Sharpa Wave 灵巧手 |
 
 ---
 
@@ -107,6 +110,113 @@ NVIDIA 的 Sim2Real 技术栈是行业标杆：
 | **Agility Robotics** | Digit 的仿真训练 |
 | **Apptronik** | Apollo + Isaac Sim |
 | **丰田 / 梅赛德斯等** | 自动驾驶 + 机器人仿真 |
+
+---
+
+## 三、数据采集与遥操作：Isaac Teleop + Manus 手套
+
+### 3.1 Isaac Teleop 统一遥操作框架
+
+**发布背景**：2025 年 11 月，NVIDIA 开源了 **Isaac Teleop**，旨在解决机器人学习中的"数据瓶颈"问题。这是一个统一的 sim & real 遥操作框架，标准化了设备接口和数据格式。
+
+**核心定位**：
+> "The unified standard for high-fidelity egocentric and robot data collection."
+
+**支持设备**：
+| 设备类型 | 代表产品 | 用途 |
+|---------|---------|------|
+| **XR 头显** | Apple Vision Pro, Meta Quest 3, Pico | 沉浸式视觉 + 空间定位 |
+| **数据手套** | **Manus Metagloves Pro** (唯一官方支持) | 25 DoF 手部精准追踪 |
+| **踏板** | Logitech Rudder Pedal | 下半身免手控制 |
+| **体感追踪器** | Pico Motion Tracker | 全身姿态捕捉 |
+
+**关键特性**：
+- **统一设备接口**：无需为每个机器人和环境做自定义集成
+- **灵活重定向框架**：支持将人类动作重定向到不同机器人本体
+- **Sim-to-Real 一致**：仿真和真实环境中使用相同的遥操作 pipeline
+
+### 3.2 Manus 手套：官方标准化方案
+
+**为什么选择 Manus？**
+
+| 特性 | Manus EMF 追踪 | 光学追踪 (Vision Pro/Quest) |
+|------|---------------|---------------------------|
+| **精度** | 毫米级 | 厘米级（手部） |
+| **遮挡** | 无遮挡问题 | 手指间遮挡频繁 |
+| **漂移** | 零漂移 | 随时间累积漂移 |
+| **DoF** | 25 DoF/手 | 25 关节/手（Vision Pro） |
+| **触觉反馈** | 支持（Metagloves Pro Haptic） | 无 |
+| **价格** | ~$3,000-5,000 | $3,499（Vision Pro） |
+
+**Isaac Lab 集成**：
+```bash
+# 录制演示数据
+./isaaclab.sh -p scripts/tools/record_demos.py \
+  --task Isaac-Stack-Cube-Rel-v0 \
+  --device manus_glove
+```
+
+**支持机器人**：
+- Unitree G1（三指 + 五指灵巧手）
+- 22-DoF Sharpa Wave（GTC 2026 演示）
+- Inspire RH56DFTP 等主流灵巧手
+
+### 3.3 EgoScale：Scaling Dexterous Manipulation
+
+**核心洞察**：NVIDIA 2026 年 2 月发表的 EgoScale 论文证明，通过"人类 Ego 视频 + Manus 手套对齐数据 + 少量机器人演示"的三阶段 pipeline，可以实现高效的灵巧操作学习。
+
+**三阶段 Pipeline**：
+
+```
+阶段 1: 大规模人类 Ego 视频预训练
+  → 20,854 小时人类操作视频
+  → 学习通用操作先验（抓、捏、转、推）
+  → 输出：手腕/手部动作预测模型
+
+阶段 2: Manus 手套对齐采集（Mid-training）
+  → 50 小时人类 + 4 小时机器人配对数据
+  → 同一任务，相同相机 setup
+  → Manus 捕捉 25 关节变换，Vive 追踪手腕位置
+  → 关键：人类和机器人动作信号直接可比
+
+阶段 3: 机器人微调（Post-training）
+  → 标准设置：100 次机器人演示
+  → One-shot 设置：仅 1 次演示 + 对齐人类数据
+  → 跨本体泛化：22-DoF → 7-DoF 三指手，+30% 成功率
+```
+
+**关键发现**：
+1. **大规模人类视频构建通用操作智能**
+2. **Manus 手套提供精确的动作对齐层**（人类运动空间 → 机器人关节空间）
+3. **极少机器人数据即可任务特化**（从 100 次降至 1 次）
+4. **跨本体迁移**：高 DoF 手上训练的策略可有效迁移到低 DoF 手
+
+**Scaling Law**：
+```
+log(L) = -0.15 × log(D) + C,  R² = 0.9983
+```
+人类数据每翻倍 → 验证损失可预测下降 → 真机性能可预测提升
+
+### 3.4 对行业的影响
+
+**1. 数据手套从"高端研究工具"变为"标准化采集设备"**
+- Manus 成为 NVIDIA 生态唯一官方手套
+- 价格从 $10K+ 降至 ~$3,000-5,000
+- 开箱即用，无需自定义集成
+
+**2. "Ego + 精确手部"成为灵巧操作标配**
+- 纯视觉（EgoDex/EgoVerse）→ 视觉 + 精确手部（EgoScale）
+- 解决了"人类视频无法提供精确手指动作"的瓶颈
+
+**3. 降低灵巧操作数据门槛**
+- 传统：1000+ 机器人演示 → 成本 $34万+
+- EgoScale：1 次演示 + 对齐人类数据 → 成本 <$1万
+- 使中小团队也能训练灵巧操作策略
+
+**4. 推动仿真-first 训练**
+- Isaac Teleop 支持在仿真中采集数据
+- 消除真实机器人磨损和 setup 时间
+- 数据可直接用于真实机器人策略（Sim-to-Real）
 
 ---
 

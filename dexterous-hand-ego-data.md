@@ -104,9 +104,41 @@
 |------|------|--------|-----|---------|------|---------|
 | **Meta Project Aria** | Meta | 1440p | 鱼眼 | 手腕 (非手指) | 研究用 | EgoMimic, EgoVerse |
 | **Apple Vision Pro** | Apple | 4K+ | 宽 | **25 关节/手 (3D)** | $3,499 | EgoDex (829h) |
+| **Manus Metagloves Pro** | Manus | — | — | **25 DoF/手 (EMF)** | ~$3,000-5,000 | NVIDIA Isaac Teleop, 遥操作 |
 | **HOT3D** | Meta/Qualcomm | RGB+深度 | 宽 | 手部 3D | 研究用 | 实验室高精度 |
 | **GoPro + 头带** | GoPro | 5.3K | 超宽 | 无 (需后处理) | $400 | 低成本大规模 |
 | **HoloLens 2** | Microsoft | 720p | 窄 | 手部骨架 | $3,500 | 工业场景 |
+
+#### Manus 手套：NVIDIA 官方标准化方案
+
+**关键事件时间线**：
+- **2025.09**: Isaac Lab 2.3 发布，原生支持 Manus 手套进行灵巧手遥操作
+- **2025.11**: NVIDIA 开源 **Isaac Teleop** 统一遥操作框架，Manus 成为**唯一官方支持的数据手套**
+- **2026.02**: NVIDIA 发布 **EgoScale** 论文，使用 Manus 手套采集对齐的人类-机器人数据
+- **2026.03**: GTC 2026，Jensen Huang 主题演讲展示 Manus 手套遥操作 22-DoF Sharpa Wave 灵巧手
+
+**技术特点**：
+- **EMF 电磁追踪**：毫米级精度，零漂移，无遮挡问题（优于光学追踪）
+- **25 DoF 完整手部**：每根手指独立追踪，支持复杂捏取和手势
+- **Isaac Lab 原生集成**：通过 `isaaclab.sh -p scripts/tools/record_demos.py` 直接录制演示数据
+- **Sim-to-Real 桥接**：仿真中采集的数据可直接用于真实机器人策略训练
+
+**EgoScale 数据采集方案**（NVIDIA 2026.02）：
+```
+阶段 1: 大规模人类 Ego 视频（20,854 小时）
+    ↓
+阶段 2: Manus 手套对齐采集（50 小时人类 + 4 小时机器人）
+    ↓  同一任务人类和机器人用相同相机 setup，Manus 捕捉 25 关节变换
+阶段 3: 少量机器人微调（100 次演示或单次 one-shot）
+```
+
+**成本对比**：
+| 方案 | 成本 | 适用场景 |
+|------|------|---------|
+| Apple Vision Pro | $3,499 | Ego 视频采集（视觉为主） |
+| Manus Metagloves Pro | ~$3,000-5,000 | 高精度手部遥操作 |
+| VR 遥操作（Quest 3） | $500 | 低成本大规模舰队 |
+| **Vision Pro + Manus** | ~$7,000 | **Ego + 精确手部（完整方案）** |
 
 ### 3.2 核心数据集
 
@@ -282,6 +314,13 @@ VLA 预训练 (EgoScale / UniDex)
 - [ViTacFormer (2025)](https://arxiv.org/html/2506.15953)
 - [Linkerbot $6B 估值报道](https://wifc.com/2026/05/03/exclusive-china-robot-hand-building-unicorn-linkerbot-targets-6-billion-valuation/)
 - [全球灵巧手市场报告 2026-2031](https://www.navadhi.com/publications/global-robot-hands-dexterous-grippers-market-strategic-research-report-2026-2031)
+- [NVIDIA Isaac Teleop GitHub](https://github.com/NVIDIA/IsaacTeleop)
+- [NVIDIA Isaac Lab 2.3 + Manus 手套博客](https://developer.nvidia.com/blog/streamline-robot-learning-with-whole-body-control-and-enhanced-teleoperation-in-nvidia-isaac-lab-2-3/)
+- [NVIDIA EgoScale 论文](https://research.nvidia.com/labs/gear/egoscale/)
+- [Manus × NVIDIA Isaac Lab 集成指南](https://www.knoxlabs.com/blogs/vr-xr-news/manus-nvidia-isaac-lab-integration-guide)
+- [Manus 机器人遥操作官网](https://www.manus-meta.com/robotics)
+- [Manus × Isaac Lab 遥操作 22-DoF Sharpa Hand](https://www.manus-meta.com/use-cases/teleoperating-a-22-dof-sharpa-hand-inside-nvidia-isaac-lab-using-manus-gloves)
+- [NVIDIA EgoScale + Manus 手套用例](https://www.manus-meta.com/use-cases/nvidia-egoscale-scaling-dexterous-robot-manipulation-with-manus-gloves)
 
 ---
 
