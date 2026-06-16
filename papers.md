@@ -291,6 +291,30 @@
 
 ---
 
+## 2026 年 5-6 月新增重要论文
+
+### Qwen-VLA (2026.05)
+| 属性 | 内容 |
+|------|------|
+| **标题** | Qwen-VLA: Unifying VLA across Tasks, Environments, and Robot Embodiments |
+| **作者** | 阿里 Qwen 团队 |
+| **arXiv** | [2605.30280](https://arxiv.org/abs/2605.30280) |
+| **核心贡献** | 基于 Qwen3.5-4B 的统一 VLA，DiT Flow Matching，LIBERO 97.9%，跨本体泛化 |
+
+### LeVERB / SENTINEL / UniT / StarVLA-α (ICLR/CVPR 2026)
+- **LeVERB** (ICLR 2026): 首个面向人形全身控制的 VLA 分层架构，零样本 sim-to-real
+- **SENTINEL** (CVPR 2026): 全端到端语言→动作 Flow Matching 模型
+- **UniT** ([2604.19734](https://arxiv.org/abs/2604.19734)): 跨本体人类→人形策略迁移
+- **StarVLA-α** ([2604.11757](https://arxiv.org/abs/2604.11757)): 证明强 VLM 骨干即可强性能，超越 π0.5 20%
+
+### WLA-0 / UniVLA (2026.06 / ICLR 2026)
+- **WLA-0** ([2606.05979](https://arxiv.org/abs/2606.05979)): 新 WLA 范式，AR Transformer，40ms 推理，RoboTwin2.0 92.94%
+- **UniVLA** (ICLR 2026): 视觉/语言/动作统一离散 token 自回归建模，LIBERO 95.5% SOTA
+- **EgoActor** / **Humanoid-LLA** (ICLR 2026): 端到端指令→动作 / 开放词汇人形全身控制
+- **CReF** ([2603.29452](https://arxiv.org/abs/2603.29452)): 深度条件人形行走，零样本迁移
+
+---
+
 ## 按技术主题分类
 
 ### VLA 架构
