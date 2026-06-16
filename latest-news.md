@@ -1,160 +1,227 @@
-# 2026 年 4-5 月最新动态追踪
+# 2026 年最新动态追踪
 
-> 基于 Humanoids Daily、公司官方博客、X/Twitter 等来源整理的最新行业动态。
-> 更新日期：2026-05-08
+> 基于公司官方博客、Humanoids Daily、X/Twitter、科技媒体等来源整理的最新行业动态。
+> 更新日期：2026-06-16
 
 ---
 
 ## 快速导航
 
-| 公司 | 核心动态 | 位置 |
-|------|---------|------|
-| **Figure AI** | 24x 制造提速、System 0、Never Fall、$400-600/月租赁 | [↓](#figure-ai--制造跃迁--ai-突破) |
-| **1X Technologies** | NEO Factory 58K sqft、垂直整合、100K/年目标 | [↓](#1x-technologies--垂直整合工厂曝光) |
-| **Unitree** | 双臂 R1 $4,290、$5.8亿 IPO | [↓](#unitree-宇树--双臂平台--ipo) |
-| **Boston Dynamics** | C-Suite 大出走、Hyundai 30K/年压力 | [↓](#boston-dynamics--高管出走--量产压力) |
-| **Apptronik** | $9.35 亿融资、Waymo/BD/Amazon Dream Team | [↓](#apptronik--935-亿融资--梦之队) |
-| **Agility** | Peggy Johnson 新任 CEO | [↓](#agility-robotics--新-ceo-愿景) |
-| **Meta** | 收购 Assured Robot Intelligence | [↓](#meta--收购入场) |
-| **Genesis AI** | GENE-26.5 Human-Level 宣称 | [↓](#genesis-ai--新玩家) |
+| 动态日期 | 核心事件 |
+|---------|---------|
+| **2026-06-15** | 智元远征 A3 全球首个全尺寸人形机器人自主打乒乓 |
+| **2026-06-13** | 1X 成立 World Model Lab，前 Luma AI 研究员加盟 |
+| **2026-06-09** | 北京人形机器人创新中心 TianGong 3.0 下半年量产交付 |
+| **2026-06-04** | BYD 正式确认人形机器人项目「尧舜禹」，年底部署 2 万台 |
+| **2026-05-31** | NVIDIA 发布 Isaac GR00T 开源人形机器人参考设计 |
+| **2026-05-28** | 星动纪元完成 10 亿元 A+ 轮融资，吉利资本领投 |
+| **2026-05-27** | Tesla Giga Texas Optimus 专用工厂正式动工 |
+| **2026-05-26** | Figure AI 与 Catalyst Brands 达成商业部署协议 |
+| **2026-05-12** | Barclays 预测人形机器人市场 2035 年达 $200B |
+| **2026-05-01** | Figure AI 深度访谈：Never Fall 协议、Helix 02 离线运行 |
+| **2026-04-30** | 1X NEO Factory 量产启动，首批消费版 2026 年交付 |
+| **2026-04-29** | Figure BotQ 24 倍提速、System 0 零样本行走 |
+| **2026-04-17** | 智元 APC 2026 大会：4 本体 + 6 模型 + 7 解决方案 |
+| **2026-04-16** | Physical Intelligence 发布 π0.7 具身基础模型 |
+| **2026-04-01** | 星动纪元登顶 Benjie's Olympics 三项全球第一 |
 
 ---
 
-## Figure AI — 制造跃迁 + AI 突破
+## 2026-06 月中旬
+
+### 智元远征 A3 全球首个全尺寸人形机器人自主打乒乓
+
+**2026.06.15** — 智元远征 A3 成功实现自主打乒乓球，成为全球首个全程自主决策、完成乒乓球对抗的全尺寸双足人形机器人。
+
+- 球速超过 5 m/s，在无遥控、无脚本、无人工干预下完成视觉感知→轨迹预测→全身运动规划→精准击球全闭环
+- 与北京大学仉尚航团队合作，基于全球首款人形机器人乒乓运动控制算法 SpikePingpong
+- 采用黄铁军教授 20kHz 高频脉冲相机，视觉响应速度较传统方案提升 10 倍
+- 智元「元苼生态发展计划」：5 年投入 20 亿元，2026 年先行落地 1 亿元
+
+来源：[Gasgoo](https://autonews.gasgoo.com/articles/icv/agibot-full-size-humanoid-robot-yuanzheng-a3-achieves-autonomous-table-tennis-2066506375637868545)
+
+---
+
+## 2026-06 月上旬
+
+### 1X Technologies 成立 World Model Lab
+
+**2026.06.13** — 1X 正式成立 1X World Model Lab，前沿研究组织聚焦大规模具身世界模型预训练。
+
+- 聘请 Sam Sinha（前 Luma AI 创始研究员、多模态生成视频模型专家）担任 Founding AI Researcher & Head of World Models
+- 世界模型已使 NEO 实现零样本执行未见过的任务
+- NEO Factory 已量产，数据飞轮瓶颈消除
+
+来源：[1X 官方](https://www.1x.tech/discover/1x-world-model-lab)
+
+### 北京人形机器人创新中心 TianGong 3.0 下半年量产
+
+**2026.06.09** — TianGong 3.0 全尺寸通用人形机器人将在 2026 年下半年开始量产交付。
+
+- 基于「天工」硬件平台 + 「慧开悟」软件平台
+- 搭载 D-Robotics 的 Xuri S600 高算力芯片
+- 面向工业制造、商业服务、复杂 3D 环境作业
+
+来源：[Gasgoo](https://autonews.gasgoo.com/articles/news/beijing-innovation-center-of-humanoid-robotics-tiangong-30-to-enter-mass-delivery-in-h2-2026)
+
+### BYD 正式确认人形机器人项目「尧舜禹」
+
+**2026.06.04** — BYD 首次官方确认自 2022 年起秘密研发人形机器人。
+
+- 项目代号「尧舜禹」，已有 150 台原型机在 BYD 工厂内真实测试
+- 计划 2026 年底前在自有工厂内部署 **20,000 台**
+- 西安新建专用工业园，满产年产能 50,000 台
+- 消费者版本计划通过现有汽车经销商网络销售
+
+来源：[TechFastForward](https://techfastforward.com/articles/byd-builds-20000-humanoid-robots-for-factories-2026)
+
+### Figure AI 与 Catalyst Brands 达成商业部署协议
+
+**2026.05.26** — Figure AI 宣布与 Catalyst Brands（旗下拥有 JCPenney、Aéropostale、Brooks Brothers 等品牌）签署商业协议。
+
+- 首先在 Catalyst 内华达州雷诺物流中心部署，聚焦自动化体力密集型供应链任务
+- Figure 03 已累计交付 350+ 台，BotQ 产线达 1 台/小时
+- BMW 莱比锡工厂部署确认，24 个月内扩展到数百台
+
+来源：[Figure AI 官方](https://www.figure.ai/news/figure-signs-agreement-with-catalyst-brands)
+
+---
+
+## 2026-05 月
+
+### NVIDIA 发布 Isaac GR00T 开源人形机器人参考设计
+
+**2026.05.31** — NVIDIA 在 GTC 台北宣布首个开源人形机器人参考设计。
+
+- 基于 Unitree H2 Plus + Sharpa 五指灵巧手 + Jetson Thor
+- 完整开发平台：数据采集→模型训练→评估→部署
+- 首批合作伙伴：Ai2、ETH Zurich、Stanford Robotics Center、UC San Diego
+- 同时支持 Unitree G1 人形机器人
+
+来源：[NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design)
+
+### 星动纪元完成 10 亿元 A+ 轮融资
+
+**2026.05.28** — 星动纪元完成十亿元 A+ 轮融资，由吉利资本领投，北汽产投、北京市 AI 产业投资基金等跟投。
+
+- 2025 年商业化订单超过 5 亿元
+- 已与吉利、雷诺、顺丰、TCL、海尔、联想等合作
+- 在物流场景：100+ 台上岗，分拣速度达 1200 件/小时
+- 海外业务占比 50%，覆盖北美、欧洲、中东、日韩
+
+来源：[36 氪](https://m.36kr.com/p/3560734133091207)
+
+### Tesla Giga Texas Optimus 专用工厂动工
+
+**2026.05.27** — Tesla 位于 Giga Texas 北校区的 Optimus 专用工厂首个钢结构已竖立。
+
+- 年产目标最高 1,000 万台
+- 新增超过 520 万平方英尺工业空间
+- Fremont 工厂 Model S/X 产线将改造为 Optimus 产线，2026 年 7-8 月启动生产
+- Optimus Gen 3 将在年中展示，Gen 4 设计 2027 年完成
+- Musk 承认初始产量将「非常慢」
+
+来源：[Teslarati](https://www.teslarati.com/tesla-dedicated-optimus-factory-construction-officially-underway-giga-texas/)
+
+### 智元发布 BFM-2 端到端运动基座模型
+
+**2026.05.26** — 智元发布全球首个端到端 Motion-Between BFM-2 运动基座模型。
+
+- 首次在大规模全身运动基座中引入端到端 DOF Feather Motion Generator 生成式训练机制
+- 实现「任意当前状态恢复到任意随机指令构型」
+- 从「动作复刻」范式跃迁到「运动思考」范式
+
+来源：[智元官方](https://www.agibot.com.cn/article/315/detail/161.html)
+
+### 智元开源 AGIBOT WORLD 2026 第二期数据集
+
+**2026.06.03** — 智元开源行业首个聚焦物理交互的具身数据集。
+
+- AGIBOT WORLD 2026 第二期主题「多样交互（Rich Interaction）」
+- 100% 真实场景采集，记录成功与失败动作
+- 在 Hugging Face 开放下载
+
+来源：[新浪财经](https://finance.sina.com.cn/jjxw/2026-06-03/doc-iniaavwu2579694.shtml)
+
+### 行业研报：人形机器人市场 2035 年达 $200B
+
+**2026.05.12** — Barclays 发布研报预测人形机器人市场将从当前 $2-3B 增长至 2035 年 $200B。
+- Wedbush 的 Dan Ives 认为未来十年市场达万亿级别
+- 中国目前安装量占全球 85%，成本约为西方竞品一半
+- 预测两波部署：第一波 2026-2030（制造/物流/农业），第二波 2030 后（医疗/教育/服务）
+
+来源：[CNBC](https://www.cnbc.com/2026/06/03/humanoid-robots-trillion-dollar-ai-market.html)
+
+### NEURA Robotics 获 14 亿美元融资
+
+**2026.05（推测）** — 德国 NEURA Robotics 宣布约 14 亿美元融资，为人形机器人领域最大单笔投资之一。
+- 由 CEO David Reger 创立，专注认知机器人
+- 融资规模标志行业从研究原型转向工业化生产
+
+来源：[LinkedIn 行业分析](https://www.linkedin.com/pulse/humanoid-robotics-update-june-2026-ulrich-moeller--wmx2e)
+
+### 中国推行人形机器人全生命周期数字身份证
+
+**2026.05** — 中国开始为人形机器人引入数字身份证，覆盖制造、运营、维护到回收的全生命周期追踪。
+
+---
+
+## 2026-04 月（补充）
+
+### Figure AI 制造跃迁 + AI 突破
 
 **2026.04.29** — BotQ 产线 120 天内制造吞吐量提升 **24 倍**：从 1 台/天 → 1 台/小时
-- 已交付 **350+ 台 Figure 03**，本周目标制造 55 台
+- 已交付 **350+ 台 Figure 03**，日产 55 台
 - 产线良率：终检通过率 80%，电池线良率 99.3%
 - 已生产 9,000+ 台定制执行器（10 个 SKU）
-- 每台机器人出厂前通过 80 项功能验证测试
-
-**2026.04.29** — 发布 **System 0 (S0)** AI 模型
-- 感知条件化全身控制器：将 RGB 图像集成到控制策略中
-- 实现 **零样本 (zero-shot)** 楼梯/不平地面行走
-- 完全在仿真中训练，无需真实世界微调即可部署
 
 **2026.05.01** — 深度访谈披露更多细节
-- **"Never Fall" 协议**：Vulcan AI 策略，即使腿部机械故障也能保持站立/跛行到维护区
+- **"Never Fall" 协议**：Vulcan AI 策略，即使腿部机械故障也能保持站立
 - **Helix 02** 全部在板载 GPU 运行，**不需要网络连接**
-- 2kW 无线感应充电（脚底），续航 4-5 小时，充电 1 小时
-- 家用机器人租赁模型：**$400-600/月**（类似汽车租赁）
-- 第 7 代灵巧手已展示
-- Figure 4 设计中："iPhone 1 时刻"
+- 2kW 无线感应充电（脚底），续航 4-5 小时
+- 家用机器人租赁模型：**$400-600/月**
+- 第 7 代灵巧手已展示，Figure 4 设计中
 
-来源：[Humanoids Daily](https://www.humanoidsdaily.com/news/24x-throughput-figure-scales-manufacturing-to-one-robot-per-hour), [Figure AI 官方](https://www.figure.ai/news/ramping-figure-03-production)
-
----
-
-## 1X Technologies — 垂直整合工厂曝光
+### 1X Technologies 垂直整合工厂量产
 
 **2026.04.30** — 公开 **NEO Factory**（Hayward, CA）
-- 58,000 平方英尺，200+ 员工，3 个月内建成
-- **全垂直整合**：Revo2 电机、电池、肌腱、22-DoF 手全部自产
-- 已生产 17,000 台 Revo2 电机
-- 初始产能 10,000 台/年（预售 5 天售罄）
-- **San Carlos 第二工厂**规划中：目标 2027 年底达 **100,000 台/年**
+- 58,000 平方英尺，200+ 员工，全垂直整合
+- 初始产能 10,000 台/年，目标 2027 年底达 100,000 台/年
+- NEO 售价：买断 $20,000 / 订阅 $499/月
+- 搭载 NVIDIA Jetson Thor，启用 Redwood AI 模型
 
-**NEO 硬件规格更新**
-- **NEO Cortex**：NVIDIA Jetson Thor SoC
-- 双 8.85MP 鱼眼立体相机，90Hz
-- 波束成形麦克风 + 板载实时 AI 推理
-- 当前产品优先用于**内部员工家庭测试**，消费版 2026 年交付
-- NEO 已在工厂内自主执行物流和零件搬运任务
+### 智元 APC 2026：宣言具身智能部署元年
 
-来源：[Humanoids Daily](https://www.humanoidsdaily.com/news/1x-goes-vertical-inside-the-hayward-factory-aiming-for-100-000-humanoids), [1X 官方](https://www.1x.tech/discover/neo-factory)
+**2026.04.17** — 智元合作伙伴大会发布四大本体新品、六大 AI 模型、七大解决方案
+- 2025 年营收突破 10 亿元（连续近 20 倍年增长）
+- 推出 AIMA 全栈生态技术体系（1+3+X 架构）
+- 开源 GO-2 VLA 基座模型、GE-2 世界模型、AGIBOT WORLD 2026 数据集
+- A3 旗舰人形机器人：10 小时续航、热插拔双电池、模块化设计
 
----
+### Physical Intelligence 发布 π0.7
 
-## Unitree 宇树 — 双臂平台 + IPO
+**2026.04.16** — π0.7：7B 参数 VLA 基础模型（Gemma3 4B + 860M Action Expert）
+- 训练使用大量自然语言子任务指令和副目标图像
+- 单个模型匹配此前所有微调专业模型性能
+- 展现涌现能力：零样本空间泛化、跨本体迁移、组合指令遵循
+- 未知任务表现：没见过空气炸锅也能推理出使用方法
 
-**2026.04.30** — 发布 **Dual-Arm Humanoid Robot** 双臂平台
-- 起售价 **$4,290**
-- 4 种配置：R1-A5 / R1-A7（固定底座），R1-A5-D / R1-A7-D（轮式底座）
-- 15-31 自由度，末端精度 ±0.1mm
-- 基础算力 10 TOPS，可选 Jetson Orin（40-100 TOPS）
-- 双目相机 + 深度图（544x448@10Hz）+ 4 阵列麦克风
-- 轮式版续航约 1.5 小时
+### 星动纪元登顶 Benjie's Olympics
 
-**IPO 动态**
-- 据报道宇树已申请 **$5.8 亿 IPO**
-- 2026 年出货目标 **20,000 台**
-- CEO 王兴兴提出具身 AI 的"80/80"目标：80% 任务 80% 成功率
-
-来源：[Humanoids Daily](https://www.humanoidsdaily.com/news/unitree-expands-r1-lineup-with-dual-arm-modular-platform-starting-at-4-290)
+**2026.04.01** — 星动纪元在 Benjie's Olympics（前 Google 机器人专家发起的挑战赛）中斩获三项全球第一。
+- 剥橘子、开锁、翻袜子三项任务全面超越 Physical Intelligence
+- 唯一在该赛事中击败 PI 闭源模型的中国公司
 
 ---
 
-## Boston Dynamics — 高管出走 + 量产压力
+## 行业趋势速览
 
-**2026.05.05** — "C-Suite 大出走"
-- CEO **Robert Playter** 2026 年 2 月退休（30+ 年生涯）
-- CTO **Aaron Saunders** 离职加入 Google DeepMind
-- VP 机器人研究 **Scott Kuindersma** 2026 年 1 月离职
-- CSO、COO 也已离职
-
-**Hyundai 量产压力**
-- 董事会要求加速商业化，Hyundai 要求在汽车工厂部署"数万台"人形机器人
-- 当前产能：约 **4 台 Atlas/月**
-- 目标产能：**30,000 台/年**
-- Kia 部署路线图：HMGMA 工厂 2028 年全面运营
-
-**技术进展**
-- 发布量产版 Atlas 首支视频：倒立、360° 执行器旋转
-- 公司声明："平衡商业目标与机器人研究很困难，但 Atlas 让这一切可行"
-
-来源：[Humanoids Daily](https://www.humanoidsdaily.com/news/the-production-pivot-leadership-exodus-and-internal-pressure-at-boston-dynamics), [Semafor](https://www.semafor.com/article/05/01/2026/c-suite-exodus-at-boston-dynamics)
-
----
-
-## Apptronik — $9.35 亿融资 + 梦之队
-
-**2026.04.29** — 高管团队大扩军
-- **$9.35 亿总融资**（含 $5.2 亿 Series A-X 延伸）
-- **Daniel Chu** 任 CPO：前 Waymo 首席产品官，自动驾驶→人形机器人
-- **Kevin Garell** 任 SVP 服务与支持：前 Boston Dynamics
-- **Chirag Shah** 任 VP 软件：前 Amazon Alexa/AI 多模态
-- **Dave Perry** 任 VP 市场：前 Paramount+/Amazon
-
-**路线图**
-- 下一代人形机器人即将公布（"significant jump up"）
-- 三阶段路线：物流 → 医疗保健 → 家庭
-- CEO Cardenas：人形机器人是"我们时代的太空竞赛"，美国仅 <5 家公司有实力
-
-来源：[Humanoids Daily](https://www.humanoidsdaily.com/news/apptronik-raids-tech-giants-for-executive-dream-team-ahead-of-new-robot-reveal)
-
----
-
-## Agility Robotics — 新 CEO 愿景
-
-**2026.05.07** — CEO Peggy Johnson 在 Abundance Summit 2026 演讲
-- 提出"Unconstrained Humanoids"愿景：让 Digit 走出仓库围栏，进入更广泛场景
-- *注：Peggy Johnson 为新任 CEO，接替创始人 Damion Shelton*
-
-来源：[Humanoids Daily](https://www.humanoidsdaily.com/news/breaking-the-cage-agility-ceo-peggy-johnson-outlines-vision-for-unconstrained-humanoids-at-abundance-summit-2026)
-
----
-
-## Meta — 收购入场
-
-**2026.05.01** — 收购 **Assured Robot Intelligence**
-- 目标：为人形机器人开发"操作系统"级基础软件
-- 标志 Meta 正式进入人形机器人硬件领域
-- 尽管近期 AI 研究部门领导层变动，仍大力推进
-
-来源：[Humanoids Daily](https://www.humanoidsdaily.com/news/meta-acquires-assured-robot-intelligence-to-bolster-humanoid-ambitions)
-
----
-
-## 行业趋势观察
-
-1. **制造量产竞赛白热化**：Figure（1 台/小时）、1X（10K/年目标）、宇树（20K 出货目标）竞速量产
-2. **高管离职潮**：BD 的 C-Suite 出走、人才流向 Figure/1X/DeepMind，反映行业从研究向商业转型的阵痛
-3. **垂直整合成为共识**：1X 全自产电机+肌腱+手，Figure 自产执行器，供应链自主可控
-4. **家用市场提前布局**：Figure 租赁模型 $400-600/月，1X 内部家庭测试，Apptronik 三阶段路线
-5. **新玩家入场**：Meta 收购 Assured Robotics，宇树双臂平台 $4,290 拓展开发者生态；**Genesis AI** 发布 GENE-26.5 宣称 Human-Level（⚠️待验证）
-6. **安全/可靠性成为核心指标**：Figure "Never Fall"、80 项出厂测试、OTA 更新+Fleet 管理
-
----
-
-*数据来源：Humanoids Daily、公司官方博客、Semafor、X/Twitter*
-*下次更新建议：2026 年 6 月初*
+| 趋势 | 说明 |
+|------|------|
+| **制造量产竞赛白热化** | Figure BotQ 1 台/小时、1X 10K→100K/年、BYD 目标 2 万台/年、Tesla 百/千万级野心 |
+| **垂直整合成共识** | Figure BotQ、1X NEO Factory、Tesla Fremont→Giga Texas 全部自建产线 |
+| **开源平台加速** | NVIDIA GR00T 参考设计、智元 AIMA 生态、PI openpi 开源 |
+| **中国公司崛起** | 智元 1 万台量产、星动纪元百台物流部署、BYD 正式入局、天工 3.0 量产 |
+| **AI 基础模型突破** | PI π0.7 涌现能力、智元 BFM-2 运动推理、1X World Model Lab |
+| **从 Demo 到商业合同** | Figure×Catalyst Brands、BMW 持续部署、星动纪元 5 亿订单 |
+| **人形数字身份立法** | 中国推行机器人生命周期数字身份证，标准化监管开端 |
