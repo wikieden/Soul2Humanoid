@@ -1,7 +1,7 @@
 # 2026 年最新动态追踪
 
 > 基于公司官方博客、Humanoids Daily、X/Twitter、科技媒体等来源整理的最新行业动态。
-> 更新日期：2026-06-16
+> 更新日期：2026-06-19
 
 ---
 
@@ -9,6 +9,9 @@
 
 | 动态日期 | 核心事件 |
 |---------|---------|
+| **2026-06-19** | 傅利叶 GR-3 千万级订单落地东南亚最大康复中心；宇树 IPO 招股书披露 2025 净利润 6 亿 |
+| **2026-06-18** | Figure 02 BMW Spartanburg 新里程碑；1X NEO Beta 家用试用计划启动；Agility Digit 扩展亚马逊设施；Automate 2026 多家发布 |
+| **2026-06-17** | 智元 VivaTech Paris 展示；傅利叶出海马来西亚模式；Foxconn VivaTech 欧洲首秀；Genesis AI Eno 发布；Faraday Future EAI Robot World；Seres Xiaosai 人形；Alibaba Qwen-Robot 系列；中国「六小龙」集体冲刺 IPO |
 | **2026-06-15** | 智元远征 A3 全球首个全尺寸人形机器人自主打乒乓 |
 | **2026-06-13** | 1X 成立 World Model Lab，前 Luma AI 研究员加盟 |
 | **2026-06-09** | 北京人形机器人创新中心 TianGong 3.0 下半年量产交付 |
@@ -24,6 +27,206 @@
 | **2026-04-17** | 智元 APC 2026 大会：4 本体 + 6 模型 + 7 解决方案 |
 | **2026-04-16** | Physical Intelligence 发布 π0.7 具身基础模型 |
 | **2026-04-01** | 星动纪元登顶 Benjie's Olympics 三项全球第一 |
+
+---
+
+## 2026-06 月下旬（6/17–6/19）
+
+### 傅利叶 GR-3 千万级订单落地东南亚最大康复中心
+
+**2026.06.19** — 傅利叶携「智能康复港」+ 人形机器人 + MetaMotus Galileo 生物力学系统落地马来西亚 PERKESO 苏丹纳兹林沙社险机构康复中心（东南亚最大康复中心），订单达千万级。
+
+- **GR-3 在康养认知训练场景应用演示**：视觉识别 + 语音交互 + 任务引导
+- 与 PERKESO 达成深度战略合作，引入 GRx 系列人形机器人做临床科研
+- 已为当地超千名脊髓损伤、脑损伤患者提供服务
+- 顾捷宣布未来三年「产品出海 → 生态出海」，深耕康养/科研教育/商业服务/工业协作四大场景
+
+来源：[新浪财经](https://finance.sina.com.cn/jjxw/2026-06-19/doc-inicxcvc9804532.shtml)、[新浪财经（6/17）](https://finance.sina.com.cn/jjxw/2026-06-17/doc-inictnut2765624.shtml)
+
+### 宇树 IPO 招股书披露：2025 净利润 6 亿，85% 募投研发
+
+**2026.06.19** — 宇树科技 IPO 招股书细节披露，打破「机器人公司烧钱」刻板印象。
+
+- 2025 年营收突破 17 亿元，扣非净利润超 6 亿元，经营现金净流入超 6.7 亿元
+- 2025 年 1-9 月人形机器人营收 5.95 亿元（占比 51.53%），反超四足机器人
+- G1 人形机器人年度发货超 5,500 台（全球第一），四足机器人累计销 3 万+ 台
+- 拟募资 42.02 亿元，**85% 投入研发**，其中 20.22 亿用于「智能机器人模型研发」
+- 制造基地建成后年产能：**7.5 万台人形 + 11.5 万台四足**
+- 王兴兴持股 23.82%（AB 股架构控制 68.78% 表决权）；美团 9.65%、腾讯/红杉/经纬等跟投
+
+来源：[36 氪](https://www.36kr.com/p/3731172785111046)、[36 氪](https://www.36kr.com/p/3733433285374722)
+
+### Figure 02 BMW Spartanburg 新里程碑
+
+**2026.06.18** — Figure 02 在 BMW 南卡罗来纳州 Spartanburg 工厂达成新运营里程碑，从试点测试转向有限生产集成。
+
+- 复杂零件处理 + 质量检验 + 物流分拣，最小监督下运行
+- 已集成至 BMW 物流工作流，专注高灵活度任务
+- 行业估算单台价格 $100K–$200K（不含软件授权和维护）
+
+来源：[RobotWale](https://robotwale.com/news/figure-02-bmw-deployment-milestone)
+
+### 1X NEO Beta Household Trial 家用试用计划启动
+
+**2026.06.18** — 1X Technologies 启动 NEO Beta Household Trial Programme，邀请全球筛选家庭测试 NEO 在真实家居环境的能力。
+
+- 3 个月测试周期，重点采集安全、可靠性、用户交互数据
+- 反馈将直接决定最终量产规格
+- 行业估算商用单价 >$50,000（初始定位奢侈品级）
+- 1X 强调数据驱动最终量产前的「最后一英里」打磨
+
+来源：[RobotWale](https://robotwale.com/news/1x-neo-beta-household-trial)
+
+### Agility Digit 扩展亚马逊配送中心部署
+
+**2026.06.18** — Agility Robotics 的 Digit 在 Amazon 多个美国配送中心扩展部署。
+
+- 任务：物资搬运、库存审计、安全检查
+- 双足移动适应不平整仓库地面，承载达 20 kg
+- 与人协作而非替代，定位高量物流环境减负
+- 单台估算 $100K–$150K，为大型电商自动化树立标杆
+
+来源：[RobotWale](https://robotwale.com/news/agility-digit-amazon-expansion)
+
+### Automate 2026 多家发布（6/17–6/18）
+
+**2026.06.17–18** — Automate 2026（芝加哥，6/22 开幕）前夕/期间多家公司集中发布：
+
+- **Kawasaki RL030N**（6/18）：首款为 Physical AI 设计的 8 轴机器人
+- **Autonomique**（6/18）：物理 AI 平台进入 Tier-1 汽车供应商 F&P Mfg 实产
+- **Current Robotics Curr-0**（6/18）：人形机器人全身智能基础模型
+- **MINT-4B VLA**（6/18）：全球前三 VLA 模型，驱动小智 S2 人形机器人
+- **Sanctuary AI**（6/16）：汽车 Tier-1 供应商场景任务成功率 99.5%，转向硬件无关 Physical AI
+- **Richtech Robotics DEX**（6/17）：首次设立 Humanoid Pavilion，激光雕刻 + 互动讲解
+
+来源：[RobotsBeat](https://robotsbeat.com/seres-xiaosai-humanoid-robot-vehicle-inspection-production-china/)
+
+### 智元 VivaTech 2026 Paris 展示「三智合一」架构
+
+**2026.06.17** — 智元 AGIBOT 在 VivaTech 2026（巴黎，6/15–6/19）展示具身机器人产品组合，并参与香榭丽舍大街公众技术展。
+
+- 「三智合一」架构：**Locomotion Intelligence + Interaction Intelligence + Manipulation Intelligence**
+- Discovery Stage：G2 与多款机器人自主联合演示
+- Hall 7.1：D1 + 两台 X2 组成机器人游行
+- Theater Stage：舞蹈 + 抓取动作演示全身控制与末端执行器操作
+- 产品矩阵：人形、四足、灵巧手系统、商用清洁方案
+
+来源：[AGIBOT 官方](https://www.agibot.com/article/231/detail/78.html)
+
+### 傅利叶出海「马来西亚模式」落地
+
+**2026.06.17** — 傅利叶智能康复港 + GR-3 + MetaMotus Galileo 系统落地 PERKESO 康复中心，宣布「产品出海 → 生态出海」三年规划。
+
+- 与 PERKESO 围绕具身智能、脑机接口、虚拟现实、功能性电刺激开展联合研发
+- 「马来西亚模式」有望复制到东南亚、欧洲、南美
+- 2025 年与 NHG 合作开展 rPPG 非接触式生命体征监测研究
+- 2026 年 5 月双方续签，共建联合康复创新中心
+
+来源：[新浪财经](https://finance.sina.com.cn/jjxw/2026-06-17/doc-inictnut2765624.shtml)
+
+### Foxconn VivaTech 欧洲首秀：闭环物理 AI 栈
+
+**2026.06.17** — Foxconn 在 VivaTech 2026（Paris Expo Porte de Versailles, Booth 2B41）首次欧洲展示工业人形机器人，揭示与 NVIDIA 联合打造的闭环物理 AI 栈。
+
+- 轮式人形执行 AI 服务器产线精密装配任务
+- 技术栈：NVIDIA Isaac GR00T + FoundationPose 6-DoF 物体姿态估计 + Isaac Sim 仿真 + Jetson Thor 板载推理
+- 训练数据源于 Foxconn 真实工厂场景，仿真训练 + 现场迭代闭环
+- Foxconn 同时在法国和捷克制造 NVIDIA AI 机架
+
+来源：[TechTimes](https://www.techtimes.com/articles/318548/20260617/foxconn-debuts-humanoid-robots-europe-revealing-closed-loop-physical-ai-stack.htm)
+
+### Genesis AI 发布 Eno 通用机器人（非人形路线）
+
+**2026.06.17** — 法国初创 Genesis AI（前 Google CEO Eric Schmidt 投资）发布首款通用机器人 Eno，主张「humanoid robots don't need to look human」。
+
+- 设计哲学：「围绕人类能力而非人类外观」
+- 可折叠如躺椅、轮式底座，但双手「精确匹配人类形态与功能」以使用现有工具
+- GENE 基础模型作为机器人原脑，赋予 Eno 人类级灵巧操作 + 毫米级精度
+- 可选屏幕版本显示机器人意图、推理、运行状态
+- 2026 年底开始量产 + 客户部署，先工业（制造/实验室/物流），后服务（医院/酒店），再消费
+
+来源：[The Verge](https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno)、[Robotics & Automation News](https://roboticsandautomationnews.com/2026/06/17/genesis-ai-launches-first-general-purpose-humanoid-robot/102623/)
+
+### Faraday Future 进军 EAI：六产品系列 + FX Navi $1,990
+
+**2026.06.17** — Faraday Future（NASDAQ: FFAI）发布全形态 EAI Robot World，覆盖 6 大产品系列，推出全球首个「三合一」EAI 机器人教育生态策略。
+
+- **All-New Futurist**：美国首款原生支持 NVIDIA Sonic 全身运动控制的全尺寸人形
+  - 5'8" 身高、121 lbs（较上代轻 14%）、31 DoF、320 N·m 膝关节峰值扭矩
+  - 最高 11 mph、1,152 Wh 双电池续航 6 小时
+  - Ultra 版今年晚些发布，搭载 Jetson Thor
+- **FF Master Mini**（~1m）：教育 + 体育竞赛两用紧凑型 EAI 人形
+- **FF Nova**（~50cm）：入门级微型 EAI 人形，教育 + 陪伴
+- **FX Navi** 四足机器人：$1,990，立即开售
+- 6/22 在芝加哥 Automate 发布 mobile manipulator + 工业生态预览
+
+来源：[Morningstar/Business Wire](https://www.morningstar.com/news/business-wire/20260616306065/faraday-future-unveils-full-form-eai-robot-world-spanning-six-product-series-launches-worlds-first-three-in-one-eai-robotics-education-ecosystem-strategy-and-debuts-all-new-futurist-humanoid-robot-and-fx-navi-priced-at-1990)
+
+### Seres 赛力斯发布首款人形机器人 Xiaosai
+
+**2026.06.17** — 中国车企 Seres 集团正式进军具身智能，发布首款人形机器人 Xiaosai（小赛）。
+
+- 配备视觉识别、自主问候、语音交互能力
+- 用于车辆检测和生产场景
+- 由 Seres 集团董事、副总裁康博发布
+- 多款具身智能机器人将在今年晚些时候陆续亮相
+- 2024 年 10 月与字节跳动旗下火山引擎签约合作多模态云边协作
+
+来源：[RobotsBeat](https://robotsbeat.com/seres-xiaosai-humanoid-robot-vehicle-inspection-production-china/)、[Interesting Engineering](https://interestingengineering.com/ai-robotics/china-seres-humanoid-robot)
+
+### Alibaba 发布 Qwen-Robot 系列：首个全栈具身大模型套件
+
+**2026.06.16–17** — 阿里巴巴在 Qwen 大模型生态中正式发布 Qwen-Robot 系列，是其首个完整的具身智能模型家族。
+
+- **Qwen-RobotManip**（VLA）：操作模型，处理语言引导的抓取/操作任务
+- **Qwen-RobotNav**（VLN）：导航模型，融合多任务族 + 任务自适应观测
+- **Qwen-RobotWorld**：物理信息世界模型，可仿真预测未来机器人状态和动作，支持执行前轨迹预演 + 合成数据生成
+- 三个模型可独立或协同部署，让机器人实现「走、看、想」一体化
+- 全部基于开源数据训练
+
+来源：[Embodied Global](https://embodiedglobal.com/en/article/alibaba-qwen-robot-embodied-ai-model-series-2026)
+
+### 宇树 H2 发布 + 优必选亿元级工业大单
+
+**2026.06.17** — 36 氪报道人形机器人走向实用主义：宇树发布 H2，优必选斩亿元大单。
+
+- **宇树 H2**：仿生人形，延续运动控制传统优势，极强平衡性与敏捷性
+- **优必选 Walker S2**：精准操作 + 持久续航
+- 优必选 7 月中标觅亿汽车 9,051 万元（全球单笔最高纪录），10 月再斩 3,200 万 + 1.26 亿
+- 宇树 2024 年人形机器人出货 ~1,400 台（全球第一），2026 年初至今已中标 25 个公开采购项目
+- 优必选工业场景效率对标人工：当前 30%，2026 初 50%，2027 底 80%
+
+来源：[36 氪](https://www.36kr.com/p/3522999734131584)
+
+### 中国人形机器人「六小龙」集体冲刺 IPO
+
+**2026.06.17** — 36 氪报道人形机器人头部六家企业集体冲刺 IPO，2026 年开年前 4 月融资 332 起 613 亿元。
+
+| 公司 | IPO 进度 | 关键数据 |
+|------|---------|---------|
+| **宇树科技** | 3/20 科创板受理，6/1 过会（66 天） | 拟募 42.02 亿，估值 ~420 亿，2025 净利 6 亿 |
+| **云深处** | 4 月完成股改启动科创板 | 四足机器人起家，电力巡检/应急救援基本盘 |
+| **乐聚机器人** | 5/19 创业板受理（首家创业板第四套标准） | — |
+| **智元机器人** | 随时可能递表，目标估值 400–500 亿港元 | 累计 11 轮融资，2025/3 B 轮投后 150 亿（腾讯领投） |
+| **傅利叶智能** | E 轮融资后进入上市筹备 | 估值 ~80 亿，软银/IDG 等投资 |
+| **星动纪元** | 2 个月融资近 25 亿，估值破百亿 | Q2 千台级交付，联合中国邮政/顺丰落地 10+ 物流中心 |
+
+- 2026 年已有 20+ 家具身智能公司明确上市计划
+- 百亿估值阵营已扩至 13 家
+
+来源：[36 氪](https://36kr.com/p/3818707124405120)
+
+### 行业观察：人形机器人「炫目但尚不能独立工作」
+
+**2026.06.19** — Türkiye Today 行业分析指出，尽管公司高调发布，人形机器人仍无法大规模自主完成广泛任务。
+
+- 1X NEO 去年 10 月发布时实际由附近人类操作员控制
+- AgiBot Xinrui Bi：「规模化自主运行还做不到，因为数据不够」
+- Brain Corp John Black：端到端 VLA / 世界模型「非确定性，是黑盒」
+- 试点案例：BD Atlas 在 Hyundai、Hexagon AEON 在 BMW，但工程师强调仍是实验
+- Hello Robot Charlie Kemp：「在你让机器人真去做你以为它能做的事之前，你并不真知道」
+
+来源：[Türkiye Today](https://www.turkiyetoday.com/business/humanoid-robots-dazzle-crowds-but-still-cant-work-on-their-own-3222209)
 
 ---
 

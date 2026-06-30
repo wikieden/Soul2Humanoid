@@ -23,7 +23,7 @@
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--06-blue)](./)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--06--19-blue)](./)
 [![Companies](https://img.shields.io/badge/companies-15-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 [![Star](https://img.shields.io/github/stars/wikieden/Soul2Humanoid?style=social)](https://github.com/wikieden/Soul2Humanoid)
@@ -48,6 +48,26 @@
 ## 最新动态
 
 > 每次更新记录于此，详细动态见 [`latest-news.md`](./latest-news.md)
+
+### 2026-06-19
+
+| 公司 | 重大动态 |
+|------|---------|
+| **傅利叶 (Fourier)** | GR-3 千万级订单落地东南亚最大康复中心（马来西亚 PERKESO）；「产品出海→生态出海」三年规划 |
+| **宇树科技 (Unitree)** | IPO 招股书披露：2025 营收 17 亿、净利 6 亿、85% 募投研发；7.5 万/年人形 + 11.5 万/年四足产能规划 |
+| **Figure AI** | Figure 02 在 BMW Spartanburg 工厂达成新运营里程碑，从试点转向有限生产集成 |
+| **1X Technologies** | 启动 NEO Beta Household Trial Programme，3 个月全球筛选家庭测试 |
+| **Agility Robotics** | Digit 扩展至 Amazon 多个美国配送中心，承载 20 kg |
+| **智元 (AGIBOT)** | VivaTech 2026 Paris 展示「三智合一」架构 + G2/D1/X2 机器人游行 |
+| **Foxconn** | VivaTech 欧洲首秀，NVIDIA Isaac GR00T 闭环物理 AI 栈，轮式人形做精密装配 |
+| **Genesis AI** | 发布 Eno 通用机器人（非人形路线），Eric Schmidt 投资，GENE 基础模型 |
+| **Faraday Future** | 全形态 EAI Robot World 6 系列；All-New Futurist 人形；FX Navi 四足 $1,990 |
+| **Seres 赛力斯** | 发布首款人形机器人 Xiaosai，用于车辆检测与生产 |
+| **Alibaba** | 发布 Qwen-Robot 系列：Manip (VLA) + Nav (VLN) + World 三个模型，开源数据训练 |
+| **Automate 2026** | Kawasaki 8 轴 RL030N、Autonomique 实产、Curr-0、MINT-4B VLA、Sanctuary AI 99.5% 成功率 |
+| **中国人形「六小龙」** | 宇树/云深处/乐聚/智元/傅利叶/星动 集体冲刺 IPO；2026 年 20+ 家明确上市计划 |
+
+**行业趋势**：IPO 窗口期·车企集体入局（Seres+BYD+FF）·非人形路线分歧（Genesis Eno）·中国六小龙资本化·VLA 全栈化（Alibaba Qwen-Robot）
 
 ### 2026-06-16
 
