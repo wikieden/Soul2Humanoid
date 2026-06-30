@@ -4,6 +4,62 @@
 
 ---
 
+## 2026-06-19
+
+### 新增
+
+- **latest-news.md 新增 6/17–6/19 月下旬章节**：13+ 条新动态，覆盖 VivaTech 2026 Paris、Automate 2026、IPO 窗口、车企入局等主题
+- **快速导航表**：新增 6/17、6/18、6/19 三行，时间线延伸至 6 月下旬
+
+### 更新
+
+- **README.md 最新动态**：新增 `2026-06-19` 表格，覆盖 12 个公司/事件条目；Last Updated badge 更新为 `2026--06--19`
+- **行业趋势观察**：6/19 Türkiye Today 行业分析（机器人尚未大规模自主工作）加入 latest-news.md
+
+### 关键事件汇总
+
+| 维度 | 6/17–6/19 关键事件 |
+|------|------------------|
+| **海外部署** | Figure 02 BMW Spartanburg 新里程碑、1X NEO Beta 家用试用、Agility Digit 扩展亚马逊 |
+| **中国 IPO 窗口** | 宇树招股书披露 2025 净利 6 亿、六小龙集体冲刺 IPO、宇树 H2 发布 + 优必选亿元大单 |
+| **VivaTech Paris** | 智元「三智合一」展示、Foxconn 闭环物理 AI 栈欧洲首秀 |
+| **车企入局** | Seres 发布 Xiaosai、Faraday Future 全形态 EAI Robot World |
+| **新公司/新形态** | Genesis AI Eno（非人形）、Alibaba Qwen-Robot 系列（Manip+Nav+World） |
+| **Automate 2026** | Kawasaki 8 轴 RL030N、Autonomique 实产、Curr-0、MINT-4B、Sanctuary AI 99.5% |
+| **出海/海外** | 傅利叶 GR-3 千万级订单落地马来西亚 PERKESO 康复中心 |
+
+### 研究方向观察
+
+- **人形 vs 非人形路线分歧开始显性化**：Genesis AI Eno 明确「不需看起来像人」，挑战全人形共识
+- **车企集体入场**：BYD（尧舜禹）+ Seres（Xiaosai）+ Faraday Future（EAI Robot World）+ 小鹏（IRON）+ 广汽（GoMate）+ 奇瑞（Aimoga）+ Tesla（Optimus）
+- **资本化窗口开启**：中国六小龙集体冲刺 IPO，2026 年具身智能「上市大年」
+- **VLA 从单点模型走向全栈套件**：Alibaba Qwen-Robot 三个模型分工又协同
+
+---
+
+## 2026-06-16
+
+### 新增
+
+- **3 家中国公司调研报告**：智元 (AGIBOT)、星动纪元 (StarDynamics)、傅利叶智能 (Fourier)，覆盖公司概况/AI 架构/数据策略/商业化进展
+- **latest-news.md 全面更新**：新增 5-6 月行业动态（Figure×Catalyst Brands、1X World Model Lab、NVIDIA GR00T、BYD 入局、星动纪元 A+ 轮、智元 A3 打乒乓等）
+- **papers.md 新增论文章节**：2026 年 5-6 月 10+ 篇重要新论文（Qwen-VLA、LeVERB、SENTINEL、UniT、WLA-0、UniVLA 等）
+
+### 更新
+
+- **README.md**：公司表格扩展至 **15 家**（新增智元/星动/傅利叶），最新动态更新至 2026-06-16，目录结构同步
+- **latest-news.md**：重写为完整的时间线格式（4 月→5 月→6 月），新增 7 条行业趋势总结
+- **papers.md**：新增 2026 年 5-6 月重要论文（ICLR/CVPR 2026、arXiv 新预印本）
+- **README.md 使用方式**：新增 MkDocs 本地预览指南和 make check 链接检查
+
+### 研究方向扩展
+
+- 覆盖公司从 **12 家 → 15 家**，增加中国具身智能公司阵营
+- 新增跟踪：BYD 人形机器人项目、NEURA Robotics、北京天工 3.0、中国机器人数字身份证政策
+- README 中移除「后续计划覆盖中国公司」的待办标记
+
+---
+
 ## 2026-05-08
 
 ### 新增

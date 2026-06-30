@@ -23,8 +23,8 @@
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--05-blue)](./)
-[![Companies](https://img.shields.io/badge/companies-11-orange)](./reports)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--06--19-blue)](./)
+[![Companies](https://img.shields.io/badge/companies-15-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 
 ---
@@ -47,19 +47,41 @@
 
 > 每次更新记录于此，详细动态见 [`latest-news.md`](./latest-news.md)
 
-### 2026-05-08
+### 2026-06-19
 
 | 公司 | 重大动态 |
 |------|---------|
-| **Figure AI** | BotQ 120 天 **24 倍**提速（1 台/小时）；**System 0** 零样本楼梯；**Never Fall** 协议；Helix 02 离线运行；$400-600/月租赁模型 |
-| **1X Technologies** | **NEO Factory** 58K sqft 曝光；全垂直整合（Revo2 电机自产）；Jetson Thor；目标 100K/年 |
-| **Unitree** | **双臂 R1 平台** $4,290 起；**$5.8 亿 IPO** 申请；20K 年出货目标 |
-| **Boston Dynamics** | **CEO/C-Suite 大出走**（Playter 退休、Saunders→DeepMind、Kuindersma 离职）；Hyundai 要求 30K/年 |
-| **Apptronik** | **$9.35 亿融资**；挖角 Waymo/BD/Amazon 组 Dream Team；下一代机器人将公布 |
-| **Agility** | **Peggy Johnson** 新任 CEO；Unconstrained Humanoids 愿景 |
-| **Meta** | 收购 **Assured Robot Intelligence**，正式进入人形机器人赛道 |
+| **傅利叶 (Fourier)** | GR-3 千万级订单落地东南亚最大康复中心（马来西亚 PERKESO）；「产品出海→生态出海」三年规划 |
+| **宇树科技 (Unitree)** | IPO 招股书披露：2025 营收 17 亿、净利 6 亿、85% 募投研发；7.5 万/年人形 + 11.5 万/年四足产能规划 |
+| **Figure AI** | Figure 02 在 BMW Spartanburg 工厂达成新运营里程碑，从试点转向有限生产集成 |
+| **1X Technologies** | 启动 NEO Beta Household Trial Programme，3 个月全球筛选家庭测试 |
+| **Agility Robotics** | Digit 扩展至 Amazon 多个美国配送中心，承载 20 kg |
+| **智元 (AGIBOT)** | VivaTech 2026 Paris 展示「三智合一」架构 + G2/D1/X2 机器人游行 |
+| **Foxconn** | VivaTech 欧洲首秀，NVIDIA Isaac GR00T 闭环物理 AI 栈，轮式人形做精密装配 |
+| **Genesis AI** | 发布 Eno 通用机器人（非人形路线），Eric Schmidt 投资，GENE 基础模型 |
+| **Faraday Future** | 全形态 EAI Robot World 6 系列；All-New Futurist 人形；FX Navi 四足 $1,990 |
+| **Seres 赛力斯** | 发布首款人形机器人 Xiaosai，用于车辆检测与生产 |
+| **Alibaba** | 发布 Qwen-Robot 系列：Manip (VLA) + Nav (VLN) + World 三个模型，开源数据训练 |
+| **Automate 2026** | Kawasaki 8 轴 RL030N、Autonomique 实产、Curr-0、MINT-4B VLA、Sanctuary AI 99.5% 成功率 |
+| **中国人形「六小龙」** | 宇树/云深处/乐聚/智元/傅利叶/星动 集体冲刺 IPO；2026 年 20+ 家明确上市计划 |
 
-**行业趋势**：制造量产竞赛白热化 · 垂直整合成共识 · 家用市场提前布局 · BD 高管出走反映研究→商业转型阵痛
+**行业趋势**：IPO 窗口期·车企集体入局（Seres+BYD+FF）·非人形路线分歧（Genesis Eno）·中国六小龙资本化·VLA 全栈化（Alibaba Qwen-Robot）
+
+### 2026-06-16
+
+| 公司 | 重大动态 |
+|------|---------|
+| **Figure AI** | BotQ 1 台/小时，350+ F03 交付；与 **Catalyst Brands** 签署物流部署协议；BMW Leipzig 工厂部署确认；参与组装 **3 万台** BMW SUV |
+| **1X Technologies** | 成立 **World Model Lab**，Luma AI 研究员加盟；NEO Factory 量产，$499/月订阅；**10K→100K/年**产能路线 |
+| **智元 (AGIBOT)** | 远征 A3 **全球首个**全尺寸人形机器人自主打乒乓；**10,000 台**量产里程碑；BFM-2 运动基座模型 |
+| **星动纪元 (StarDynamics)** | **10 亿元** A+ 轮融资（吉利资本领投）；物流场景 100+ 台部署；5 亿商业化订单 |
+| **BYD** | 正式确认人形机器人项目「尧舜禹」，**2 万台**年底部署，自建年产能 5 万台 |
+| **Tesla** | Giga Texas Optimus 工厂动工；Fremont Model S 产线改为 Optimus 产线；Gen 3 年中发布 |
+| **NVIDIA** | Isaac **GR00T** 开源人形机器人参考设计（Unitree H2+Jetson Thor） |
+| **Physical Intelligence** | **π0.7** 发布：7B 参数涌现能力，零样本未见任务泛化 |
+| **NEURA Robotics** | **$1.4B** 融资，行业最大单笔投资之一 |
+
+**行业趋势**：量产竞赛·垂直整合·中国公司全面崛起（智元+星动+BYD）·开源平台加速（NVIDIA GR00T）·从 Demo 到商业合同
 
 ### 2026-04-29
 
@@ -101,8 +123,11 @@
 | **NVIDIA Isaac** | GR00T / Jetson / Isaac Sim | 具身智能基础设施、仿真平台、卖铲人 | [`reports/nvidia-isaac/`](reports/nvidia-isaac/) |
 | **Enchanted Tools** | Miroki 服务机器人 | 社交/康养场景、Pepper 团队、轮式服务 | [`reports/enchanted-tools/`](reports/enchanted-tools/) |
 | **Genesis AI** | GENE-26.5 全栈人形 | Human-Level 宣称、Wuji Tech 硬件合作、新兴公司 | [`reports/genesis-ai/`](reports/genesis-ai/) ⚠️信息有限 |
+| **智元 (AGIBOT)** | 远征 A3 人形机器人 | 端到端 VLA（GO-2）、世界模型 GE-2、BFM-2 运动基座、AIMA 生态、10K+ 量产 | [`reports/agibot/`](reports/agibot/) |
+| **星动纪元 (StarDynamics)** | 星动 L7 人形机器人 | ERA-42 VLA 模型、物流场景百台部署、灵巧手 XHAND 1、清华孵化 | [`reports/star-dynamics/`](reports/star-dynamics/) |
+| **傅利叶智能 (Fourier)** | GR-2 通用人形 | 康复医疗基因、FSA 2.0 执行器、12-DoF 灵巧手、ROS 开放平台 | [`reports/fourier/`](reports/fourier/) |
 
-> 持续更新中，后续计划覆盖：国内创业公司（智元、傅利叶、星动纪元等）深度跟进。
+> 持续更新中。
 
 ---
 
@@ -138,8 +163,11 @@ Soul2Humanoid/
 │   ├── agility-robotics/              # Agility Robotics Digit 调研
 │   ├── apptronik/                     # Apptronik Apollo 调研
 │   ├── nvidia-isaac/                  # NVIDIA Isaac / GR00T 调研
-│   ├── enchanted-tools/               # Enchanted Tools Miroki 调研
-│   └── genesis-ai/                    # Genesis AI GENE-26.5 调研（信息有限）
+│       ├── enchanted-tools/               # Enchanted Tools Miroki 调研
+│   ├── genesis-ai/                    # Genesis AI GENE-26.5 调研（信息有限）
+│   ├── agibot/                        # 智元 AGIBOT 远征系列调研
+│   ├── star-dynamics/                 # 星动纪元 StarDynamics 调研
+│   └── fourier/                       # 傅利叶智能 GR 系列调研
 │
 ├── assets/                            # 图表与可视化资源
 │   ├── figure-ai/                     # Figure AI 相关图表（SVG + PNG）
@@ -213,13 +241,44 @@ Soul2Humanoid/
 ### 阅读报告
 直接进入 `reports/` 目录下的各公司文件夹，查看 `README.md`。
 
-### 重新生成图表
+### 本地预览网站（MkDocs）
+
+本站基于 **MkDocs Material** 构建，本地预览步骤：
+
 ```bash
+# 1. 安装依赖
+pip3 install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-rss-plugin
+
+# 2. 同步文件到 docs/（脚本将根目录 markdown 复制到 MkDocs 所需结构）
+make sync
+
+# 3. 启动本地开发服务器（默认 http://127.0.0.1:8000）
+make serve
+
+# 4. 生产构建（输出到 site/）
+make build
+```
+
+也可以一步到位：`make serve`（内含 sync）。
+
+> 首次构建需联网下载 Material 主题字体（Noto Sans SC、JetBrains Mono）。
+
+### 重新生成图表
+
+```bash
+make charts          # 批量生成所有 SVG + PNG 图表
+# 或手动：
 cd scripts
 python3 generate_diagrams.py           # PI 技术图表
 python3 generate_comparison_chart.py   # 公司对比图表
 ```
 > 依赖：`matplotlib`, `numpy`
+
+### 检查链接
+
+```bash
+make check            # 扫描所有 markdown 的外部链接有效性
+```
 
 ---
 
