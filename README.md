@@ -23,7 +23,7 @@
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--06--19-blue)](./)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--06--26-blue)](./)
 [![Companies](https://img.shields.io/badge/companies-15-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 [![Star](https://img.shields.io/github/stars/wikieden/Soul2Humanoid?style=social)](https://github.com/wikieden/Soul2Humanoid)
@@ -48,6 +48,20 @@
 ## 最新动态
 
 > 每次更新记录于此，详细动态见 [`latest-news.md`](./latest-news.md)
+
+### 2026-06-26
+
+| 公司 | 重大动态 |
+|------|---------|
+| **Figure AI** | 机器人数量（~740 台）首超员工数（~660 人），业界首例「机器人 > 人类」里程碑 |
+| **智元 (AGIBOT)** | 第 15,000 台 G2 下线（距 1 万台不到 3 个月）；8 台 G2 南昌工厂 6 天并线作业直播 |
+| **1X Technologies** | NEO 启动全规模生产，首批 $20,000 交付美国消费者，全球首款家用人形机器人商业化 |
+| **Tesla** | Optimus Gen 3 北京 CES Asia 亚洲首秀，台系供应链就绪，中国预售即将开启 |
+| **Boston Dynamics** | Atlas 踢足球视频；新一代为美军研发；机型简化加速商业化 |
+| **优必选 (UBTECH)** | 发布全尺寸超仿生人形机器人 U1 系列，50+ 款新品首发 |
+| **越疆科技** | 预告将发布家庭陪伴类人形机器人 |
+
+**行业趋势**：机器人 > 人类员工时代开启·家用人形机器人首次 C 端交付·中国量产加速（智元 1.5 万台下线）·Optimus 正式入华
 
 ### 2026-06-19
 
