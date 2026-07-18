@@ -23,7 +23,7 @@
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--04-blue)](./)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--05-blue)](./)
 [![Companies](https://img.shields.io/badge/companies-15-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 [![Star](https://img.shields.io/github/stars/wikieden/Soul2Humanoid?style=social)](https://github.com/wikieden/Soul2Humanoid)
@@ -49,17 +49,19 @@
 
 > 每次更新记录于此，详细动态见 [`latest-news.md`](./latest-news.md)
 
-### 2026-07-04
+### 2026-07-05
 
 | 公司/事件 | 重大动态 |
 |----------|---------|
-| **宇树科技 (Unitree)** | 科创板 IPO 注册获批（104 天创纪录），A 股「具身智能第一股」即将登场 |
-| **上海 CIEI 2026** | 国际具身智能产业博览会开幕，60+ 机器人企业参展，宇树/智元/优必选全阵容亮相 |
-| **人形机器人工厂实测** | 8 台人形机器人 6 天×10 小时装配打螺丝，集群成功率 **99.987%** |
-| **工信部/国资委** | 专项行动：2026 年底人形机器人常态部署、凝练百个以上场景、万台级规模落地 |
-| **中国移动** | 发布首个 5G-A 具身智能人形机器人训练场（苏州）+ 消防救援应用示范 |
+| **AI2 Robotics** | 完成近 **7.35 亿美元**融资，投后估值约 200 亿元，轮式人形机器人 AlphaBot |
+| **新华财经** | 全球具身智能产业迈入量产交付关键窗口期，头部企业加速规模化生产 |
+| **两协会倡议** | 中国人形机器人百人会 + 中国机械工业联合会发布情感陪伴人形机器人发展倡议 |
+| **亚布力论坛** | 具身智能商业化热议：无界动力获近 1 亿美元订单，宇树陈立判断 2-5 年突破 |
+| **Tesla Optimus** | 弗里蒙特工厂首条量产产线落地，7 月底启动小批量量产（周产 100 台），9 月冲刺周产 1,000 台 |
 
-**行业趋势**：从 Demo 到作业模式·宇树 A 股上市提速·政策明确 2026 年底万台级常态部署·5G-A 赋能训练基础设施
+**行业趋势**：量产交付关键窗口期开启·资本持续涌入（AI2 7.35 亿美元）·情感陪伴机器人规范化·Optimus 量产倒计时
+
+### 2026-07-04
 
 ### 2026-06-26
 
