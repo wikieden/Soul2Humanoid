@@ -23,7 +23,7 @@
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--05-blue)](./)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--17-blue)](./)
 [![Companies](https://img.shields.io/badge/companies-15-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 [![Star](https://img.shields.io/github/stars/wikieden/Soul2Humanoid?style=social)](https://github.com/wikieden/Soul2Humanoid)
@@ -48,6 +48,21 @@
 ## 最新动态
 
 > 每次更新记录于此，详细动态见 [`latest-news.md`](./latest-news.md)
+
+### 2026-07-17
+
+| 公司/事件 | 重大动态 |
+|----------|---------|
+| **WAIC 2026** | 上海开幕（10万㎡、1,100+企业、300+首发），具身智能成最大亮点 |
+| **Robbyant (蚂蚁)** | 开源 LingBot-VLA 2.0（60K小时、20形态）；发布 LingBot-VA 2.0 原生世界模型 |
+| **NVIDIA** | 开源 GR00T 1.7（Apache 2.0，40K小时训练数据，通用人形基础模型） |
+| **小米** | 发布 Robotics-U0（380亿参数多模态基础模型） |
+| **小鹏 (XPENG)** | Iron 人形月产千台目标，2027 全球发售 |
+| **普渡机器人** | WAIC 发布 Physical Agent 架构 + PUDU D7 半人形首展 |
+| **腾讯** | Robotics X Lab「小六」WAIC 首秀 |
+| **1X** | NEO Hands 25-DoF 肌腱驱动灵巧手发布 |
+
+**行业趋势**：VLA 模型开源潮加速（NVIDIA + Robbyant）·WAIC 具身智能崛起·量产竞赛全面开启·世界模型路线分化
 
 ### 2026-07-05
 

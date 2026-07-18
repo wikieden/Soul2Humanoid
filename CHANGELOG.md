@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-07-17
+
+### 新增
+
+- **latest-news.md 新增 7/13–7/17 章节**：12 条新动态，覆盖 WAIC 2026 开幕、Robbyant LingBot-VLA 2.0 开源（60K 小时、20 形态）、NVIDIA GR00T 1.7 Apache 2.0 开源、小米 Robotics-U0 38B 模型、小鹏 Iron 量产加速、1X NEO Hands 25-DoF 灵巧手、Georgia Tech Learn to Teach 框架、ergoCub 共享具身智能论文
+- **快速导航表**：新增 7/13–7/17 共 4 行，时间线延伸至 7 月 17 日
+
+### 更新
+
+- **README.md 最新动态**：新增 `2026-07-17` 表格（9 条事件）；Last Updated badge 更新为 `2026--07--17`
+
+### 关键事件汇总
+
+| 维度 | 7/13–7/17 关键事件 |
+|------|-------------------|
+| **WAIC 2026** | 上海开幕，10 万㎡、1,100+ 企业，具身智能成最大亮点；普渡 Physical Agent + PUDU D7 首展；腾讯「小六」首秀；人形机器人现场烹饪 |
+| **VLA 模型开源潮** | Robbyant LingBot-VLA 2.0（Ant Group）和 NVIDIA GR00T 1.7（Apache 2.0）相继开源 |
+| **世界模型路线** | Robbyant LingBot-VA 2.0 从零构建原生具身世界模型（非视频生成微调），150Hz 单 GPU |
+| **小米入局** | 发布 Robotics-U0 380 亿参数多模态具身基础模型，四大能力统一 |
+| **小鹏量产加速** | Iron 月产千台目标（2026 年底），2027 全球发售 |
+| **灵巧手突破** | 1X NEO Hands 25-DoF 肌腱驱动，面向家用场景 |
+| **学术前沿** | Georgia Tech「Learn to Teach」RL 框架；ergoCub 共享具身智能 Nature 论文 |
+
+### 研究方向观察
+
+- **VLA 基础模型全面开源化**：NVIDIA GR00T 1.7（Apache 2.0）+ Robbyant LingBot-VLA 2.0，行业正从独家模型走向开放生态竞争
+- **从 EV 到机器人**：小鹏加速转型，成为继 BYD、Seres 后第三家明确进军具身智能的中国车企
+- **WAIC 成为具身智能主舞台**：从 AI 软件到实体机器人，具身智能正在定义 AI 的下一个十年
+
+---
+
 ## 2026-07-05
 
 ### 新增

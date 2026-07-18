@@ -1,7 +1,7 @@
 # 2026 年最新动态追踪
 
 > 基于公司官方博客、Humanoids Daily、X/Twitter、科技媒体等来源整理的最新行业动态。
-> 更新日期：2026-07-05
+> 更新日期：2026-07-17
 
 ---
 
@@ -9,6 +9,10 @@
 
 | 动态日期 | 核心事件 |
 |---------|---------|
+| **2026-07-17** | **WAIC 2026** 开幕；Robbyant LingBot-VLA 2.0 开源（60K小时、20形态）；Pudu「One Brain, Multiple Embodiments」Physical Agent + PUDU D7 首展；腾讯「小六」WAIC 首秀；人形机器人新疆烤串烹饪演示 |
+| **2026-07-16** | 小米发布 Robotics-U0（38B多模态基础模型）；小鹏 Iron 月产 1000+ 台目标（2026年底）；Georgia Tech「Learn to Teach」RL行走框架 |
+| **2026-07-14** | Robbyant LingBot-VA 2.0 原生世界模型（150Hz单GPU）；1X NEO Hands 25-DoF灵巧手；LimX $200M Pre-IPO 估值$2.21B |
+| **2026-07-13** | NVIDIA 开源 GR00T 1.7（Apache 2.0，40K小时训练）；ergoCub 共享具身智能 Nature 论文 |
 | **2026-07-05** | AI2 Robotics 融资近 7.35 亿美元；新华财经：具身智能迈入量产交付关键窗口期；两协会发布情感陪伴人形机器人发展倡议 |
 | **2026-07-04** | 宇树科技科创板 IPO 注册获批（104 天创纪录）；8 台人形机器人工厂 6 天 10 小时装配成功率 99.987%；上海 2026 国际具身智能产业博览会开幕 |
 | **2026-06-28** | 工信部、国资委专项行动：2026 年底人形机器人常态部署、凝练百个以上场景、万台级规模落地 |
@@ -308,6 +312,132 @@
 - 1X NEO $20,000 家庭交付（C 端验证）
 - Optimus Gen 3 中国预售（全球最大市场）
 - 优必选 U1 系列 50+ 款首发（产品矩阵扩张）
+
+---
+
+## 2026-07 中旬（7/13–7/17）
+
+### WAIC 2026 开幕：具身智能成最大亮点
+
+**2026.07.17** — 2026 世界人工智能大会（WAIC）在上海开幕，展览总面积首次突破 10 万平方米，超 1,100 家企业参展，300+ 产品全球首发。具身智能与人形机器人成为本届大会最大亮点。
+
+**核心参展动态**：
+
+- **普渡机器人（Pudu Robotics）**：举办 AI 技术简报会，公布「One Brain, Multiple Embodiments」Physical Agent 三层架构（机器人本体层 → PuduAgent OS 中枢 → PuduFM 技能层）；工业级半人形机器人 PUDU D7 首次线下公开展示（承重 14 kg、操作高度 2m）
+- **腾讯 Robotics X Lab**：第六代机器人「小六」（Xiao Liu）首次公开亮相，继承「小五」四轮足混合设计 + 绳索传动技术，主打安全人机交互
+- **其他亮点**：人形机器人现场烤制新疆羊肉串、拉面演示（触觉传感器 + 力控）；第二屆世界人形机器人运动会预告（8月22–26日·北京）
+
+来源：WAIC 2026 官方、PRNewswire、TechNode
+
+### Robbyant 开源 LingBot-VLA 2.0：60K 小时 20 形态跨本体基础模型
+
+**2026.07.17** — 蚂蚁集团旗下具身智能公司 Robbyant 正式开源 LingBot-VLA 2.0，一个预训练于 **60,000 小时**物理交互数据（50,000 小时真实机器人 + 10,000 小时人类一视角数据）的 VLA 基础模型，覆盖 **20 种机器人形态**（单臂、双臂、双足、轮式），来自 17 家制造商（AGIBot、宇树、Astribot、傅利叶、Galaxea、Galbot、乐聚等）。
+
+**关键技术亮点**：
+
+- **跨形态泛化**：宣称在 SJTU GM-100 双臂基准上超越 PI π0.5 和 NVIDIA GR00T N1.7
+- **全身控制**：头部、腰部、灵巧手、移动底盘统一策略
+- **推理效率**：3 倍提升，延迟 <150ms，可在边缘设备本地运行
+- **生态系统策略**：商用试点已在零售分拣、物流场景与合作伙伴落地（乐聚、Ti5Robot、国大药房、龙晟科技）
+
+> 这是目前公开披露训练数据最广的 VLA 模型之一——独立、分布外评估将是验证泛化能力的关键。
+
+来源：[HumanoidIntel.ai](https://humanoidintel.ai/news/robbyant-lingbot-vla-2-universal-ai-model-humanoid-robots/)
+
+### Robbyant 发布 LingBot-VA 2.0：首个原生具身世界模型
+
+**2026.07.14** — Robbyant 同时发布了 LingBot-VA 2.0，自称**业界首个从零构建的原生具身视频-动作世界模型**（非从视频生成模型微调）。基于自回归架构，预测机器人动作如何改变环境，再基于因果关系决定下一步动作。
+
+- **语义视觉-动作分词器**：联合压缩视觉和动作信息
+- **严格因果预训练**：确保预测遵循正确的时间顺序
+- **MoE 架构**：提升模型容量而不成比例增加推理成本
+- **增强异步推理**：可同时预测未来状态和执行当前动作
+- **单 GPU 150Hz 实时闭环控制**
+- **上下文学习**：仅需 **20 个演示**即可适应新操作任务，无需参数更新
+- **基准测试**：RoboTwin 2.0 和 LIBERO 仿真评估优于现有方法
+
+来源：[RobotsBeat](https://robotsbeat.com/robbyant-lingbot-va-2-embodied-native-world-model-ant-group-robotics/)
+
+### 小米发布 Robotics-U0：38B 参数多模态具身基础模型
+
+**2026.07.16** — 小米发布了 **Xiaomi-Robotics-U0**，一个 380 亿参数的多模态自回归基础模型，在单一框架内统一四大核心能力：
+
+1. **具身场景生成**：文本提示生成机器人就绪环境
+2. **具身迁移**：适配已有机器人轨迹到新场景，保持运动特性
+3. **机器人交互视频生成**：任务指令生成机器人交互视频
+4. **通用图像生成与编辑**：利用互联网级视觉知识
+
+来源：[TechNode](https://technode.com/2026/07/16/xiaomi-introduces-xiaomi-robotics-u0-for-embodied-ai-and-robot-generation/)
+
+### 小鹏 Iron 人形机器人加速量产：月产 1000+ 台目标
+
+**2026.07.16** — 小鹏汽车（XPENG）加速 Iron 人形机器人量产，计划 **2026 年底月产能超 1,000 台**，2027 年全球发售。
+
+- **身高/体重**：178 cm / 70 kg，62 个主动关节，22 DoF 灵巧手
+- **动力**：轻量化全固态电池 + 3 颗自研 Turing AI 芯片（合计 2,250 TOPS）
+- **AI 模型**：VLA 模型，训练自数千小时人类运动数据，步行速度 2 m/s
+- **首发场景**：2027 Q1 在门店做销售助理，后续扩展至海外门店
+- **价格估算**：$60K–$100K+（对标特斯拉 Optimus 定位）
+
+来源：[Interesting Engineering](https://interestingengineering.com/ai-robotics/china-ev-maker-humanoid-robots)、[RobotsBeat](https://robotsbeat.com/)
+
+### 1X 发布 NEO Hands：25-DoF 肌腱驱动灵巧手系统
+
+**2026.07.14** — 1X Technologies 发布专为 NEO 家用机器人设计的 **NEO Hands**，一款 **25 自由度**的肌腱驱动灵巧手。
+
+- **肌腱驱动**：电机在手臂/前臂，通过线缆传动至手指，使手指本身极轻、本质柔顺
+- **力感知**：每根手指集成力传感器，支持精细力控
+- **家用场景**：可处理开门、握杯、抓取软性物体等日常操作
+- **设计理念**：安全 > 力量，适合家庭环境的人机交互
+
+来源：[RobotsBeat](https://robotsbeat.com/)
+
+### NVIDIA 开源 GR00T 1.7：Apache 2.0 人形机器人基础模型
+
+**2026.07.13** — NVIDIA 发布 **Project GR00T 1.7**，以 **Apache 2.0** 许可证开源，这是首个商业可用的人形机器人基础模型。
+
+- **预训练数据**：~32,000 小时真实人类演示 + ~8,000 小时仿真 rollout
+- **新 VLM 骨干**：Cosmos-Reason2-2B，提升视觉理解能力
+- **部署优化**：完整导出到 ONNX 和 TensorRT，简化 Sim2Real 迁移
+- **性能提升**：DROID-F6 基准**提升 61%**，泛化能力大幅增强
+- **模型规模**：3B 参数基础模型，代码和权重已发布至 GitHub 和 Hugging Face
+- **战略意义**：NVIDIA 为整个行业提供「大脑」基础设施，降低初创公司和学术实验室的人形机器人智能开发门槛
+
+来源：[RoboHorizon](https://robohorizon.com/en-us/news/2026/07/nvidia-open-sources-gr00t-17-a-free-brain-for-any-humanoid/)
+
+### Georgia Tech 发布「Learn to Teach」RL 框架：人形机器人未知地形行走
+
+**2026.07.16** — 佐治亚理工学院研究团队提出 **「Learn to Teach」** 框架，一种改进的教师-学生强化学习方法，让教师和学生同时训练，大幅降低训练时间和计算成本。
+
+- **同时训练**：教师学到的知识立即传递给学⽣，而非等教师完全掌握后再教
+- **双向学习**：学生也能向教师反馈经验，缩小模仿差距
+- **测试表现**：在沙地、砾石、湿草地、斜坡、楼梯、湿滑表面均成功行走
+- **抗干扰**：被推搡时自动调整步态保持稳定
+- **超出预期**：单一控制器可处理多种地形，甚至优于原厂自带控制软件
+
+来源：[Interesting Engineering](https://interestingengineering.com/ai-robotics/georgia-tech-humanoid-robot-walks-rough-terrain)
+
+### ergoCub 共享具身智能：Nature 子刊发表人形机器人人体工学优化框架
+
+**2026.07.13** — 意大利研究团队在 **Nature Machine Intelligence** 发表论文，提出**共享具身智能（Shared Embodied Intelligence）**架构，将人体工学指标融入人形机器人硬件和物理智能的联合优化。
+
+- **优化目标**：行走稳定性 + 人机协作中的人体背部压力（生物力学风险指标）
+- **实现平台**：ergoCub 人形机器人（基于 iCub 平台优化）
+- **方法**：在硬件设计阶段就嵌入人类表征，而非仅在行为层面调整
+- **意义**：首次从设计源头考虑人类舒适度的人形机器人方法论
+
+来源：[Nature Machine Intelligence](https://www.nature.com/articles/s42256-026-01272-2)
+
+### 行业趋势：VLA 模型开源潮·量产加速·WAIC 具身智能崛起
+
+**2026.07.13–17** 这一周的核心趋势：
+
+- **VLA 模型开源潮**：NVIDIA GR00T 1.7（Apache 2.0）、Robbyant LingBot-VLA 2.0 相继开源，具身基础模型从封闭走向开放生态
+- **量产竞赛加速**：小鹏 Iron 千台/月目标、XPENG 从 EV 向机器人公司转型
+- **WAIC 成为具身智能主舞台**：普渡、腾讯「小六」首秀，现场烹饪演示展示双臂灵巧操作进步
+- **世界模型路线分化**：Robbyant 从零构建原生具身世界模型（非视频生成改造），区别于 DeepMind、1X 的世界模型路线
+- **灵巧手关键突破**：1X NEO Hands 25-DoF 肌腱驱动展示家用场景进步
+- **学术前沿**：Georgia Tech「Learn to Teach」降低 RL 训练门槛；ergoCub 提出人体工学设计方法论
 
 ---
 
