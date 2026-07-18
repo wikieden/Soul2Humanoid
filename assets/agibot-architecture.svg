@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="720" viewBox="0 0 1008 720">
+  <rect width="1008" height="720" fill="#0D1117"/>
+
+  <text x="504" y="60" text-anchor="middle" font-size="22" font-weight="bold" fill="#E6EDF3" font-family="sans-serif">智元 AGIBOT — 「一体三智」AI 架构</text>
+  <text x="504" y="85" text-anchor="middle" font-size="14" fill="#8B949E" font-family="sans-serif" font-style="italic">GO-2 VLA + GE-2 World Model + BFM-2 Motion Base</text>
+
+  <!-- Top: Three Intelligence Pillars -->
+  <text x="170" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#E6EDF3" font-family="sans-serif">运动智能 (Motion)</text>
+  <text x="500" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#E6EDF3" font-family="sans-serif">交互智能 (Interaction)</text>
+  <text x="830" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#E6EDF3" font-family="sans-serif">作业智能 (Manipulation)</text>
+
+  <rect x="70" y="135" width="200" height="100" rx="8" fill="#1565C0" stroke="#30363D" stroke-width="2"/>
+  <text x="170" y="170" text-anchor="middle" font-size="12" font-weight="bold" fill="white" font-family="sans-serif">BFM-2 运动基座</text>
+  <text x="170" y="188" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">端到端 Motion-Between</text>
+  <text x="170" y="203" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">任意状态→任意指令构型</text>
+  <text x="170" y="218" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">生成式运动推理</text>
+
+  <rect x="400" y="135" width="200" height="100" rx="8" fill="#7B1FA2" stroke="#30363D" stroke-width="2"/>
+  <text x="500" y="170" text-anchor="middle" font-size="12" font-weight="bold" fill="white" font-family="sans-serif">交互智能</text>
+  <text x="500" y="188" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">语音 / 视觉 / 语言理解</text>
+  <text x="500" y="203" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">人机自然交互</text>
+  <text x="500" y="218" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">情感识别</text>
+
+  <rect x="730" y="135" width="200" height="100" rx="8" fill="#E65100" stroke="#30363D" stroke-width="2"/>
+  <text x="830" y="170" text-anchor="middle" font-size="12" font-weight="bold" fill="white" font-family="sans-serif">GO-2 VLA 基座</text>
+  <text x="830" y="188" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">动作思维链 (Action CoT)</text>
+  <text x="830" y="203" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">异步双系统架构</text>
+  <text x="830" y="218" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">弥合语义与运动鸿沟</text>
+
+  <!-- Down arrows -->
+  <line x1="170" y1="235" x2="170" y2="275" stroke="#8B949E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="235" x2="500" y2="275" stroke="#8B949E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="830" y1="235" x2="830" y2="275" stroke="#8B949E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- World Model Layer -->
+  <rect x="155" y="280" width="690" height="90" rx="10" fill="#0D47A1" stroke="#30363D" stroke-width="2.5"/>
+  <text x="500" y="315" text-anchor="middle" font-size="15" font-weight="bold" fill="white" font-family="sans-serif">GE-2 世界模型（GE-Sim 2.0）</text>
+  <text x="500" y="340" text-anchor="middle" font-size="11" fill="white" font-family="sans-serif">可交互、可训练的「物理进化引擎」</text>
+  <text x="500" y="358" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">Sim-to-Real 迁移  |  场景仿真  |  物理推理  |  因果预测</text>
+
+  <!-- Down arrow -->
+  <line x1="500" y1="370" x2="500" y2="410" stroke="#8B949E" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- AIMA Ecosystem -->
+  <rect x="155" y="415" width="690" height="90" rx="10" fill="#004D40" stroke="#30363D" stroke-width="2.5"/>
+  <text x="500" y="450" text-anchor="middle" font-size="15" font-weight="bold" fill="white" font-family="sans-serif">AIMA 具身智能生态</text>
+  <text x="500" y="475" text-anchor="middle" font-size="11" fill="white" font-family="sans-serif">数据采集  →  模型训练  →  仿真验证  →  真机部署  →  持续进化</text>
+  <text x="500" y="493" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">云端大脑 + 边缘推理 + 数据飞轮闭环</text>
+
+  <!-- Down arrow -->
+  <line x1="500" y1="505" x2="500" y2="540" stroke="#8B949E" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Robot Products Row -->
+  <rect x="30" y="545" width="220" height="80" rx="8" fill="#161B22" stroke="#1565C0" stroke-width="2"/>
+  <text x="140" y="575" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565C0" font-family="sans-serif">远征 A3（旗舰）</text>
+  <text x="140" y="595" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">全尺寸双足  |  自主打乒乓</text>
+  <text x="140" y="612" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">8-10h 热插拔电池</text>
+
+  <rect x="270" y="545" width="220" height="80" rx="8" fill="#161B22" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="380" y="575" text-anchor="middle" font-size="13" font-weight="bold" fill="#7B1FA2" font-family="sans-serif">灵犀 X2</text>
+  <text x="380" y="595" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">服务场景人形机器人</text>
+  <text x="380" y="612" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">灵活部署</text>
+
+  <rect x="510" y="545" width="220" height="80" rx="8" fill="#161B22" stroke="#E65100" stroke-width="2"/>
+  <text x="620" y="575" text-anchor="middle" font-size="13" font-weight="bold" fill="#E65100" font-family="sans-serif">酷拓 D2</text>
+  <text x="620" y="595" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">四足机器人平台</text>
+  <text x="620" y="612" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">复杂地形巡检</text>
+
+  <rect x="750" y="545" width="220" height="80" rx="8" fill="#161B22" stroke="#00C853" stroke-width="2"/>
+  <text x="860" y="575" text-anchor="middle" font-size="13" font-weight="bold" fill="#00C853" font-family="sans-serif">精灵 G2</text>
+  <text x="860" y="595" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">移动操作臂</text>
+  <text x="860" y="612" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">工业物流任务</text>
+
+  <!-- Bottom: Key Metrics -->
+  <text x="504" y="700" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif" font-style="italic">智元 2025 营收 10 亿+  |  2026 年突破 10,000 台量产  |  已获 AIMA 生态合作伙伴数百家</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B949E"/>
+    </marker>
+  </defs>
+</svg>

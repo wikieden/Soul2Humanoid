@@ -24,7 +24,7 @@
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
 [![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--17-blue)](./)
-[![Companies](https://img.shields.io/badge/companies-15-orange)](./reports)
+[![Companies](https://img.shields.io/badge/companies-16-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 [![Star](https://img.shields.io/github/stars/wikieden/Soul2Humanoid?style=social)](https://github.com/wikieden/Soul2Humanoid)
 [![Contact](https://img.shields.io/badge/email-wikieden@gmail.com-red)](mailto:wikieden@gmail.com)
@@ -159,8 +159,9 @@
 | **智元 (AGIBOT)** | 远征 A3 人形机器人 | 端到端 VLA（GO-2）、世界模型 GE-2、BFM-2 运动基座、AIMA 生态、10K+ 量产 | [`reports/agibot/`](./reports/agibot/) |
 | **星动纪元 (StarDynamics)** | 星动 L7 人形机器人 | ERA-42 VLA 模型、物流场景百台部署、灵巧手 XHAND 1、清华孵化 | [`reports/star-dynamics/`](./reports/star-dynamics/) |
 | **傅利叶智能 (Fourier)** | GR-2 通用人形 | 康复医疗基因、FSA 2.0 执行器、12-DoF 灵巧手、ROS 开放平台 | [`reports/fourier/`](./reports/fourier/) |
+| **Weave Robotics** | Isaac 1 家用机器人 | 轮式（非人形）、遥操作备份、织物外壳、$8K 定价 | [`reports/weave-robotics/`](./reports/weave-robotics/) |
 
-> 持续更新中。
+> 持续更新中·公司总数：16
 
 ---
 

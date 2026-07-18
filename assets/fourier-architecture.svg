@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="720" viewBox="0 0 1008 720">
+  <rect width="1008" height="720" fill="#0D1117"/>
+
+  <text x="504" y="60" text-anchor="middle" font-size="22" font-weight="bold" fill="#E6EDF3" font-family="sans-serif">傅利叶 Fourier GR-2 — 系统架构</text>
+  <text x="504" y="85" text-anchor="middle" font-size="14" fill="#8B949E" font-family="sans-serif" font-style="italic">康复医疗基因 + 通用人形平台 + 开放生态系统</text>
+
+  <!-- Top: Sensors & Perception -->
+  <rect x="70" y="125" width="200" height="90" rx="8" fill="#00695C" stroke="#30363D" stroke-width="2"/>
+  <text x="170" y="163" text-anchor="middle" font-size="12" font-weight="bold" fill="white" font-family="sans-serif">多模态感知</text>
+  <text x="170" y="183" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">双目视觉  |  触觉阵列</text>
+  <text x="170" y="200" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">IMU  |  关节编码器</text>
+
+  <rect x="310" y="125" width="200" height="90" rx="8" fill="#00838F" stroke="#30363D" stroke-width="2"/>
+  <text x="410" y="163" text-anchor="middle" font-size="12" font-weight="bold" fill="white" font-family="sans-serif">计算平台</text>
+  <text x="410" y="183" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">14 核 CPU（基础）</text>
+  <text x="410" y="200" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">+ 可选 275 TOPS Orin</text>
+
+  <rect x="550" y="125" width="200" height="90" rx="8" fill="#00897B" stroke="#30363D" stroke-width="2"/>
+  <text x="650" y="163" text-anchor="middle" font-size="12" font-weight="bold" fill="white" font-family="sans-serif">力控反馈</text>
+  <text x="650" y="183" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">实时力矩控制</text>
+  <text x="650" y="200" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">碰撞检测与响应</text>
+
+  <rect x="790" y="125" width="150" height="90" rx="8" fill="#26A69A" stroke="#30363D" stroke-width="2"/>
+  <text x="865" y="163" text-anchor="middle" font-size="12" font-weight="bold" fill="white" font-family="sans-serif">语音交互</text>
+  <text x="865" y="183" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">麦克风阵列</text>
+  <text x="865" y="200" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">自然语言理解</text>
+
+  <!-- Down arrows -->
+  <line x1="170" y1="215" x2="170" y2="260" stroke="#8B949E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="410" y1="215" x2="410" y2="260" stroke="#8B949E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="650" y1="215" x2="650" y2="260" stroke="#8B949E" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="865" y1="215" x2="865" y2="260" stroke="#8B949E" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Software & AI Layer -->
+  <rect x="70" y="265" width="870" height="95" rx="10" fill="#004D40" stroke="#30363D" stroke-width="2.5"/>
+  <text x="505" y="300" text-anchor="middle" font-size="15" font-weight="bold" fill="white" font-family="sans-serif">Fourier Toolkit — 开放软件栈</text>
+  <text x="505" y="325" text-anchor="middle" font-size="11" fill="white" font-family="sans-serif">NVIDIA Isaac Lab  |  ROS / ROS 2  |  MuJoCo  |  Webots</text>
+  <text x="505" y="348" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">机器视觉 SDK  |  路径规划 SDK  |  力控反馈 SDK  |  运动控制 SDK</text>
+
+  <!-- Down arrow -->
+  <line x1="505" y1="360" x2="505" y2="400" stroke="#8B949E" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- FSA 2.0 Actuator Layer -->
+  <rect x="70" y="405" width="870" height="95" rx="10" fill="#B71C1C" stroke="#30363D" stroke-width="2.5"/>
+  <text x="505" y="440" text-anchor="middle" font-size="15" font-weight="bold" fill="white" font-family="sans-serif">FSA 2.0 执行器系列</text>
+  <text x="505" y="465" text-anchor="middle" font-size="11" fill="white" font-family="sans-serif">7 款人形专用执行器  |  双编码器精度翻倍  |  峰值扭矩超 380 N·m</text>
+  <text x="505" y="488" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif">全系 FSA 覆盖全身 53 DoF  |  谐波减速器 + 盘式电机 + 双编码器</text>
+
+  <!-- Down arrow -->
+  <line x1="505" y1="500" x2="505" y2="535" stroke="#8B949E" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- GR-2 Robot Body -->
+  <rect x="155" y="540" width="690" height="90" rx="10" fill="#161B22" stroke="#B71C1C" stroke-width="2.5"/>
+  <text x="500" y="575" text-anchor="middle" font-size="15" font-weight="bold" fill="#EF5350" font-family="sans-serif">GR-2 通用人形机器人</text>
+  <text x="500" y="598" text-anchor="middle" font-size="11" fill="#8B949E" font-family="sans-serif">1.75m / 63kg  |  53 DoF（含 12-DoF 灵巧手）  |  436 N·m 关节峰值扭矩  |  ~950Wh 热插拔电池</text>
+  <text x="500" y="618" text-anchor="middle" font-size="10" fill="#8B949E" font-family="sans-serif">步行速度 5 km/h  |  单臂负载 ~3 kg  |  铝合金 + 工程塑料</text>
+
+  <!-- Bottom: Key differentiator -->
+  <rect x="155" y="645" width="690" height="50" rx="8" fill="#1B5E20" stroke="#30363D" stroke-width="1.5"/>
+  <text x="500" y="668" text-anchor="middle" font-size="11" font-weight="bold" fill="white" font-family="sans-serif">核心差异化：15 年康复医疗深耕 → 人机安全交互深度理解 → 力控/柔顺控制基因</text>
+  <text x="500" y="685" text-anchor="middle" font-size="9" fill="white" font-family="sans-serif">GR-2 定价 $150K–$170K  |  2026 年目标量产  |  马来/东南亚康复中心部署</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B949E"/>
+    </marker>
+  </defs>
+</svg>

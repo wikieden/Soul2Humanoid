@@ -14,6 +14,16 @@
 ### 更新
 
 - **README.md 最新动态**：新增 `2026-07-17` 表格（9 条事件）；Last Updated badge 更新为 `2026--07--17`
+- **公司表格**：新增 Weave Robotics 一行（16 家公司）；badge 更新为 companies-16
+
+### 新增文件
+
+- **reports/weave-robotics/README.md**：Weave Robotics Isaac 1 家用轮式机器人完整调研报告（含 4 张产品参考图 + 系统架构图）
+- **assets/weave-robotics/**：4 张产品参考图（isaac1-at-home、laundry、tidyup、sage）
+- **assets/weave-robotics-architecture.svg**：Isaac 1 系统架构图
+- **assets/agibot-architecture.svg**：智元「一体三智」AI 架构图
+- **assets/fourier-architecture.svg**：傅利叶 GR-2 系统架构图
+- **assets/star-dynamics-architecture.svg**：星动纪元 ERA-42 VLA 架构图
 
 ### 关键事件汇总
 
