@@ -23,7 +23,7 @@
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--17-blue)](./)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--31-blue)](./)
 [![Companies](https://img.shields.io/badge/companies-16-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 [![Star](https://img.shields.io/github/stars/wikieden/Soul2Humanoid?style=social)](https://github.com/wikieden/Soul2Humanoid)
@@ -48,6 +48,20 @@
 ## 最新动态
 
 > 每次更新记录于此，详细动态见 [`latest-news.md`](./latest-news.md)
+
+### 2026-07-30
+
+| 公司/事件 | 重大动态 |
+|----------|---------|
+| **Google DeepMind** | 发布 **Gemini Robotics 2**：全身控制（脚到指尖）+ 五指灵巧手（22-DoF）+ 多机器人协作；ER 2 通过 Gemini API 公开 |
+| **FCC** | 将外国产人形机器人列入国家安全禁止清单（中国占 85% 市场） |
+| **Robros（韩国）** | IGRIS-C 后空翻，全栈自研硬件+软件+AI |
+| **智在无界** | Being-H0.8 隐式触觉世界模型（50万小时数据） |
+| **北京人形创新中心** | TG-VLA 全身模型 + 100 万小时训练基地目标 |
+| **新华网** | 量产元年纪实：G2 工厂 2283次零失误，节拍提升 33% |
+| **WAIC 2026** | 208 家企业、300 台真机、年产 10 万台目标 |
+
+**行业趋势**：全身 VLA 模型突破（Gemini Robotics 2）·开源/闭源路线分化·FCC 禁令重塑全球竞争格局·触觉+世界模型成新赛道
 
 ### 2026-07-17
 
