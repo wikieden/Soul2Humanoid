@@ -14,7 +14,7 @@
 | **2026-07-28** | 智在无界 Being-H0.8 隐式触觉世界模型（50万小时数据）；FCC 禁止中国产人形机器人进口美国 |
 | **2026-07-26** | 中国发布人形机器人及具身智能国家标准；北京人形创新中心 TG-VLA 全身模型发布 |
 | **2026-07-22** | 新华网：人形机器人量产元年纪实——G2 工厂 8h 2283次零失误，节拍提升33% |
-| **2026-07-20** | WAIC 2026 总结：208 家企业、300 台真机、年产 10 万台目标 |
+| **2026-07-20** | WAIC 2026 总结：208 家企业、300 台真机、年产 10 万台目标；**Anthropic-PI 收购传闻**：确认春天谈判但未成交，OpenAI 持股成最大障碍 |
 | **2026-07-17** | **WAIC 2026** 开幕；Robbyant LingBot-VLA 2.0 开源（60K小时、20形态）；Pudu「One Brain, Multiple Embodiments」Physical Agent + PUDU D7 首展；腾讯「小六」WAIC 首秀；人形机器人新疆烤串烹饪演示 |
 | **2026-07-16** | 小米发布 Robotics-U0（38B多模态基础模型）；小鹏 Iron 月产 1000+ 台目标（2026年底）；Georgia Tech「Learn to Teach」RL行走框架 |
 | **2026-07-14** | Robbyant LingBot-VA 2.0 原生世界模型（150Hz单GPU）；1X NEO Hands 25-DoF灵巧手；LimX $200M Pre-IPO 估值$2.21B |
@@ -465,6 +465,34 @@
 **戴盟机器人**：原生触觉世界模型完成"水果装盒、笔袋收纳"等长时序操作。
 
 来源：[维科号](https://mp.ofweek.com/ai/a056714855607)
+
+### Anthropic-PI 收购传闻：确认春天谈判但未成交，OpenAI 持股成最大障碍
+
+**2026.07.20–22** — 科技博主 Robert Scoble 在 X 上发帖称 Anthropic 正在收购 Physical Intelligence，引发 AI 圈疯狂转发。CEO Karol Hausman 在 Slack 发《The Office》摇头 GIF 否认。但据 **The Information** 独家报道，双方**今年春天确实进行过收购谈判**，只是未达成协议。
+
+**事件脉络：**
+
+| 时间 | 事件 |
+|------|------|
+| 7/19-20 周末 | Robert Scoble 在 X 发帖称 Anthropic 收购 PI，引发病毒式传播 |
+| 7/21 | PI CEO Hausman 在 Slack 发 GIF 否认（"不属实"） |
+| 7/21 | The Information 独家：双方春天确实谈判过，但未成交 |
+| 7/22 | TechCrunch 深度报道：OpenAI 持股成最大障碍 |
+
+**PI 的核心价值**：融了 **$10 亿+**，估值 **$110 亿**（正在谈新一轮 $10 亿），π0 系列是研究界最广泛使用的机器人基础模型之一。
+
+**最大障碍——OpenAI 是 PI 股东**：
+
+- PI 的投资方（Khosla Ventures、Thrive Capital、Founders Fund）与 OpenAI 高度重叠
+- 如果 OpenAI 持有信息权或优先购买权（ROFR），可以**直接阻止或匹配** Anthropic 的收购
+- OpenAI 今年 5 月刚由 Sam Altman 正式宣布重启 **OpenAI Robotics** 部门
+- TechCrunch 向 OpenAI 求证，未获回复
+
+**战略意义**：Anthropic 没有硬件实验室，一直在做机器人安全研究（Project Fetch——用 Claude 帮非专家编程机器狗）。收购 PI 可跳过数年积累。与此同时，两家公司都在秘密准备 IPO（Anthropic 6/1、OpenAI 6/8 提交），上市前抢占战略资产的时间窗口很窄。
+
+> 无论最终谁拿下 PI，具身智能/机器人基础模型已成为前沿 AI 公司的必争之地。
+
+来源：[TechCrunch](https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/)、[The Information](https://humanoidintel.ai/news/anthropic-physical-intelligence-acquisition-talks-2026/)、[LumienAI](https://lumienai.com/news/anthropic-physical-intelligence-acquisition-rumor-robotics)
 
 ### 国家人工智能应用中试基地（杭州）探访：140 台机器人、40 个训练场景
 
