@@ -23,8 +23,8 @@
 > 系统性调研全球主流机器人公司的具身智能（Embodied AI）技术路线，聚焦「大脑」层面的算法架构、模型演进与工程实践。
 
 [![Links](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml/badge.svg)](https://github.com/wikieden/Soul2Humanoid/actions/workflows/check-links.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--05-blue)](./)
-[![Companies](https://img.shields.io/badge/companies-15-orange)](./reports)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--08--16-blue)](./)
+[![Companies](https://img.shields.io/badge/companies-16-orange)](./reports)
 [![Papers](https://img.shields.io/badge/papers-12+-green)](./papers.md)
 
 ---
@@ -46,6 +46,51 @@
 ## 最新动态
 
 > 每次更新记录于此，详细动态见 [`latest-news.md`](./latest-news.md)
+
+### 2026-08-16
+
+| 公司/事件 | 重大动态 |
+|----------|---------|
+| **宇树科技 (Unitree)** | 科创板 IPO 配售结果：发行价 150.8 元、发行市值约 610 亿、发行 PE 219 倍；网下超 5000 倍（多家媒体称 8000 倍）、95 家公募 5,117 只产品获配合计 **18.2 亿元**；累计双足人形产能 1.8 万台；挂牌预计 8 月下旬 |
+| **DeepSeek × 宇树** | DeepSeek **1.41 亿元**参与 IPO 战略配售（36 个月最长锁定期）+ 签《战略合作备忘录》：联合研发 AGI、**互为优先采购**（本体 ↔ 模型/算力） |
+| **LG × NVIDIA** | MOU 落地：基于 **Isaac GR00T + Jetson Thor** 开发新一代双足人形（2027 Q1 发布）；CLOiD 轮式进美国工厂产线、AI 工厂参考站点 |
+| **国资委** | WRC（8/19–23）前瞻：大会期间揭牌「**中央企业机器人创新联合体**」，央企巡检/核岛/战略采购（5,000 台）实景落地 |
+| **WRC / 人形运动会** | WRC 2026 前瞻（300+ 企业）；第二届世界人形机器人运动会 8/22–26 冰丝带（666 支队伍 / 2,056 台机器人、30 竞技赛 + 21 场景赛） |
+| **资本与出货量** | 央视财经：H1 国内具身智能融资 **935 亿元（同比 5 倍）**；SAG：H1 全球出货 1.91 万台（**+272%**）、前五全中国企业、**智元登顶全球**、智元+宇树占 70%+ |
+| **Dyna Robotics** | 发布 **Dyna-2**：100 万小时人类视频世界动作模型，人→机迁移 scaling law，挑战 VLA 主流地位 |
+| **Figure AI / Foundation** | 灵巧手路线之争：Adcock「**肌腱驱动是局部最优解**」炮打直接驱动阵营 |
+| **San Mateo County** | 美国首个商用机器人地方条例：持证 + kill switch + 消防计划 + 就业影响跟踪，遥操作模式承压 |
+
+**行业趋势**：宇树上市建立本体估值锚（610 亿发行市值、219 倍 PE）·「模型+本体」深度绑定（DeepSeek×宇树 36 个月互锁）·NVIDIA GR00T 生态再拓 LG·WRC + 人形运动会北京双会连环·数据/产能进入「实干检验期」（935 亿融资投向交付能力）
+
+### 2026-07-30
+
+| 公司/事件 | 重大动态 |
+|----------|---------|
+| **Google DeepMind** | 发布 **Gemini Robotics 2**：全身控制（脚到指尖）+ 五指灵巧手（22-DoF）+ 多机器人协作；ER 2 通过 Gemini API 公开 |
+| **FCC** | 将外国产人形机器人列入国家安全禁止清单（中国占 85% 市场） |
+| **Robros（韩国）** | IGRIS-C 后空翻，全栈自研硬件+软件+AI |
+| **智在无界** | Being-H0.8 隐式触觉世界模型（50万小时数据） |
+| **北京人形创新中心** | TG-VLA 全身模型 + 100 万小时训练基地目标 |
+| **新华网** | 量产元年纪实：G2 工厂 2283次零失误，节拍提升 33% |
+| **Anthropic-PI** | 确认春天收购谈判但未成交，OpenAI 持股成最大障碍 |
+
+**行业趋势**：全身 VLA 模型突破（Gemini Robotics 2）·开源/闭源路线分化·FCC 禁令重塑全球竞争格局·触觉+世界模型成新赛道
+
+### 2026-07-17
+
+| 公司/事件 | 重大动态 |
+|----------|---------|
+| **WAIC 2026** | 上海开幕（10万㎡、1,100+企业、300+首发），具身智能成最大亮点 |
+| **Robbyant (蚂蚁)** | 开源 LingBot-VLA 2.0（60K小时、20形态）；发布 LingBot-VA 2.0 原生世界模型 |
+| **NVIDIA** | 开源 GR00T 1.7（Apache 2.0，40K小时训练数据，通用人形基础模型） |
+| **小米** | 发布 Robotics-U0（380亿参数多模态基础模型） |
+| **小鹏 (XPENG)** | Iron 人形月产千台目标，2027 全球发售 |
+| **普渡机器人** | WAIC 发布 Physical Agent 架构 + PUDU D7 半人形首展 |
+| **腾讯** | Robotics X Lab「小六」WAIC 首秀 |
+| **1X** | NEO Hands 25-DoF 肌腱驱动灵巧手发布 |
+
+**行业趋势**：VLA 模型开源潮加速（NVIDIA + Robbyant）·WAIC 具身智能崛起·量产竞赛全面开启·世界模型路线分化
 
 ### 2026-07-05
 
@@ -142,8 +187,9 @@
 | **智元 (AGIBOT)** | 远征 A3 人形机器人 | 端到端 VLA（GO-2）、世界模型 GE-2、BFM-2 运动基座、AIMA 生态、10K+ 量产 | [`reports/agibot/`](reports/agibot/) |
 | **星动纪元 (StarDynamics)** | 星动 L7 人形机器人 | ERA-42 VLA 模型、物流场景百台部署、灵巧手 XHAND 1、清华孵化 | [`reports/star-dynamics/`](reports/star-dynamics/) |
 | **傅利叶智能 (Fourier)** | GR-2 通用人形 | 康复医疗基因、FSA 2.0 执行器、12-DoF 灵巧手、ROS 开放平台 | [`reports/fourier/`](reports/fourier/) |
+| **Weave Robotics** | Isaac 1 家用机器人 | 轮式（非人形）、遥操作备份、织物外壳、$8K 定价 | [`reports/weave-robotics/`](reports/weave-robotics/) |
 
-> 持续更新中。
+> 持续更新中·公司总数：16
 
 ---
 
