@@ -245,7 +245,7 @@ Genesis AI:         未公开 ──→ GENE-26.5 全栈方案
 
 **2. 模型竞赛从 VLA 转向 WAM（世界动作模型）——家庭赛道集体押注「物理推演」**
 
-- 未来不远 **Self-Evolving WAM**（执行前模拟后果、反事实推理）、越疆 **空弈 WAM**（LIBERO 第一）、极佳 **GigaBrain**（Q3）——与 Dyna-2（100 万小时人类视频世界动作模型）、智在无界 Being-H0.8（隐式触觉世界模型）同向，详见 [`latest-news.md`](./latest-news.md)
+- 未来不远 **Self-Evolving WAM**（执行前模拟后果、反事实推理）、越疆 **空弈 WAM**（LIBERO 第一）、极佳 **GigaBrain**（Q3）——与 Dyna-2（100 万小时人类视频世界动作模型）、智在无界 Being-H0.8（隐式触觉世界模型）同向，详见 [`latest-news.md`](./latest-news.md) 与 **WAM 落地全景** [`wam-landscape.md`](./wam-landscape.md)（含极智嘉 Gravity 4D 仓储落地、生数 Motubrain 双榜第一、AHA-WAM 异步实时方案）
 - 对照：优必选 U1 / 松延小月走**情感大模型 + 仿生硬件**路线（Resonance-LM、微表情 / 唇形同步），竞争轴是「情感消费」而非「通用智能」——陪伴派与管家派正式分流
 
 **3. 价格带三分层（2026 年 8 月）**

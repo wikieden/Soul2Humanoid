@@ -63,6 +63,7 @@
 | **Figure AI / Foundation** | 灵巧手路线之争：Adcock「**肌腱驱动是局部最优解**」炮打直接驱动阵营 |
 | **San Mateo County** | 美国首个商用机器人地方条例：持证 + kill switch + 消防计划 + 就业影响跟踪，遥操作模式承压 |
 | **家庭服务机器人（赛道调研）** | 未来不远 **Pre-A 近 10 亿元**（字节 / 汇川产投 / 纳爱斯，500 真实家庭 / 5 万小时数据、Self-Evolving WAM）；乐享「元点」**M1 定价 7,000–9,000 元、3 万台订单** + Jupiter/N1 发布；优必选 **U1 预售 1.3 万台**（11.98 万–99 万元，9/16 交付）；越疆 **LUMO**「具身全栖」发布；`comparisons.md` 新增「十、家庭服务机器人赛道对比」 |
+| **WAM 落地全景（深度调研）** | 新增 [`wam-landscape.md`](./wam-landscape.md)：WAM 概念溯源（Jim Fan / NVIDIA 8/4 官方解读）、已上真机部署（越疆空弈 99.25% / 未来不远 500 家庭 / 极智嘉 Gravity 4D 仓储）、模型级发布（生数 Motubrain 双榜第一 / Dyna-2 / Cosmos 3）、学术线（AHA-WAM 56.95Hz）；核验源：生数官网 / 新华网 / NVIDIA Blog / arXiv |
 
 **行业趋势**：宇树上市建立本体估值锚（610 亿发行市值、219 倍 PE）·「模型+本体」深度绑定（DeepSeek×宇树 36 个月互锁）·NVIDIA GR00T 生态再拓 LG·WRC + 人形运动会北京双会连环·数据/产能进入「实干检验期」（935 亿融资投向交付能力）
 
@@ -262,6 +263,7 @@ Soul2Humanoid/
 | 资源 | 说明 |
 |------|------|
 | [`comparisons.md`](./comparisons.md) | 横向对比分析 — 11 家公司在 VLA 架构、数据策略、安全机制、硬件设计、商业化路径的详细对比 + 2026 国内家庭服务机器人赛道对比（10 家厂商） |
+| [`wam-landscape.md`](./wam-landscape.md) | WAM 世界动作模型落地全景 — 概念溯源、已上真机部署（越疆空弈 / 未来不远 / 极智嘉 Gravity 4D / LingBot-VA / Being-H0.8）、模型级发布（Motubrain / Dyna-2 / Cosmos 3）、学术线（AHA-WAM）与路线观察 |
 | [`papers.md`](./papers.md) | 核心论文索引 — 按时间线整理的具身智能标志性论文，含 arXiv 链接、核心贡献和技术演进脉络 |
 | [`tags.md`](./tags.md) | 技术标签索引 — 按架构范式、数据策略、应用场景等标签检索公司报告 |
 | [`podcasts-videos.md`](./podcasts-videos.md) | 中文播客与视频资源汇总 — 播客、B站、YouTube、会议演讲等中文学习资源 |

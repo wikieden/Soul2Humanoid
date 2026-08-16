@@ -11,11 +11,13 @@
 - **latest-news.md 新增 8/1–8/16 章节**：13 条新动态，覆盖宇树科技科创板 IPO 配售结果（发行价 150.8 元 / 发行市值约 610 亿 / 发行 PE 219 倍 / 网下超 5000 倍 / 95 家公募获配 18.2 亿 / 累计双足 1.8 万台）、**DeepSeek 1.41 亿元战配 + 36 个月《战略合作备忘录》**（互为优先采购）、WRC 2026 前瞻（国资委「中央企业机器人创新联合体」）、第二届世界人形机器人运动会备战（666 支队伍 / 2056 台）、央视财经 H1 具身智能融资 935 亿元（同比 5 倍）、LG × NVIDIA GR00T 双足人形 MOU、SAG H1 全球出货 1.91 万台（+272%）、Dyna-2（100 万小时人类视频）、Figure 肌腱灵巧手争议、X Square 1816 件/时直播分拣、San Mateo County 商用机器人条例、EAI 大会「能用化」评价标准之变、部件动态（Schaeffler / Sony）
 - **快速导航表**：新增 8/6–8/16 共 6 行，时间线延伸至 8 月 16 日
 - **comparisons.md 新增「十、家庭服务机器人赛道对比（2026 国内厂商）」**：10 家厂商横向对比（未来不远 / 乐享·元点 / 极佳拾光 S1 / 卧安 SwitchBot / 星尘智能 Astribot / 越疆 LUMO / 优必选 U1 / 松延动力 / 宇树 R1 / 追觅 Cyber 10 Ultra），覆盖产品形态、价格带、大脑模型、家庭数据策略、商业化进展 + 数据飞轮两派分析 + VLA→WAM 模型竞赛 + 与海外 1X / Weave 家庭线横评 + 风险与信息来源
+- **新增 [`wam-landscape.md`](./wam-landscape.md)（WAM 世界动作模型落地全景）**：概念溯源（Jim Fan / NVIDIA 8/4 官方解读、VLA vs WAM 对比、三条技术路线）+ 已上真机部署（越疆空弈 99.25%、未来不远 500 家庭 / 5 万小时、极智嘉 Gravity 4D 仓储、LingBot-VA 2.0、Being-H0.8）+ 模型级发布（生数 Motubrain WorldArena / RoboTwin 2.0 双榜第一、Dyna-2 100 万小时、NVIDIA Cosmos 3、GigaBrain、GE-2、Qwen-Robot World、AWE 3.5、戴盟触觉 WM）+ 学术线（AHA-WAM 24.17/56.95 Hz、普渡 WAM sim-to-real）+ 四条关键观察 + 信息来源；外部新实体均经官网 / 新华网 / NVIDIA Blog / arXiv 核验
 
 ### 更新
 
 - **README.md 最新动态**：新增 `2026-08-16` 表格（9 条事件）；Last Updated badge 更新为 `2026--08--16`
-- **README.md 参考资源表**：`comparisons.md` 描述补充「2026 国内家庭服务机器人赛道对比（10 家厂商）」；2026-08-16 最新动态表新增家庭服务机器人赛道调研一行
+- **README.md 参考资源表**：`comparisons.md` 描述补充「2026 国内家庭服务机器人赛道对比（10 家厂商）」；2026-08-16 最新动态表新增家庭服务机器人赛道调研一行 + **WAM 落地全景**一行；参考资源表新增 `wam-landscape.md`
+- **mkdocs.yml / sync_docs.py**：`wam-landscape.md` 注册进「横向分析」导航组与 docs 同步清单
 
 ### 关键事件汇总
 

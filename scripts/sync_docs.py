@@ -9,7 +9,7 @@ ROOT = os.path.dirname(ROOT)  # go up from scripts/ to repo root
 DOCS = os.path.join(ROOT, 'docs')
 
 MD_FILES = [
-    'README.md', 'comparisons.md', 'papers.md', 'resources.md',
+    'README.md', 'comparisons.md', 'wam-landscape.md', 'papers.md', 'resources.md',
     'people.md', 'funding.md', 'tags.md', 'podcasts-videos.md',
     'latest-news.md', 'CHANGELOG.md', 'open-source-tracking.md',
     'CONTRIBUTING.md',
